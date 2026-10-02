@@ -6,6 +6,7 @@ h1{font-size:1.5rem;margin:.4rem 0 1rem}h2{font-size:1.15rem;margin-top:1.8rem;b
 h3{font-size:1rem;margin:1.1rem 0 .3rem}
 table.tab{border-collapse:collapse;width:100%;font-size:.95rem;margin:.4rem 0}
 table.tab th{background:#0d2b45;color:#fff;text-align:left;padding:.4rem .6rem}
+table.tab th.sortable{cursor:pointer;user-select:none}table.tab th.sortable:hover{background:#174c73}
 table.tab td{border-bottom:1px solid #e8e8e8;padding:.35rem .6rem}
 table.tab tr:nth-child(even){background:#f7f9fb}
 .nota{color:#666;font-size:.85em}.unidade{color:#555;font-size:.85rem}
