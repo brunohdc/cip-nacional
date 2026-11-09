@@ -26,15 +26,20 @@ def esta_desatualizado(reg, ano=None):
     return isinstance(exercicio, int) and exercicio < (ano or date.today().year)
 
 
-def fmt_faixa(f):
+def fmt_faixa(f, reg=None):
     lo, hi = f["faixa_kwh"]["min"], f["faixa_kwh"]["max"]
+    novo = bool(reg and reg.get("tipo"))
     if lo is None and hi is None:
         return "todas as faixas"
     if lo is None:
         return f"até {hi} kWh"
     if hi is None:
-        return f"acima de {lo - 1} kWh" if lo > 0 else "todas as faixas"
-    return f"{lo}–{hi} kWh"
+        if novo:
+            return f"acima de {lo - 1} kWh" if lo > 0 else "todas as faixas"
+        return f"acima de {lo} kWh"
+    if novo:
+        return f"{lo}–{hi} kWh"
+    return f"{lo + 1}–{hi} kWh" if lo != 0 else f"0–{hi} kWh"
 
 
 def valor_estimado(f, reg):
@@ -49,6 +54,8 @@ def fmt_valor(f, reg=None):
     reg = reg or {}
     v = f.get("valor")
     if isinstance(v, str):
+        if v.lower() == "n/d":
+            return "n/d"
         return v.capitalize()
     unidade = f.get("unidade", "")
     if unidade == "FORMULA_TEIP":

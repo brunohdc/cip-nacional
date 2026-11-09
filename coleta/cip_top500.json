@@ -15,7 +15,7 @@
       "max": 50
      },
      "valor": 1.06,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -23,7 +23,7 @@
       "max": 100
      },
      "valor": 3.21,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -31,7 +31,7 @@
       "max": 150
      },
      "valor": 4.84,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -39,7 +39,7 @@
       "max": 200
      },
      "valor": 6.75,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -47,7 +47,7 @@
       "max": 300
      },
      "valor": 9.39,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -55,7 +55,7 @@
       "max": 400
      },
      "valor": 13.27,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -63,7 +63,7 @@
       "max": 500
      },
      "valor": 17.17,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -71,7 +71,7 @@
       "max": 600
      },
      "valor": 21.11,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -79,7 +79,7 @@
       "max": 800
      },
      "valor": 26.49,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -87,7 +87,7 @@
       "max": 1000
      },
      "valor": 34.49,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -95,7 +95,7 @@
       "max": 1300
      },
      "valor": 43.94,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -103,7 +103,7 @@
       "max": 1600
      },
      "valor": 55.69,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -111,7 +111,7 @@
       "max": 2000
      },
      "valor": 69.25,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -119,7 +119,7 @@
       "max": 2400
      },
      "valor": 84.87,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -127,7 +127,7 @@
       "max": 2800
      },
      "valor": 100.5,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -135,7 +135,7 @@
       "max": 3400
      },
      "valor": 119.37,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -143,7 +143,7 @@
       "max": 4000
      },
      "valor": 143.24,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -151,7 +151,7 @@
       "max": 5000
      },
      "valor": 171.89,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -159,7 +159,7 @@
       "max": 6000
      },
      "valor": 206.27,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -167,7 +167,7 @@
       "max": 8000
      },
      "valor": 247.54,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -175,7 +175,7 @@
       "max": 10000
      },
      "valor": 297.05,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -183,7 +183,7 @@
       "max": 15000
      },
      "valor": 356.46,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -191,7 +191,7 @@
       "max": 20000
      },
      "valor": 427.75,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -199,7 +199,7 @@
       "max": 30000
      },
      "valor": 513.32,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -207,7 +207,7 @@
       "max": null
      },
      "valor": 615.98,
-     "unidade": "BRL"
+     "tipo": "fixa"
     }
    ],
    "nao_residencial": [
@@ -217,7 +217,7 @@
       "max": 50
      },
      "valor": 2.14,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -225,7 +225,7 @@
       "max": 100
      },
      "valor": 6.46,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -233,7 +233,7 @@
       "max": 150
      },
      "valor": 9.52,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -241,7 +241,7 @@
       "max": 200
      },
      "valor": 13.52,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -249,7 +249,7 @@
       "max": 300
      },
      "valor": 19.06,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -257,7 +257,7 @@
       "max": 400
      },
      "valor": 26.92,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -265,7 +265,7 @@
       "max": 500
      },
      "valor": 34.31,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -273,7 +273,7 @@
       "max": 600
      },
      "valor": 42.48,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -281,7 +281,7 @@
       "max": 800
      },
      "valor": 53.85,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -289,7 +289,7 @@
       "max": 1000
      },
      "valor": 69.5,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -297,7 +297,7 @@
       "max": 1300
      },
      "valor": 88.59,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -305,7 +305,7 @@
       "max": 1600
      },
      "valor": 112.09,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -313,7 +313,7 @@
       "max": 2000
      },
      "valor": 139.08,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -321,7 +321,7 @@
       "max": 2400
      },
      "valor": 170.0,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -329,7 +329,7 @@
       "max": 2800
      },
      "valor": 201.46,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -337,7 +337,7 @@
       "max": 3400
      },
      "valor": 239.7,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -345,7 +345,7 @@
       "max": 4000
      },
      "valor": 286.16,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -353,7 +353,7 @@
       "max": 5000
      },
      "valor": 343.41,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -361,7 +361,7 @@
       "max": 6000
      },
      "valor": 412.09,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -369,7 +369,7 @@
       "max": 8000
      },
      "valor": 494.5,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -377,7 +377,7 @@
       "max": 10000
      },
      "valor": 593.41,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -385,7 +385,7 @@
       "max": 15000
      },
      "valor": 712.11,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -393,7 +393,7 @@
       "max": 20000
      },
      "valor": 854.51,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -401,7 +401,7 @@
       "max": 30000
      },
      "valor": 1025.43,
-     "unidade": "BRL"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -409,7 +409,7 @@
       "max": null
      },
      "valor": 1230.52,
-     "unidade": "BRL"
+     "tipo": "fixa"
     }
    ]
   },
@@ -448,8 +448,7 @@
   "atualizado_em": "2026-10-01",
   "proxima_revisao": "2026-10-31",
   "observacoes": "Tabela oficial 2026; valores corrigidos pela Portaria SF anual",
-  "descricao": null,
-  "populacao": 11451999
+  "tipo": "fixa"
  },
  {
   "cod_ibge": "3304557",
@@ -5475,7 +5474,7 @@
   "uf": "PR",
   "slug": "londrina",
   "status": "completo",
-  "mecanismo": "outro",
+  "mecanismo": "percentual_base",
   "atualizado_em": "2026-10-01",
   "proxima_revisao": "2026-10-31",
   "distribuidoras": [
@@ -5490,7 +5489,7 @@
       "max": 30
      },
      "valor": 2.8,
-     "unidade": "PERCENTUAL_BASE"
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5498,7 +5497,7 @@
       "max": 50
      },
      "valor": 4.0,
-     "unidade": "PERCENTUAL_BASE"
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5506,7 +5505,7 @@
       "max": 70
      },
      "valor": 5.6,
-     "unidade": "PERCENTUAL_BASE"
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5514,7 +5513,7 @@
       "max": 100
      },
      "valor": 9.6,
-     "unidade": "PERCENTUAL_BASE"
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5522,7 +5521,7 @@
       "max": 150
      },
      "valor": 14.4,
-     "unidade": "PERCENTUAL_BASE"
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5530,7 +5529,7 @@
       "max": 200
      },
      "valor": 20.8,
-     "unidade": "PERCENTUAL_BASE"
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5538,7 +5537,7 @@
       "max": 250
      },
      "valor": 32.0,
-     "unidade": "PERCENTUAL_BASE"
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5546,7 +5545,7 @@
       "max": 300
      },
      "valor": 48.0,
-     "unidade": "PERCENTUAL_BASE"
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5554,7 +5553,7 @@
       "max": 400
      },
      "valor": 56.0,
-     "unidade": "PERCENTUAL_BASE"
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5562,7 +5561,7 @@
       "max": null
      },
      "valor": 70.4,
-     "unidade": "PERCENTUAL_BASE"
+     "tipo": "percentual"
     }
    ],
    "nao_residencial": [
@@ -5572,8 +5571,8 @@
       "max": 600
      },
      "valor": 70.4,
-     "unidade": "PERCENTUAL_BASE",
-     "nota": "comércio"
+     "nota": "comércio",
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5581,8 +5580,8 @@
       "max": 1000
      },
      "valor": 99.2,
-     "unidade": "PERCENTUAL_BASE",
-     "nota": "comércio"
+     "nota": "comércio",
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5590,8 +5589,8 @@
       "max": 1500
      },
      "valor": 168.0,
-     "unidade": "PERCENTUAL_BASE",
-     "nota": "comércio"
+     "nota": "comércio",
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5599,8 +5598,8 @@
       "max": null
      },
      "valor": 240.0,
-     "unidade": "PERCENTUAL_BASE",
-     "nota": "comércio"
+     "nota": "comércio",
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5608,8 +5607,8 @@
       "max": 2000
      },
      "valor": 168.0,
-     "unidade": "PERCENTUAL_BASE",
-     "nota": "indústria"
+     "nota": "indústria",
+     "tipo": "percentual"
     },
     {
      "faixa_kwh": {
@@ -5617,19 +5616,8 @@
       "max": null
      },
      "valor": 200.0,
-     "unidade": "PERCENTUAL_BASE",
-     "nota": "indústria"
-    }
-   ],
-   "nao_edificado": [
-    {
-     "faixa_kwh": {
-      "min": null,
-      "max": null
-     },
-     "valor": 0.05,
-     "unidade": "BRL",
-     "nota": "R$ 0,05 por m² (imóveis não edificados); teto = valor do IPTU"
+     "nota": "indústria",
+     "tipo": "percentual"
     }
    ]
   },
@@ -5666,10 +5654,17 @@
   "ressalvas": [
    "Percentuais incidem sobre a UVC = R$ 73,83 (referência de set/2025); teto da cobrança = valor do IPTU."
   ],
-  "observacoes": "",
+  "observacoes": "Imóveis não edificados: R$ 0,05 por m², com teto igual ao valor do IPTU. A UVC de referência é a de setembro de 2025.",
   "isencoes": [],
   "descricao": null,
-  "populacao": 555965
+  "populacao": 555965,
+  "tipo": "percentual",
+  "base_calculo": {
+   "valor": 73.83,
+   "descricao": "Unidade de Valor de Custeio (UVC)",
+   "exercicio": 2025,
+   "fonte_url": "https://www.cloudsoftcam.com.br/PR/LONDRINA/upload/2025/09/202509151415411757956541b6fe20.pdf"
+  }
  },
  {
   "cod_ibge": "3136702",

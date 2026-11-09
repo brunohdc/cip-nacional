@@ -12,10 +12,15 @@ class CobrancaTest(unittest.TestCase):
         }
         faixa = {"faixa_kwh": {"min": 31, "max": 50}, "valor": 4, "tipo": "percentual"}
         self.assertEqual(fmt_valor(faixa, reg), "4% · R$ 2,95/mês")
-        self.assertEqual(fmt_faixa(faixa), "31–50 kWh")
+        self.assertEqual(fmt_faixa(faixa, reg), "31–50 kWh")
+
+    def test_faixa_legada_usa_limite_exclusivo(self):
+        faixa = {"faixa_kwh": {"min": 120, "max": 140}}
+        self.assertEqual(fmt_faixa(faixa), "121–140 kWh")
 
     def test_faixa_aberta(self):
-        self.assertEqual(fmt_faixa({"faixa_kwh": {"min": 401, "max": None}}), "acima de 400 kWh")
+        self.assertEqual(fmt_faixa({"faixa_kwh": {"min": 401, "max": None}}), "acima de 401 kWh")
+        self.assertEqual(fmt_faixa({"faixa_kwh": {"min": 401, "max": None}}, {"tipo": "percentual"}), "acima de 400 kWh")
 
     def test_formula_nao_recebe_percentual(self):
         reg = {"municipio": "Rio de Janeiro", "tipo": "fixa"}

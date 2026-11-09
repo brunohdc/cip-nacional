@@ -51,6 +51,15 @@ MEC = {
     "outro": "percentual sobre a base de cálculo/rateio definida em lei",
     "desconhecido": "ainda não confirmado (tabela oficial não localizada)",
 }
+MEC_CURTO = {
+    "percentual_base": "Percentual sobre base municipal",
+    "percentual_modulo_tip": "Percentual sobre TIP",
+    "percentual_teip": "Percentual sobre TEIP",
+    "formula_teip": "Fórmula sobre TEIP",
+    "valor_fixo": "Valor fixo",
+    "outro": "Percentual sobre base municipal",
+    "desconhecido": "Não informado",
+}
 STATUS_TXT = {
     "completo": "tabela oficial verificada",
     "parcial": "informação parcial — tabela completa ainda não localizada",
@@ -74,7 +83,7 @@ def tabela_html(r):
         out.append('<table class="tab"><thead><tr><th>Faixa de consumo</th><th>Cobrança</th></tr></thead><tbody>')
         for f in linhas:
             nota = f'<span class="nota"> — {esc(f["nota"])}</span>' if f.get("nota") and "isento" not in str(f.get("valor", "")).lower() else ""
-            out.append(f'<tr><td>{esc(fmt_faixa(f))}</td><td><strong>{esc(fmt_valor(f, r))}</strong>{nota}</td></tr>')
+            out.append(f'<tr><td>{esc(fmt_faixa(f, r))}</td><td><strong>{esc(fmt_valor(f, r))}</strong>{nota}</td></tr>')
         out.append("</tbody></table>")
     if r.get("tipo") == "percentual":
         base = r.get("base_calculo") or {}
@@ -90,12 +99,19 @@ def tabela_html(r):
 def page(r, uf_hub, hub, ufs_siblings):
     nome, uf = r["municipio"], r["uf"]
     tipo = r.get("tipo")
-    tipo_txt = tipo_label(tipo) if tipo else MEC.get(r["mecanismo"], "Cobrança não confirmada")
+    if tipo:
+        tipo_txt = tipo_label(tipo)
+    elif r.get("mecanismo") in MEC_CURTO and r["mecanismo"] != "desconhecido":
+        tipo_txt = MEC_CURTO[r["mecanismo"]]
+    elif r["status"] == "parcial":
+        tipo_txt = "Informação parcial"
+    else:
+        tipo_txt = "Não informado"
     exercicio = r.get("exercicio")
     ex = f" {exercicio}" if exercicio else ""
     title = f"CIP em {nome} ({uf}) — {tipo_txt}{ex}"
     data = fmt_data(r["atualizado_em"]) if r.get("atualizado_em") else DATA_BR
-    desc = f"CIP em {nome}/{uf}: {tipo_txt.lower()}{ex}, base legal e fontes verificadas em {data}."
+    desc = f"CIP em {nome}/{uf}: {tipo_txt}{ex}, base legal e fontes verificadas em {data}."
     stale = esta_desatualizado(r)
     if r["status"] == "completo" and not stale:
         badge = f'<div class="badge ok">✔ Tabela oficial verificada — checado em {data}</div>'
@@ -106,17 +122,28 @@ def page(r, uf_hub, hub, ufs_siblings):
     else:
         badge = f'<div class="badge none">○ Não informado — sem lei local encontrada ({data})</div>'
 
-    resumo = f"<strong>{esc(tipo_txt)}</strong> por faixa de consumo."
-    if tipo == "percentual" and r.get("base_calculo"):
-        b = r["base_calculo"]
-        resumo += f" Incide sobre {esc(b.get('descricao', 'a base municipal'))} de {brl(b.get('valor'))}."
+    tem_tabela = bool(r.get("tabelas"))
+    if not tem_tabela and r["status"] != "completo":
+        resumo = ("Informação parcial; a tabela completa não foi localizada."
+                  if r["status"] == "parcial" else "Não informado; nenhuma lei local foi encontrada.")
+    else:
+        resumo = f"<strong>{esc(tipo_txt)}</strong> por faixa de consumo."
+        if tipo == "percentual" and r.get("base_calculo"):
+            b = r["base_calculo"]
+            resumo += f" Incide sobre {esc(b.get('descricao', 'a base municipal'))} de {brl(b.get('valor'))}."
     dist = ", ".join(esc(d) for d in r.get("distribuidoras", [])) or "não informada"
     resumo += f" Repassada por: {dist}."
 
     body = [f'<div class="resumo">{badge}<p>{resumo}</p></div>']
-    body.append("<h2>Cobrança</h2>" + tabela_html(r))
+    tabela = tabela_html(r)
+    if tabela:
+        body.append("<h2>Cobrança</h2>" + tabela)
+    else:
+        body.append('<p class="aviso">Tabela de cobrança não localizada na fonte oficial.</p>')
 
-    if tipo == "percentual" and r.get("base_calculo"):
+    if not tem_tabela and r["status"] != "completo":
+        calc = "<p>A forma de cálculo ainda não foi confirmada na fonte oficial.</p>"
+    elif tipo == "percentual" and r.get("base_calculo"):
         b = r["base_calculo"]
         calc = (f"<p>Valor mensal = percentual ÷ 100 × {esc(b.get('descricao', 'base'))} "
                 f"({brl(b.get('valor'))}). O valor estimado em reais aparece ao lado de cada faixa.</p>")
