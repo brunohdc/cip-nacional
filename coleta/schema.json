@@ -23,6 +23,7 @@
     },
     "mecanismo": {
       "enum": [
+        "percentual_base",
         "percentual_modulo_tip",
         "percentual_teip",
         "formula_teip",
@@ -30,7 +31,22 @@
         "outro",
         "desconhecido"
       ],
-      "description": "Formato de cálculo. percentual_modulo_tip = % × módulo da TIP (1000 kWh); percentual_teip = % × TEIP (MWh B4a); formula_teip = R$ fixo + coef × TEIP; valor_fixo = R$ tabelado por faixa"
+      "description": "Formato de cálculo. percentual_base = % × base municipal documentada; percentual_modulo_tip = % × módulo da TIP (1000 kWh); percentual_teip = % × TEIP (MWh B4a); formula_teip = R$ fixo + coef × TEIP; valor_fixo = R$ tabelado por faixa"
+    },
+    "tipo": {
+      "enum": ["fixa", "percentual"],
+      "description": "Modelo padronizado de cobrança. Opcional para registros legados que ainda usam apenas 'unidade'."
+    },
+    "base_calculo": {
+      "type": "object",
+      "description": "Obrigatório para tipo=percentual. Base municipal sobre a qual o percentual incide.",
+      "required": ["valor", "descricao", "exercicio", "fonte_url"],
+      "properties": {
+        "valor": { "type": "number", "exclusiveMinimum": 0, "description": "Valor da base em reais" },
+        "descricao": { "type": "string", "minLength": 2, "description": "Ex.: Unidade de Valor de Custeio (UVC)" },
+        "exercicio": { "type": "integer", "description": "Ano de referência do valor da base" },
+        "fonte_url": { "type": "string", "format": "uri" }
+      }
     },
     "exercicio": {
       "type": ["integer", "null"],
@@ -45,7 +61,7 @@
           "minItems": 1,
           "items": {
             "type": "object",
-            "required": ["faixa_kwh", "valor", "unidade"],
+            "required": ["faixa_kwh", "valor"],
             "properties": {
               "faixa_kwh": {
                 "type": "object",
@@ -57,10 +73,16 @@
               },
               "valor": {
                 "type": ["number", "string"],
-                "description": "Número = valor convencido (R$ ou %). String SOMENTE para casos especiais: 'isento', 'n/d' — nunca inventar número"
+                "minimum": 0,
+                "description": "Número = valor em R$ ou %. String SOMENTE para casos especiais: 'isento', 'n/d' — nunca inventar número"
+              },
+              "tipo": {
+                "enum": ["fixa", "percentual"],
+                "description": "Tipo da faixa; quando omitido, herda o tipo do registro."
               },
               "unidade": {
-              "enum": ["BRL", "PERCENTUAL_MODULO_TIP", "PERCENTUAL_TEIP", "FORMULA_TEIP", "PERCENTUAL_BASE"]
+                "enum": ["BRL", "PERCENTUAL_MODULO_TIP", "PERCENTUAL_TEIP", "FORMULA_TEIP", "PERCENTUAL_BASE"],
+                "description": "Compatibilidade com registros legados. O modelo novo usa 'tipo'."
               },
               "formula": {
                 "type": "string",
@@ -135,6 +157,10 @@
     }
   },
   "allOf": [
+    {
+      "if": { "properties": { "tipo": { "const": "percentual" } }, "required": ["tipo"] },
+      "then": { "required": ["base_calculo"] }
+    },
     {
       "if": { "properties": { "status": { "const": "completo" } } },
       "then": { "required": ["tabelas", "exercicio"], "properties": { "fontes": { "minItems": 1 } } }

@@ -1,0 +1,651 @@
+[
+  {
+    "cod_ibge": "3550308",
+    "municipio": "São Paulo",
+    "uf": "SP",
+    "slug": "sao-paulo",
+    "status": "completo",
+    "mecanismo": "valor_fixo",
+    "exercicio": 2026,
+    "tabelas": {
+      "residencial": [
+        {
+          "faixa_kwh": {
+            "min": 0,
+            "max": 50
+          },
+          "valor": 1.06,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 51,
+            "max": 100
+          },
+          "valor": 3.21,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 101,
+            "max": 150
+          },
+          "valor": 4.84,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 151,
+            "max": 200
+          },
+          "valor": 6.75,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 201,
+            "max": 300
+          },
+          "valor": 9.39,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 301,
+            "max": 400
+          },
+          "valor": 13.27,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 401,
+            "max": 500
+          },
+          "valor": 17.17,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 501,
+            "max": 600
+          },
+          "valor": 21.11,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 601,
+            "max": 800
+          },
+          "valor": 26.49,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 801,
+            "max": 1000
+          },
+          "valor": 34.49,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 1001,
+            "max": 1300
+          },
+          "valor": 43.94,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 1301,
+            "max": 1600
+          },
+          "valor": 55.69,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 1601,
+            "max": 2000
+          },
+          "valor": 69.25,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 2001,
+            "max": 2400
+          },
+          "valor": 84.87,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 2401,
+            "max": 2800
+          },
+          "valor": 100.5,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 2801,
+            "max": 3400
+          },
+          "valor": 119.37,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 3401,
+            "max": 4000
+          },
+          "valor": 143.24,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 4001,
+            "max": 5000
+          },
+          "valor": 171.89,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 5001,
+            "max": 6000
+          },
+          "valor": 206.27,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 6001,
+            "max": 8000
+          },
+          "valor": 247.54,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 8001,
+            "max": 10000
+          },
+          "valor": 297.05,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 10001,
+            "max": 15000
+          },
+          "valor": 356.46,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 15001,
+            "max": 20000
+          },
+          "valor": 427.75,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 20001,
+            "max": 30000
+          },
+          "valor": 513.32,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 30001,
+            "max": null
+          },
+          "valor": 615.98,
+          "tipo": "fixa"
+        }
+      ],
+      "nao_residencial": [
+        {
+          "faixa_kwh": {
+            "min": 0,
+            "max": 50
+          },
+          "valor": 2.14,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 51,
+            "max": 100
+          },
+          "valor": 6.46,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 101,
+            "max": 150
+          },
+          "valor": 9.52,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 151,
+            "max": 200
+          },
+          "valor": 13.52,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 201,
+            "max": 300
+          },
+          "valor": 19.06,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 301,
+            "max": 400
+          },
+          "valor": 26.92,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 401,
+            "max": 500
+          },
+          "valor": 34.31,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 501,
+            "max": 600
+          },
+          "valor": 42.48,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 601,
+            "max": 800
+          },
+          "valor": 53.85,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 801,
+            "max": 1000
+          },
+          "valor": 69.5,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 1001,
+            "max": 1300
+          },
+          "valor": 88.59,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 1301,
+            "max": 1600
+          },
+          "valor": 112.09,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 1601,
+            "max": 2000
+          },
+          "valor": 139.08,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 2001,
+            "max": 2400
+          },
+          "valor": 170.0,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 2401,
+            "max": 2800
+          },
+          "valor": 201.46,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 2801,
+            "max": 3400
+          },
+          "valor": 239.7,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 3401,
+            "max": 4000
+          },
+          "valor": 286.16,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 4001,
+            "max": 5000
+          },
+          "valor": 343.41,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 5001,
+            "max": 6000
+          },
+          "valor": 412.09,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 6001,
+            "max": 8000
+          },
+          "valor": 494.5,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 8001,
+            "max": 10000
+          },
+          "valor": 593.41,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 10001,
+            "max": 15000
+          },
+          "valor": 712.11,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 15001,
+            "max": 20000
+          },
+          "valor": 854.51,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 20001,
+            "max": 30000
+          },
+          "valor": 1025.43,
+          "tipo": "fixa"
+        },
+        {
+          "faixa_kwh": {
+            "min": 30001,
+            "max": null
+          },
+          "valor": 1230.52,
+          "tipo": "fixa"
+        }
+      ]
+    },
+    "isencoes": [],
+    "base_legal": [
+      {
+        "norma": "Lei 13.479/2002 (alterada pela Lei 17.719/2021)",
+        "vigencia": null,
+        "fonte_url": "https://sinesp.org.br/multimidia/publicacoes-sinesp/category/47-legislacao-geral?download=9057:portaria-sf-330-2025"
+      },
+      {
+        "norma": "Decreto 56.751/2015",
+        "vigencia": null,
+        "fonte_url": "https://sinesp.org.br/multimidia/publicacoes-sinesp/category/47-legislacao-geral?download=9057:portaria-sf-330-2025"
+      },
+      {
+        "norma": "Portaria SF 330/2025 (valores 2026)",
+        "vigencia": null,
+        "fonte_url": "https://sinesp.org.br/multimidia/publicacoes-sinesp/category/47-legislacao-geral?download=9057:portaria-sf-330-2025"
+      }
+    ],
+    "distribuidoras": [
+      "CERIS",
+      "ELETROPAULO"
+    ],
+    "fontes": [
+      {
+        "url": "https://sinesp.org.br/multimidia/publicacoes-sinesp/category/47-legislacao-geral?download=9057:portaria-sf-330-2025",
+        "titulo": "Anexo Único Portaria SF 330/2025 - Prefeitura de São Paulo",
+        "tipo": "agregador_legislacao",
+        "data_coleta": "2026-10-01"
+      }
+    ],
+    "ressalvas": [],
+    "pendencias": [],
+    "atualizado_em": "2026-10-01",
+    "proxima_revisao": "2026-10-31",
+    "observacoes": "Tabela oficial 2026; valores corrigidos pela Portaria SF anual",
+    "tipo": "fixa"
+  },
+  {
+    "cod_ibge": "4113700",
+    "municipio": "Londrina",
+    "uf": "PR",
+    "slug": "londrina",
+    "status": "completo",
+    "mecanismo": "percentual_base",
+    "atualizado_em": "2026-10-01",
+    "proxima_revisao": "2026-10-31",
+    "distribuidoras": [
+      "COPEL-DIS"
+    ],
+    "exercicio": 2025,
+    "tabelas": {
+      "residencial": [
+        {
+          "faixa_kwh": {
+            "min": 0,
+            "max": 30
+          },
+          "valor": 2.8,
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 31,
+            "max": 50
+          },
+          "valor": 4.0,
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 51,
+            "max": 70
+          },
+          "valor": 5.6,
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 71,
+            "max": 100
+          },
+          "valor": 9.6,
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 101,
+            "max": 150
+          },
+          "valor": 14.4,
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 151,
+            "max": 200
+          },
+          "valor": 20.8,
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 201,
+            "max": 250
+          },
+          "valor": 32.0,
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 251,
+            "max": 300
+          },
+          "valor": 48.0,
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 301,
+            "max": 400
+          },
+          "valor": 56.0,
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 401,
+            "max": null
+          },
+          "valor": 70.4,
+          "tipo": "percentual"
+        }
+      ],
+      "nao_residencial": [
+        {
+          "faixa_kwh": {
+            "min": 501,
+            "max": 600
+          },
+          "valor": 70.4,
+          "nota": "comércio",
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 601,
+            "max": 1000
+          },
+          "valor": 99.2,
+          "nota": "comércio",
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 1001,
+            "max": 1500
+          },
+          "valor": 168.0,
+          "nota": "comércio",
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 1501,
+            "max": null
+          },
+          "valor": 240.0,
+          "nota": "comércio",
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 1001,
+            "max": 2000
+          },
+          "valor": 168.0,
+          "nota": "indústria",
+          "tipo": "percentual"
+        },
+        {
+          "faixa_kwh": {
+            "min": 2001,
+            "max": null
+          },
+          "valor": 200.0,
+          "nota": "indústria",
+          "tipo": "percentual"
+        }
+      ]
+    },
+    "base_legal": [
+      {
+        "norma": "Lei da nova COSIP de Londrina (2025) — nº sancionado a confirmar",
+        "vigencia": "2025",
+        "fonte_url": "https://www.cml.pr.gov.br/proposicoes/Leis/2025/1/0/264681"
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.cloudsoftcam.com.br/PR/LONDRINA/upload/2025/09/202509151415411757956541b6fe20.pdf",
+        "titulo": "COSIP Londrina — Tabela Única (Diário Oficial)",
+        "tipo": "fonte_oficial",
+        "data_coleta": "2026-10-01"
+      },
+      {
+        "url": "https://www.cml.pr.gov.br/proposicoes/Leis/2025/1/0/264681",
+        "titulo": "Câmara Municipal de Londrina — proposição da nova COSIP",
+        "tipo": "fonte_oficial",
+        "data_coleta": "2026-10-01"
+      },
+      {
+        "url": "https://cbnlondrina.com.br/materias/camara-de-londrina-aprova-nova-cosip-para-iluminacao-e-seguranca-publica",
+        "titulo": "CBN Londrina - nova Cosip aprovada",
+        "tipo": "noticia",
+        "data_coleta": "2026-10-01"
+      }
+    ],
+    "pendencias": [
+      "Número da lei sancionada (2025)"
+    ],
+    "ressalvas": [
+      "Percentuais incidem sobre a UVC = R$ 73,83 (referência de set/2025); teto da cobrança = valor do IPTU."
+    ],
+    "observacoes": "Imóveis não edificados: R$ 0,05 por m², com teto igual ao valor do IPTU. A UVC de referência é a de setembro de 2025.",
+    "isencoes": [],
+    "descricao": null,
+    "populacao": 555965,
+    "tipo": "percentual",
+    "base_calculo": {
+      "valor": 73.83,
+      "descricao": "Unidade de Valor de Custeio (UVC)",
+      "exercicio": 2025,
+      "fonte_url": "https://www.cloudsoftcam.com.br/PR/LONDRINA/upload/2025/09/202509151415411757956541b6fe20.pdf"
+    }
+  }
+]

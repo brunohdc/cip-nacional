@@ -82,6 +82,25 @@ Achados de padrão (importante pra automatizar):
 - [ ] Cron mensal de re-checagem → criado `9fd8876ba9e8` (dia 1, 12h UTC; proxima_revisao 2026-10-31)
 - [x] Render + publicação → https://brunohdc.github.io/cip-nacional/ (GitHub Pages, push automático)
 
+## Modelo padronizado de cobrança (piloto)
+- Cada registro novo declara `tipo: "fixa"` (R$/mês) ou `tipo: "percentual"` (%).
+- Registro percentual precisa de `base_calculo` com `valor`, `descricao`, `exercicio` e `fonte_url`.
+- `coleta/pilot_cobranca.json` traz São Paulo (fixo, 2026) e Londrina (percentual sobre UVC de R$ 73,83 em set/2025).
+- `CIP_DATA` aponta para o conjunto piloto; nesse modo o gerador publica apenas as páginas municipais. Use `CIP_ONLY=0` para gerar o site completo.
+
+```bash
+CIP_DATA=coleta/pilot_cobranca.json CIP_SITE=/tmp/cip-pilot python3 coleta/render_site.py
+python3 -m unittest coleta.test_cobranca
+```
+
+No PowerShell:
+
+```powershell
+$env:CIP_DATA="coleta/pilot_cobranca.json"; $env:CIP_SITE="$env:TEMP\cip-pilot"; python coleta/render_site.py
+```
+
+Registros antigos sem `tipo` continuam no caminho legado, usando apenas `unidade`.
+
 ## Como reproduzir (scripts versionados neste diretório)
 
 Layout esperado: os dados brutos ficam em `CIP_BASE` (default `~/workspace/cip_collected`) e o
