@@ -1,8 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CIP em PI — alíquotas por município</title><meta name="description" content="Alíquotas da Contribuição de Iluminação Pública (CIP) em 4 municípios de PI, com base legal, ressalvas e data da checagem.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Epilogue:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/cip-nacional/assets/style.css"></head><body>
-<header><a class="logo" href="/cip-nacional/">CIP Nacional</a> <nav><a href="/cip-nacional/cip/">Municípios</a> · <a href="https://brunohdc.github.io/cip-arrecadada-por-municipio/">Arrecadação</a></nav></header>
-<main><ul class="crumbs"><li><a href="/cip-nacional/cip/">CIP</a></li><li>CIP em PI — alíquotas por município</li></ul>
-<h1>CIP em PI — alíquotas por município</h1><p>Alíquotas da Contribuição de Iluminação Pública (CIP) em 4 municípios de PI, com base legal, ressalvas e data da checagem.</p><ul class="links dois"><li><a href="/cip-nacional/cip/pi/parnaiba/">Parnaíba</a> <span class="st st-nao_encontrado">nao encontrado</span></li><li><a href="/cip-nacional/cip/pi/picos/">Picos</a> <span class="st st-nao_encontrado">nao encontrado</span></li><li><a href="/cip-nacional/cip/pi/piripiri/">Piripiri</a> <span class="st st-nao_encontrado">nao encontrado</span></li><li><a href="/cip-nacional/cip/pi/teresina/">Teresina</a> <span class="st st-parcial">parcial</span></li></ul></main>
-<footer><p>Consulta gratuita · checado em 09/11/2026 · nenhum valor estimado.</p></footer></body></html>
+<header class="shell topbar">
+<a class="brand" href="/cip-nacional/"><span class="brand-mark">C</span>CIP Nacional</a>
+<div class="top-meta"><span class="status"><span class="status-dot"></span>Consulta pública</span><span>Brasil</span></div>
+<nav><a href="/cip-nacional/cip/">Municípios</a><a href="https://brunohdc.github.io/cip-arrecadada-por-municipio/">Arrecadação</a></nav>
+</header>
+<main class="shell">
+<ul class="crumbs"><li><a href="/cip-nacional/cip/">CIP</a></li><li>CIP em PI — alíquotas por município</li></ul>
+<section class="hero" aria-labelledby="page-title">
+<div>
+<div class="eyebrow">Consulta pública · 4 municípios</div>
+<h1 id="page-title">CIP em PI — alíquotas por município</h1>
+<p class="hero-copy">Alíquotas da Contribuição de Iluminação Pública (CIP) em 4 municípios de PI, com base legal, ressalvas e data da checagem.</p>
+</div>
+<div class="hero-art" aria-hidden="true">
+<div class="art-coin">CIP</div>
+<div class="art-copy">
+<strong>4</strong>
+<span>municípios</span>
+<div class="art-rule"></div>
+<span>lista atualizada</span>
+</div>
+</div>
+</section>
+<section class="panel" aria-label="Lista de municípios">
+<div class="section-head">
+<div><div class="section-kicker">Lista</div><h2>Municípios</h2></div>
+<div class="result-count">4 registros</div>
+</div>
+<div class="toolbar">
+<label class="search"><span class="sr-only">Buscar município</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.5"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><input id="busca" type="search" placeholder="Buscar município…" autocomplete="off"></label>
+</div>
+<ul class="links dois"><li><a href="/cip-nacional/cip/pi/parnaiba/">Parnaíba</a><span class="st st-nao_encontrado">não informado</span></li><li><a href="/cip-nacional/cip/pi/picos/">Picos</a><span class="st st-nao_encontrado">não informado</span></li><li><a href="/cip-nacional/cip/pi/piripiri/">Piripiri</a><span class="st st-nao_encontrado">não informado</span></li><li><a href="/cip-nacional/cip/pi/teresina/">Teresina</a><span class="st st-parcial">parcial</span></li></ul>
+</section>
+</main>
+<footer class="footer shell"><span>Consulta gratuita · checado em 09/11/2026 · nenhum valor estimado.</span><span>CIP Nacional</span></footer>
+<script>
+(function(){
+ const q=document.getElementById('busca'); if(!q)return;
+ const items=[...document.querySelectorAll('.links li')];
+ q.addEventListener('input',()=>{const s=q.value.toLowerCase(); items.forEach(li=>{li.hidden=!li.textContent.toLowerCase().includes(s);});});
+})();
+</script>
+</body></html>

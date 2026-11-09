@@ -32,6 +32,17 @@ def slugify(s):
 def esc(s):
     return html.escape(str(s), quote=True)
 
+FONTS = """<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Epilogue:wght@400;500;600&display=swap" rel="stylesheet">"""
+
+def topbar():
+    return """<header class="shell topbar">
+<a class="brand" href="/"><span class="brand-mark">C</span>CIP Nacional</a>
+<div class="top-meta"><span class="status"><span class="status-dot"></span>Consulta pública</span><span>Brasil</span></div>
+<nav><a href="/cip/">Municípios</a><a href="https://brunohdc.github.io/cip-arrecadada-por-municipio/">Arrecadação</a></nav>
+</header>"""
+
 MEC = {
     "percentual_base": "percentual sobre uma base municipal documentada",
     "percentual_modulo_tip": "percentual sobre o módulo de referência TIP",
@@ -55,6 +66,7 @@ STATUS_TXT = {
     "parcial": "informação parcial — tabela completa ainda não localizada",
     "nao_encontrado": "não informado — sem lei local encontrada",
 }
+STATUS_SHORT = {"completo": "verificado", "parcial": "parcial", "nao_encontrado": "não informado"}
 UNIT_TXT = {
     "BRL": "R$/mês", "PERCENTUAL_MODULO_TIP": "% do módulo TIP",
     "PERCENTUAL_TEIP": "% do TEIP", "FORMULA_TEIP": "fórmula (TEIP)",
@@ -113,23 +125,38 @@ def page(r, uf_hub, hub, ufs_siblings):
         badge = f'<div class="badge none">○ Não informado — sem lei local encontrada ({data})</div>'
 
     tem_tabela = bool(r.get("tabelas"))
+    n_faixas = sum(len(linhas) for linhas in (r.get("tabelas") or {}).values())
+    dist = ", ".join(esc(d) for d in r.get("distribuidoras", [])) or "não informada"
     if not tem_tabela and r["status"] != "completo":
-        resumo = ("Informação parcial; a tabela completa não foi localizada."
-                  if r["status"] == "parcial" else "Não informado; nenhuma lei local foi encontrada.")
+        resumo_texto = ("Informação parcial; a tabela completa não foi localizada."
+                        if r["status"] == "parcial" else "Não informado; nenhuma lei local foi encontrada.")
     else:
-        resumo = f"<strong>{esc(tipo_txt)}</strong> por faixa de consumo."
+        resumo_texto = f"{tipo_txt} por faixa de consumo."
         if tipo == "percentual" and r.get("base_calculo"):
             b = r["base_calculo"]
-            resumo += f" Incide sobre {esc(b.get('descricao', 'a base municipal'))} de {brl(b.get('valor'))}."
-    dist = ", ".join(esc(d) for d in r.get("distribuidoras", [])) or "não informada"
-    resumo += f" Repassada por: {dist}."
+            resumo_texto += f" Incide sobre {b.get('descricao', 'a base municipal')} de {brl(b.get('valor'))}."
+        resumo_texto += f" Repassada por {dist}."
+    hero_copy = (
+        "Valores pagos por faixa de consumo, com base legal, exercício e fonte verificada. "
+        "O que não está na fonte oficial aparece como não informado — nenhum valor é estimado."
+        if tem_tabela else
+        "A tabela de cobrança ainda não foi localizada. Veja a base legal, as ressalvas e as pendências desta apuração."
+    )
+    art_footer = "por faixa de consumo" if tem_tabela else "tabela não localizada"
+    base = r.get("base_calculo") or {}
+    base_row = ""
+    if tipo == "percentual" and base:
+        base_row = (
+            f'<div class="meta-row"><dt>Base</dt><dd>{esc(base.get("descricao", "base municipal"))}'
+            f'<br>{brl(base.get("valor"))} em {esc(str(base.get("exercicio", "n/d")))}</dd></div>'
+        )
 
-    body = [f'<div class="resumo">{badge}<p>{resumo}</p></div>']
     tabela = tabela_html(r)
-    if tabela:
-        body.append("<h2>Cobrança</h2>" + tabela)
-    else:
-        body.append('<p class="aviso">Tabela de cobrança não localizada na fonte oficial.</p>')
+    tabela_final = (
+        f'<div class="table-wrap">{tabela}</div>' if tabela else
+        '<div class="empty"><strong>Tabela não localizada</strong>'
+        'A base legal e as pendências estão nos detalhes abaixo.</div>'
+    )
 
     if not tem_tabela and r["status"] != "completo":
         calc = "<p>A forma de cálculo ainda não foi confirmada na fonte oficial.</p>"
@@ -143,8 +170,8 @@ def page(r, uf_hub, hub, ufs_siblings):
         calc = "<p>A cobrança usa a fórmula publicada na fonte. Ela não é convertida em percentual nem calculada sem a tarifa de referência.</p>"
     else:
         calc = f"<p>{esc(MEC.get(r['mecanismo'], 'A forma de cálculo ainda não foi confirmada.'))}</p>"
-    body.append(f"<details><summary>Como calculamos</summary>{calc}</details>")
 
+    detalhes = [f"<details><summary>Como calculamos</summary>{calc}</details>"]
     legal = []
     if r.get("base_legal"):
         legal.append("<h3>Base legal</h3><ul>" + "".join(
@@ -163,19 +190,19 @@ def page(r, uf_hub, hub, ufs_siblings):
         legal.append("<h3>O que ainda falta</h3><ul>" +
                      "".join(f"<li>{esc(x)}</li>" for x in r["pendencias"]) + "</ul>")
     if legal:
-        body.append("<details><summary>Base legal, isenções e ressalvas</summary>" + "".join(legal) + "</details>")
+        detalhes.append("<details><summary>Base legal, isenções e ressalvas</summary>" + "".join(legal) + "</details>")
 
     if r.get("fontes"):
-        body.append("<details><summary>Fontes verificadas</summary><ul>" + "".join(
+        detalhes.append("<details><summary>Fontes verificadas</summary><ul>" + "".join(
             f'<li><a href="{esc(f["url"])}" rel="noopener" target="_blank">{esc(f["titulo"])}</a> '
             f'({esc(f["tipo"])}, checado em {esc(f["data_coleta"])})</li>' for f in r["fontes"]) + "</ul></details>")
 
     irmaos = [s for s in ufs_siblings if s["slug"] != r["slug"]][:8]
     if irmaos:
         lis = "".join(f'<li><a href="/cip/{uf.lower()}/{s["slug"]}/">{esc(s["municipio"])}</a></li>' for s in irmaos)
-        body.append(f'<details><summary>Outros municípios de {uf}</summary>'
-                    f'<p><a href="{uf_hub}">Ver todos os municípios de {uf}</a></p>'
-                    f'<ul class="links">{lis}</ul></details>')
+        detalhes.append(f'<details><summary>Outros municípios de {uf}</summary>'
+                        f'<p><a href="{uf_hub}">Ver todos os municípios de {uf}</a></p>'
+                        f'<ul class="links">{lis}</ul></details>')
 
     crumbs = [("CIP", "/cip/"), (uf.upper(), f"/cip/{uf.lower()}/"), (nome, None)]
     bc = "".join(f'<li><a href="{p}">{esc(n)}</a></li>' if p else f"<li>{esc(n)}</li>" for n, p in crumbs)
@@ -186,62 +213,121 @@ def page(r, uf_hub, hub, ufs_siblings):
 <html lang="pt-BR"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title><meta name="description" content="{esc(desc)}">
+{FONTS}
 <link rel="stylesheet" href="/assets/style.css">
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head><body>
-<header><a class="logo" href="/">CIP Nacional</a> <nav><a href="/cip/">Municípios</a> · <a href="https://brunohdc.github.io/cip-arrecadada-por-municipio/">Arrecadação</a></nav></header>
-<main>
+{topbar()}
+<main class="shell">
+<section class="hero" aria-labelledby="page-title">
+<div>
+<div class="eyebrow">Consulta municipal · {uf}</div>
+<h1 id="page-title">CIP em <em>{esc(nome)}</em></h1>
+<p class="hero-copy">{hero_copy}</p>
+</div>
+<div class="hero-art" aria-hidden="true">
+<div class="art-coin">R$</div>
+<div class="art-copy">
+<strong>{esc(tipo_txt)}</strong>
+<span>{exercicio or 'exercício não informado'} · {uf}</span>
+<div class="art-rule"></div>
+<span>{art_footer}</span>
+</div>
+</div>
+</section>
 <ul class="crumbs">{bc}</ul>
-<h1>{esc(title)}</h1>
-{"".join(body)}
+<section class="workspace" aria-label="Cobrança da CIP">
+<div class="panel">
+<div class="section-head">
+<div><div class="section-kicker">Tabela de cobrança</div><h2>Faixas e valores</h2></div>
+<div class="result-count">{n_faixas} faixas</div>
+</div>
+{tabela_final}
+</div>
+<aside class="focus" aria-label="Resumo da cobrança">
+<div class="focus-top">
+<div class="focus-label"><span>Resumo</span><span class="focus-index">{uf}</span></div>
+<h2 class="focus-title">{esc(tipo_txt)}</h2>
+<p class="focus-kind">{esc(STATUS_TXT[r['status']])}</p>
+<p class="focus-description">{esc(resumo_texto)}</p>
+</div>
+<div class="focus-bottom">
+{badge}
+<dl class="meta-list">
+<div class="meta-row"><dt>Exercício</dt><dd>{exercicio or 'n/d'}</dd></div>
+{base_row}
+<div class="meta-row"><dt>Distribuidora</dt><dd>{dist}</dd></div>
+<div class="meta-row"><dt>Checado</dt><dd>{data}</dd></div>
+</dl>
+</div>
+</aside>
+</section>
+<section class="faq" aria-labelledby="detalhes-title">
+<div class="faq-head"><div class="section-kicker">Detalhes</div><h2 id="detalhes-title">Cálculo, base legal e fontes</h2></div>
+<div class="faq-grid">{"".join(detalhes)}</div>
+</section>
 </main>
-<footer><p>Registro checado em {data} · próxima revisão {esc(r["proxima_revisao"])} · nenhum valor estimado.</p></footer>
+<footer class="footer shell"><span>Registro checado em {data} · próxima revisão {esc(r["proxima_revisao"])}.</span><span>Nenhum valor estimado.</span></footer>
 </body></html>"""
 
 def hub_page(titulo, intro, itens, back=None):
-    lis = "".join(f'<li><a href="{p}">{esc(t)}</a> <span class="st st-{s}">{s.replace("_"," ")}</span></li>'
-                  for t, p, s in itens)
-    bc = f'<ul class="crumbs"><li><a href="/cip/">CIP</a></li>' if back else '<ul class="crumbs">'
+    lis = "".join(
+        f'<li><a href="{p}">{esc(t)}</a><span class="st st-{s}">{esc(STATUS_SHORT.get(s, s))}</span></li>'
+        for t, p, s in itens
+    )
+    crumbs = ('<ul class="crumbs"><li><a href="/cip/">CIP</a></li>'
+              f'<li>{esc(titulo)}</li></ul>' if back else '<ul class="crumbs"><li>CIP</li></ul>')
     return f"""<!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(titulo)}</title><meta name="description" content="{esc(intro[:150])}">
+{FONTS}
 <link rel="stylesheet" href="/assets/style.css"></head><body>
-<header><a class="logo" href="/">CIP Nacional</a> <nav><a href="/cip/">Municípios</a> · <a href="https://brunohdc.github.io/cip-arrecadada-por-municipio/">Arrecadação</a></nav></header>
-<main>{bc}<li>{esc(titulo)}</li></ul>
-<h1>{esc(titulo)}</h1><p>{esc(intro)}</p><ul class="links dois">{lis}</ul></main>
-<footer><p>Consulta gratuita · checado em {DATA_BR} · nenhum valor estimado.</p></footer></body></html>"""
+{topbar()}
+<main class="shell">
+{crumbs}
+<section class="hero" aria-labelledby="page-title">
+<div>
+<div class="eyebrow">Consulta pública · {len(itens)} municípios</div>
+<h1 id="page-title">{esc(titulo)}</h1>
+<p class="hero-copy">{esc(intro)}</p>
+</div>
+<div class="hero-art" aria-hidden="true">
+<div class="art-coin">CIP</div>
+<div class="art-copy">
+<strong>{len(itens)}</strong>
+<span>municípios</span>
+<div class="art-rule"></div>
+<span>lista atualizada</span>
+</div>
+</div>
+</section>
+<section class="panel" aria-label="Lista de municípios">
+<div class="section-head">
+<div><div class="section-kicker">Lista</div><h2>Municípios</h2></div>
+<div class="result-count">{len(itens)} registros</div>
+</div>
+<div class="toolbar">
+<label class="search"><span class="sr-only">Buscar município</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.5"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><input id="busca" type="search" placeholder="Buscar município…" autocomplete="off"></label>
+</div>
+<ul class="links dois">{lis}</ul>
+</section>
+</main>
+<footer class="footer shell"><span>Consulta gratuita · checado em {DATA_BR} · nenhum valor estimado.</span><span>CIP Nacional</span></footer>
+<script>
+(function(){{
+ const q=document.getElementById('busca'); if(!q)return;
+ const items=[...document.querySelectorAll('.links li')];
+ q.addEventListener('input',()=>{{const s=q.value.toLowerCase(); items.forEach(li=>{{li.hidden=!li.textContent.toLowerCase().includes(s);}});}});
+}})();
+</script>
+</body></html>"""
 
 # ---------- gerar ----------
-css = """body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;color:#1a1a1a;line-height:1.6}
-header{background:#0d2b45;color:#fff;padding:.7rem 1rem;display:flex;gap:1rem;align-items:baseline}
-header a{color:#ffd166;text-decoration:none}header nav a{color:#fff}
-main{max-width:820px;margin:0 auto;padding:1rem}
-h1{font-size:1.5rem;margin:.4rem 0 1rem}h2{font-size:1.15rem;margin-top:1.8rem;border-bottom:1px solid #e5e5e5;padding-bottom:.2rem}
-h3{font-size:1rem;margin:1.1rem 0 .3rem}
-table.tab{border-collapse:collapse;width:100%;font-size:.95rem;margin:.4rem 0}
-table.tab th{background:#0d2b45;color:#fff;text-align:left;padding:.4rem .6rem}
-table.tab th.sortable{cursor:pointer;user-select:none}table.tab th.sortable:hover{background:#174c73}
-table.tab td{border-bottom:1px solid #e8e8e8;padding:.35rem .6rem}
-table.tab tr:nth-child(even){background:#f7f9fb}
-.nota{color:#666;font-size:.85em}.unidade{color:#555;font-size:.85rem}
-.badge{display:inline-block;padding:.3rem .7rem;border-radius:999px;font-size:.85rem;margin:.3rem 0}
-.badge.ok{background:#e3f6e8;color:#14602c}.badge.warn{background:#fff3d6;color:#7a5200}.badge.none{background:#f1f1f1;color:#555}
-.resumo{display:flex;gap:.75rem;align-items:center;flex-wrap:wrap;margin:.5rem 0 1rem}
-.resumo p{margin:0}
-.aviso{background:#fff8e6;border-left:3px solid #d39e00;padding:.5rem .7rem;font-size:.9rem}
-details{margin:.6rem 0;border-bottom:1px solid #eee;padding:.25rem 0}
-summary{cursor:pointer;font-weight:600;padding:.25rem 0}
-.crumbs{list-style:none;padding:0;display:flex;gap:.4rem;font-size:.85rem;color:#666}
-.crumbs li:after{content:"›";margin-left:.4rem}.crumbs li:last-child:after{content:""}
-ul.links{columns:2;list-style:none;padding:0}ul.links.dois{columns:3}
-ul.links li{margin:.25rem 0;break-inside:avoid}
-.st{font-size:.72rem;text-transform:uppercase;color:#888;margin-left:.4rem}
-.st-completo{color:#14602c}.st-parcial{color:#7a5200}.st-nao_encontrado{color:#888}
-a{color:#0b5ed7}footer{max-width:820px;margin:2rem auto 1rem;padding:0 1rem;color:#777;font-size:.8rem;border-top:1px solid #eee}
-@media(max-width:640px){ul.links,ul.links.dois{columns:1}}
-"""
+CSS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "style.css")
 os.makedirs(f"{OUT}/assets", exist_ok=True)
+with open(CSS_PATH, encoding="utf-8") as f:
+    css = f.read()
 open(f"{OUT}/assets/style.css", "w", encoding="utf-8").write(css)
 
 PREFIX = "/cip-nacional"
@@ -310,17 +396,64 @@ for dist, rs in by_dist.items():
         "A alíquota é definida por cada município — por isso varia dentro da mesma distribuidora.",
         its, back=True))
 # raiz
-root = f"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
+root = f"""<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CIP Nacional — alíquotas de iluminação pública por município</title>
-<meta name="description" content="Consulte a Contribuição de Iluminação Pública (CIP) do seu município: alíquotas oficiais, base legal e data da verificação.">
+<meta name="description" content="Consulte a Contribuição de Iluminação Pública (CIP) do seu município: valores por faixa, base legal e data da verificação.">
+{FONTS}
 <link rel="stylesheet" href="/assets/style.css"></head><body>
-<header><a class="logo" href="/">CIP Nacional</a> <nav><a href="/cip/">Municípios</a> · <a href="https://brunohdc.github.io/cip-arrecadada-por-municipio/">Arrecadação</a></nav></header>
-<main><h1>CIP Nacional — alíquotas de iluminação pública por município</h1>
-<p>Consulta gratuita das alíquotas da <strong>Contribuição de Iluminação Pública (CIP)</strong> em municípios brasileiros: tabela de faixas, base legal, isenções e a <strong>data exata da verificação</strong>. Regra desta base: o que não está na fonte oficial aparece como <em>não informado</em> — nenhum valor é estimado.</p>
-<p>Cada município tem uma página ({len(regs)} páginas), organizada por estado e por distribuidora.</p>
-<p><a href="/cip/">→ Consultar municípios</a></p></main>
-<footer><p>Registro checado em {DATA_BR} · nenhum valor estimado.</p></footer></body></html>"""
+{topbar()}
+<main class="shell">
+<section class="hero" aria-labelledby="page-title">
+<div>
+<div class="eyebrow">Consulta pública · Brasil</div>
+<h1 id="page-title">CIP no Brasil.<br><em>Valor claro.</em></h1>
+<p class="hero-copy">Consulte os valores da <strong>Contribuição de Iluminação Pública (CIP)</strong> por município: faixas, base legal, isenções e a data exata da verificação. O que não está na fonte oficial aparece como não informado — nenhum valor é estimado.</p>
+<a class="cta" href="/cip/">Consultar municípios</a>
+</div>
+<div class="hero-art" aria-hidden="true">
+<div class="art-coin">R$</div>
+<div class="art-copy">
+<strong>{len(regs)}</strong>
+<span>municípios</span>
+<div class="art-rule"></div>
+<span>consulta gratuita</span>
+</div>
+</div>
+</section>
+<section class="workspace" aria-label="Formas de consulta">
+<div class="panel">
+<div class="section-head">
+<div><div class="section-kicker">Consulta</div><h2>Escolha o caminho</h2></div>
+<div class="result-count">{len(by_uf)} UFs</div>
+</div>
+<ul class="links tres">
+<li><a href="/cip/">Por município</a><span class="st st-completo">{len(regs)} páginas</span></li>
+<li><a href="/distribuidora/">Por distribuidora</a><span class="st st-completo">{len(by_dist)}</span></li>
+<li><a href="https://brunohdc.github.io/cip-arrecadada-por-municipio/">Arrecadação</a><span class="st st-completo">SICONFI</span></li>
+</ul>
+</div>
+<aside class="focus" aria-label="Resumo da base">
+<div class="focus-top">
+<div class="focus-label"><span>Base</span><span class="focus-index">BR</span></div>
+<h2 class="focus-title">Dados oficiais</h2>
+<p class="focus-kind">Sem estimativas</p>
+<p class="focus-description">Cada página mostra a faixa, o valor, a base legal e a data da checagem. O que não está na fonte oficial aparece como não informado.</p>
+</div>
+<div class="focus-bottom">
+<dl class="meta-list">
+<div class="meta-row"><dt>Municípios</dt><dd>{len(regs)}</dd></div>
+<div class="meta-row"><dt>Estados</dt><dd>{len(by_uf)}</dd></div>
+<div class="meta-row"><dt>Distribuidoras</dt><dd>{len(by_dist)}</dd></div>
+<div class="meta-row"><dt>Checado</dt><dd>{DATA_BR}</dd></div>
+</dl>
+</div>
+</aside>
+</section>
+</main>
+<footer class="footer shell"><span>Registro checado em {DATA_BR} · nenhum valor estimado.</span><span>CIP Nacional</span></footer>
+</body></html>"""
 open(f"{OUT}/index.html", "w", encoding="utf-8").write(root)
 
 # ---------- prefixar links internos (base do site: /cip-nacional) ----------
