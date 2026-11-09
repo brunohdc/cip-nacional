@@ -11,28 +11,18 @@ Saída: ~/workspace/cip_site/
 """
 import json, unicodedata, html, re, os, sys
 from collections import defaultdict
-from datetime import date
 
 from cobranca import brl, esta_desatualizado, fmt_data, fmt_faixa, fmt_valor, tipo_label, validate_record
 
 BASE = os.environ.get("CIP_BASE", os.path.expanduser("~/workspace/cip_collected"))
 OUT = os.environ.get("CIP_SITE", os.path.expanduser("~/workspace/cip_site"))
-DATA_BR = "01/10/2026"
 ONLY_MUNICIPAL = os.environ.get("CIP_ONLY", "1" if os.environ.get("CIP_DATA") else "0") == "1"
 DATA_ENV = os.environ.get("CIP_DATA")
 DATASET_PATH = DATA_ENV or (f"{BASE}/cip_top500.json" if os.path.exists(f"{BASE}/cip_top500.json") else f"{BASE}/cip_top100.json")
 regs = json.load(open(DATASET_PATH, encoding="utf-8"))
 for _reg in regs:
     validate_record(_reg)
-ARRQ = {}
-_arr = f"{BASE}/arrecadacao_cip.json"
-if not ONLY_MUNICIPAL and os.path.exists(_arr):
-    ARRQ = {str(r["cod_ibge"]): r for r in json.load(open(_arr, encoding="utf-8"))}
-if ARRQ:
-    _coletas = [a.get("coletado_em") for a in ARRQ.values() if a.get("coletado_em")]
-    if _coletas:
-        DATA_BR = fmt_data(max(_coletas))
-YEARS_ARR = list(range(date.today().year - 4, date.today().year))
+DATA_BR = fmt_data(max((r.get("atualizado_em") for r in regs if r.get("atualizado_em")), default="2026-10-01"))
 
 def slugify(s):
     s = unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode()
@@ -187,19 +177,6 @@ def page(r, uf_hub, hub, ufs_siblings):
                     f'<p><a href="{uf_hub}">Ver todos os municípios de {uf}</a></p>'
                     f'<ul class="links">{lis}</ul></details>')
 
-    a = ARRQ.get(str(r["cod_ibge"]))
-    if a and a.get("total_acumulado"):
-        linhas = "".join(f'<tr><td>{y}</td><td>{brl(a["por_ano"].get(str(y)))}</td></tr>' for y in YEARS_ARR)
-        pc = ""
-        if a.get("populacao"):
-            pc = f'<p>Equivale a <strong>{brl(a["total_acumulado"] / a["populacao"])}</strong> por habitante.</p>'
-        body.append("<details><summary>Arrecadação oficial (SICONFI)</summary>"
-                    "<table class=\"tab\"><thead><tr><th>Exercício</th><th>Arrecadado</th></tr></thead><tbody>"
-                    + linhas + "</tbody></table>"
-                    f'<p><strong>Total acumulado {a["anos_com_dado"][0]}–{a["anos_com_dado"][-1]}: '
-                    f'{brl(a["total_acumulado"])}</strong>.</p>' + pc +
-                    '<p><a href="/arrecadacao/">Ver o ranking completo</a></p></details>')
-
     crumbs = [("CIP", "/cip/"), (uf.upper(), f"/cip/{uf.lower()}/"), (nome, None)]
     bc = "".join(f'<li><a href="{p}">{esc(n)}</a></li>' if p else f"<li>{esc(n)}</li>" for n, p in crumbs)
     ld = {"@context": "https://schema.org", "@type": "WebPage", "name": title, "description": desc}
@@ -213,7 +190,7 @@ def page(r, uf_hub, hub, ufs_siblings):
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 </head><body>
-<header><a class="logo" href="/">CIP Nacional</a> <nav><a href="/cip/">Municípios</a> · <a href="/arrecadacao/">Arrecadação</a></nav></header>
+<header><a class="logo" href="/">CIP Nacional</a> <nav><a href="/cip/">Municípios</a> · <a href="https://brunohdc.github.io/cip-arrecadada-por-municipio/">Arrecadação</a></nav></header>
 <main>
 <ul class="crumbs">{bc}</ul>
 <h1>{esc(title)}</h1>
@@ -230,7 +207,7 @@ def hub_page(titulo, intro, itens, back=None):
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(titulo)}</title><meta name="description" content="{esc(intro[:150])}">
 <link rel="stylesheet" href="/assets/style.css"></head><body>
-<header><a class="logo" href="/">CIP Nacional</a> <nav><a href="/cip/">Municípios</a> · <a href="/arrecadacao/">Arrecadação</a></nav></header>
+<header><a class="logo" href="/">CIP Nacional</a> <nav><a href="/cip/">Municípios</a> · <a href="https://brunohdc.github.io/cip-arrecadada-por-municipio/">Arrecadação</a></nav></header>
 <main>{bc}<li>{esc(titulo)}</li></ul>
 <h1>{esc(titulo)}</h1><p>{esc(intro)}</p><ul class="links dois">{lis}</ul></main>
 <footer><p>Consulta gratuita · checado em {DATA_BR} · nenhum valor estimado.</p></footer></body></html>"""
@@ -332,159 +309,13 @@ for dist, rs in by_dist.items():
         f"Municípios atendidos pela {dist} com registro de alíquota de CIP conferido. "
         "A alíquota é definida por cada município — por isso varia dentro da mesma distribuidora.",
         its, back=True))
-# ---------- página de arrecadação ----------
-arr = [a for a in ARRQ.values() if a.get("total_acumulado")]
-arr.sort(key=lambda a: -a["total_acumulado"])
-sem_dado = sorted([a for a in ARRQ.values() if not a.get("total_acumulado")],
-                  key=lambda a: a["municipio"])
-Y0, Y1 = YEARS_ARR[0], YEARS_ARR[-1]
-soma = sum(a["total_acumulado"] for a in arr)
-pop_tot = sum(a.get("populacao") or 0 for a in arr)
-pc_geral = soma / pop_tot if pop_tot else 0
-linhas = []
-for i, a in enumerate(arr, 1):
-    reg = next((x for x in regs if x["cod_ibge"] == a["cod_ibge"]), None)
-    link = f'/cip/{a["uf"].lower()}/{a["slug"]}/'
-    pc = (a["total_acumulado"] / a["populacao"]) if a.get("populacao") else None
-    cels = "".join(f'<td data-sort="{a["por_ano"].get(str(y)) if isinstance(a["por_ano"].get(str(y)), (int, float)) else "-1"}">{brl(a["por_ano"].get(str(y)))}</td>' for y in YEARS_ARR)
-    total_sort = a["total_acumulado"] if isinstance(a.get("total_acumulado"), (int, float)) else -1
-    pop_sort = a.get("populacao") if isinstance(a.get("populacao"), (int, float)) else -1
-    pc_sort = pc if isinstance(pc, (int, float)) else -1
-    linhas.append(
-        f'<tr data-uf="{a["uf"]}"><td data-sort="{i}">{i}</td><td data-sort="{esc(a["municipio"])}"><a href="{link}">{esc(a["municipio"])}</a></td><td data-sort="{a["uf"]}">{a["uf"]}</td>'
-        f'<td data-sort="{pop_sort}">{a.get("populacao", "n/d")}</td>{cels}'
-        f'<td data-sort="{total_sort}"><strong>{brl(a["total_acumulado"])}</strong></td>'
-        f'<td data-sort="{pc_sort}">{brl(pc) if pc else "n/d"}</td>'
-        f'<td data-sort="{1 if reg and reg["status"] == "completo" else 0}">{"✔" if reg and reg["status"] == "completo" else "◐"}</td></tr>')
-header = ('<th class="sortable" data-col="0"># ↕</th><th class="sortable" data-col="1">Município ↕</th>'
-          '<th class="sortable" data-col="2">UF ↕</th><th class="sortable" data-col="3">População ↕</th>'
-          + "".join(f'<th class="sortable" data-col="{4+i}">{y} ↕</th>' for i, y in enumerate(YEARS_ARR))
-          + f'<th class="sortable" data-col="{4+len(YEARS_ARR)}">Total {Y0}–{Y1} ↕</th>'
-          + f'<th class="sortable" data-col="{5+len(YEARS_ARR)}">R$/hab ↕</th>'
-          + f'<th class="sortable" data-col="{6+len(YEARS_ARR)}">Tabela de alíquota ↕</th>')
-tabela = ("<table class=\"tab sortable-table\"><thead><tr>" + header + "</tr></thead><tbody>"
-          + "".join(linhas) + "</tbody></table>")
-faq_arr = [
-    ("O que é o total acumulado da CIP nesta página?",
-     f"É a soma do valor que a prefeitura registrou como arrecadado com a Contribuição de Iluminação Pública "
-     f"nos exercícios {Y0} a {Y1}, segundo as Declarações de Contas Anuais (DCA) publicadas no SICONFI, do "
-     "Tesouro Nacional. Não é estimativa: cada célula vem do relatório oficial do próprio município."),
-    ("De onde vêm exatamente esses números?",
-     "Da conta contábil <code>1.2.4.0.00.0.0 — Contribuição para o Custeio do Serviço de Iluminação Pública</code> "
-     "(linha 'Receitas Brutas Realizadas' do Anexo I-C da DCA). A API é pública: "
-     "apidatalake.tesouro.gov.br/ords/siconfi/tt/dca."),
-    ("Por que alguns municípios aparecem como n/d?",
-     "Porque o município não entregou a DCA daquele exercício ou a conta não foi localizada no relatório. "
-     "Nesta base, ausência de dado é publicada como n/d — nunca substituída por estimativa, média da região "
-     "ou valor de município vizinho."),
-    ("O valor arrecadado é o que eu pago de CIP?",
-     "Não diretamente. A arrecadação é o total municipal (somando todas as unidades consumidoras). O que você paga "
-     "depende da sua faixa de consumo e da regra do seu município — veja a página do município para a tabela de alíquotas."),
-    ("Posso comparar municípios pela arrecadação?",
-     "Só com cuidado. O total depende do tamanho da cidade (população e número de unidades consumidoras), do preço "
-     "da energia e do mecanismo de cobrança local. A coluna R$/habitante ajuda, mas municípios industriais ou com "
-     "muita iluminação pública tendem a arrecadar mais por habitante sem que o morador pague mais."),
-    ("Com que frequência a arrecadação é atualizada?",
-     "As DCAs são anuais. Esta página foi montada com dados coletados em " + DATA_BR + " e passa por revisão "
-     "automática mensal, junto com as tabelas de alíquotas."),
-]
-faq_arr_html = "".join(f"<h3>{esc(q)}</h3><p>{a}</p>" for q, a in faq_arr)
-faq_arr_json = [{"@type": "Question", "name": q,
-                 "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"<[^>]+>", "", a)}} for q, a in faq_arr]
-ld_arr = {"@context": "https://schema.org", "@context_url": "https://schema.org",
-          "@graph": [
-              {"@type": "Dataset",
-               "name": f"Arrecadação da CIP por município no Brasil ({Y0}–{Y1})",
-               "description": "Valores de arrecadação da Contribuição para o Custeio do Serviço de Iluminação "
-                              "Pública registrados nas Declarações de Contas Anuais (DCA/SICONFI) de municípios brasileiros.",
-               "temporalCoverage": f"{Y0}/{Y1}",
-               "isAccessibleForFree": True,
-               "creator": {"@type": "Organization", "name": "CIP Nacional"},
-               "variableMeasured": "Arrecadação anual da CIP (R$)"},
-              {"@type": "FAQPage", "mainEntity": faq_arr_json}]}
-opts_uf = "".join(f'<option value="{uf}">{uf}</option>' for uf in sorted({a["uf"] for a in arr}))
-filter_js = """<script>
-(function(){
- const table=document.querySelector('table.sortable-table'), tbody=table.querySelector('tbody'), sel=document.getElementById('filtro-uf'), c=document.getElementById('contador-filtro');
- let rows=[...tbody.querySelectorAll('tr')], direction={};
- function atualizar(){const uf=sel.value; let n=0; rows.forEach(r=>{const show=!uf||r.dataset.uf===uf; r.hidden=!show; if(show)n++;}); c.textContent=uf?('Mostrando '+n+' município(s) de '+uf+'.'):'Mostrando todos os municípios com dado.';}
- function ordenar(col){
-   direction[col]=direction[col]==='asc'?'desc':'asc';
-   const asc=direction[col]==='asc';
-   rows.sort((a,b)=>{let x=a.children[col].dataset.sort||'', y=b.children[col].dataset.sort||''; const nx=Number(x), ny=Number(y); if(!Number.isNaN(nx)&&!Number.isNaN(ny)){x=nx;y=ny;} else {x=x.toString().localeCompare(y.toString(),'pt-BR');y=0;} return (x<y?-1:x>y?1:0)*(asc?1:-1);});
-   rows.forEach((r,i)=>{tbody.appendChild(r); r.children[0].textContent=i+1;}); atualizar();
- }
- table.querySelectorAll('th.sortable').forEach(th=>th.addEventListener('click',()=>ordenar(Number(th.dataset.col))));
- sel.addEventListener('change',atualizar); atualizar();
-})();
-</script>"""
-arr_html = f"""<!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Arrecadação da CIP por município — total acumulado {Y0}–{Y1}</title>
-<meta name="description" content="Quanto cada município brasileiro arrecadou com a Contribuição de Iluminação Pública (CIP) de {Y0} a {Y1}, segundo o SICONFI/Tesouro Nacional. Ranking, total acumulado e valor por habitante.">
-<link rel="stylesheet" href="/assets/style.css">
-<script type="application/ld+json">{json.dumps(ld_arr, ensure_ascii=False)}</script>
-</head><body>
-<header><a class="logo" href="/">CIP Nacional</a> <nav><a href="/cip/">Municípios</a> · <a href="/arrecadacao/">Arrecadação</a></nav></header>
-<main>
-<ul class="crumbs"><li><a href="/cip/">CIP</a></li><li>Arrecadação</li></ul>
-<h1>Arrecadação da CIP pelos municípios — total acumulado {Y0}–{Y1}</h1>
-<p>Esta página mostra <strong>quanto cada município efetivamente arrecadou</strong> com a
-<strong>Contribuição de Iluminação Pública (CIP)</strong> em cada exercício, e o <strong>total acumulado</strong> dos
-quatro anos somados. A fonte é a Declaração de Contas Anuais (DCA) de cada prefeitura, publicada no
-<strong>SICONFI</strong>, do Tesouro Nacional — a mesma base que os órgãos de controle usam.</p>
-<div class="badge ok">✔ {len(arr)} municípios com dado oficial · soma {brl(soma)} · {Y0}–{Y1} · checado em {DATA_BR}</div>
-<h2>Resumo</h2>
-<ul>
-<li><strong>{len(arr)}</strong> dos {len(ARRQ) or len(regs)} municípios desta base têm arrecadação publicada em pelo menos um exercício.</li>
-<li><strong>Soma dos totais acumulados:</strong> {brl(soma)}.</li>
-<li><strong>Maior arrecadação acumulada:</strong> {esc(arr[0]["municipio"])}/{arr[0]["uf"]} —
-{brl(arr[0]["total_acumulado"])} em {Y0}–{Y1}.</li>
-<li><strong>Média por habitante</strong> (nos municípios com dado e população informada): {brl(pc_geral)} por habitante no período.</li>
-</ul>
-<h2>Ranking por arrecadação acumulada</h2>
-<label for="filtro-uf"><strong>Filtrar por estado:</strong></label>
-<select id="filtro-uf" aria-label="Filtrar por estado"><option value="">Todos os estados</option>{opts_uf}</select>
-<p id="contador-filtro" class="unidade">Mostrando todos os municípios com dado.</p>
-{tabela}
-{filter_js}
-<p class="unidade">Valores nominais, em reais, como declarados pelo município — não corrigidos pela inflação.
-Última coluna: ✔ quando a tabela de alíquotas do município também foi verificada nesta base.</p>
-<h2>Como ler esta tabela</h2>
-<p>A CIP é uma contribuição municipal criada pelo art. 149-A da Constituição: quem paga é o consumidor de energia,
-na fatura ou no IPTU, e o dinheiro é vinculado ao custeio, manutenção, ampliação e melhoria da iluminação pública.
-Como a competência é de cada município, o desenho da cobrança varia muito: há cidades que cobram percentual sobre
-a tarifa, outras com valor fixo por faixa de consumo e outras com fórmula própria. Por isso, comparar
-<em>alíquotas</em> entre municípios exige olhar o mecanismo de cada um — e comparar <em>arrecadação</em> exige olhar
-o tamanho da cidade.</p>
-<p>O total acumulado serve para três leituras práticas: dimensionar o mercado de iluminação pública de um município
-(quanto recurso circula por ano), verificar se o valor arrecadado é compatível com o parque de iluminação instalado
-e acompanhar a evolução ano a ano — um salto atípico costuma indicar mudança de lei ou de base de cálculo.</p>
-<p>Duas ressalvas importantes. Primeiro, arrecadação não é despesa: o município pode arrecadar um valor e aplicar
-outro, já que a CIP pode ser usada também para amortizar investimentos na rede. Segundo, nem todo município
-entrega a DCA no prazo — quando o dado não está publicado, esta página mostra <em>n/d</em> em vez de estimar.</p>
-<h2>Perguntas frequentes</h2>
-{faq_arr_html}
-<h2>Fontes</h2>
-<ul>
-<li><a href="https://apidatalake.tesouro.gov.br/ords/siconfi/tt/dca" rel="noopener" target="_blank">API SICONFI / DCA — Tesouro Nacional</a> (conta 1.2.4.0.00.0.0, coleta em {DATA_BR})</li>
-<li><a href="https://siconfi.tesouro.gov.br/" rel="noopener" target="_blank">SICONFI — portal público</a></li>
-</ul>
-{"<h2>Municípios sem dado publicado</h2><p>Sem DCA com a conta da CIP localizada nos exercícios " + str(Y0) + "–" + str(Y1) + ":</p><ul>" + "".join(f'<li>{esc(a["municipio"])}/{a["uf"]}</li>' for a in sem_dado) + "</ul>" if sem_dado else ""}
-<p><a href="/cip/">← Ver alíquotas por município</a></p>
-</main>
-<footer><p>Dados oficiais do SICONFI/Tesouro Nacional · coletado em {DATA_BR} · nenhum valor estimado.</p></footer>
-</body></html>"""
-os.makedirs(f"{OUT}/arrecadacao", exist_ok=True)
-open(f"{OUT}/arrecadacao/index.html", "w", encoding="utf-8").write(arr_html)
-
 # raiz
 root = f"""<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CIP Nacional — alíquotas de iluminação pública por município</title>
 <meta name="description" content="Consulte a Contribuição de Iluminação Pública (CIP) do seu município: alíquotas oficiais, base legal e data da verificação.">
 <link rel="stylesheet" href="/assets/style.css"></head><body>
-<header><a class="logo" href="/">CIP Nacional</a> <nav><a href="/cip/">Municípios</a> · <a href="/arrecadacao/">Arrecadação</a></nav></header>
+<header><a class="logo" href="/">CIP Nacional</a> <nav><a href="/cip/">Municípios</a> · <a href="https://brunohdc.github.io/cip-arrecadada-por-municipio/">Arrecadação</a></nav></header>
 <main><h1>CIP Nacional — alíquotas de iluminação pública por município</h1>
 <p>Consulta gratuita das alíquotas da <strong>Contribuição de Iluminação Pública (CIP)</strong> em municípios brasileiros: tabela de faixas, base legal, isenções e a <strong>data exata da verificação</strong>. Regra desta base: o que não está na fonte oficial aparece como <em>não informado</em> — nenhum valor é estimado.</p>
 <p>Cada município tem uma página ({len(regs)} páginas), organizada por estado e por distribuidora.</p>

@@ -41,7 +41,7 @@ Padrões de portal encontrados: SAPL (sapl.*.leg.br), download-lei em câmaras S
 Dataset: `pilot_top10.json` (10 registros com fonte, base legal, tabelas, data de coleta)
 
 Resultado: **6 completo · 3 parcial · 1 não encontrado**
-- ✅ completos: São Paulo (R$ fixos 2026), Rio (fórmula R$+coef×TEIP, Lei 9.049/2025), Fortaleza (% módulo TIP, Sefin), Salvador (% TIP, com ressalva de célula mesclada), Manaus (R$ 2025), Curitiba (% TEIP)
+- ✅ completos: São Paulo (R$ fixos 2026), Rio (valores fixos 2026, Lei 9.049/2025), Fortaleza (% módulo TIP, Sefin), Salvador (% TIP, com ressalva de célula mesclada), Manaus (R$ 2025), Curitiba (% TEIP)
 - ⚠️ parciais: Brasília (falta decreto anual com valores atuais), Recife (falta tabela de alíquotas), Goiânia (falta Planilha de Custos)
 - ❌ não encontrado: Belo Horizonte (3 rodadas; existe COSIP, portal não indexou a lei)
 
@@ -61,17 +61,8 @@ Achados de padrão (importante pra automatizar):
 - Aprendizados: legisweb/lefisc indexam bem; portais alguns municípios dão 403 (Cloudflare); backend de busca keyless é ruidoso — DuckDuckGo html funciona como fallback; PDFs de CTM grandes exigem pypdf + grep por artigo
 - Uniidade nova no schema: `PERCENTUAL_BASE` (% sobre base de rateio/tarifa — não TIP/TEIP)
 
-## Arrecadação oficial (nova página)
-- Fonte: **SICONFI/DCA** (Tesouro Nacional) — conta `1.2.4.0.00.0.0 – Contribuição para o Custeio do Serviço de Iluminação Pública`, linha "Receitas Brutas Realizadas" (Anexo I-C)
-- Coleta: `coleta_arrecadacao.py` → `arrecadacao_cip.json` (100 municípios × 2022–2025, gravação incremental, `anexo` param é ignorado pela API)
-- Resultado: 49 com 4 anos · 44 parciais · 7 sem dado (Barueri, Carapicuíba, Franca, Limeira, Piracicaba, Sorocaba, Brasília-DF)
-- Soma acumulada dos 100: **R$ 21,95 bi** · top: São Paulo R$ 2,20 bi, Rio R$ 1,41 bi, Manaus R$ 1,00 bi
-- Página: `/arrecadacao/` (ranking + total acumulado + R$/hab + FAQ + JSON-LD Dataset) e bloco "Arrecadação oficial da CIP" em cada página de município
-
 ## Expansão top 500 + filtro por estado (concluída em 02/10/2026)
 - Base ampliada de 100 → **500 municípios** pelo ranking de população do Censo 2022/IBGE (`cip_top500.json`); 500 páginas municipais geradas (419 novas páginas começam como `não informado`, sem inventar alíquota)
-- Arrecadação SICONFI/DCA 2022–2025 coletada para os 500: **235 com os 4 exercícios · 245 parciais · 20 sem dado**; 480 municípios têm pelo menos um valor; soma acumulada atual: **R$ 35,58 bi**
-- `/arrecadacao/` agora tem **filtro client-side por UF**, sem recarregar a página; 26 estados aparecem com dados
 - Dataset de alíquotas permanece disciplinado: os 37 completos anteriores + placeholders transparentes para os municípios novos; expansão legal será rodada própria
 
 ## Pendências
@@ -101,12 +92,9 @@ $env:CIP_DATA="coleta/pilot_cobranca.json"; $env:CIP_SITE="$env:TEMP\cip-pilot";
 
 Registros antigos sem `tipo` continuam no caminho legado, usando apenas `unidade`.
 
-## Atualização mensal (GitHub Actions)
-- Workflow: `.github/workflows/atualizar-arrecadacao.yml` — roda no dia 1, às 12h UTC, e também por `workflow_dispatch`.
-- O job reconsulta os últimos quatro exercícios no SICONFI (`CIP_REFRESH=1`), preserva valores anteriores quando a API falha, regenera o site completo e faz commit apenas se houver diferença.
-- O push do bot publica no GitHub Pages (quando o Pages está configurado pela branch `main`).
-- **Alíquotas não são atualizadas automaticamente:** a coleta de leis municipais continua sendo uma etapa de revisão manual.
-- A primeira execução do workflow aplica o novo layout simplificado às 500 páginas municipais, não apenas ao piloto.
+## Arrecadação separada
+O ranking de arrecadação, a coleta SICONFI e o workflow mensal foram movidos para:
+https://github.com/brunohdc/cip-arrecadada-por-municipio
 
 ## Como reproduzir (scripts versionados neste diretório)
 
@@ -117,7 +105,6 @@ site gerado em `CIP_SITE` (default `~/workspace/cip_site`). Ambos são sobrescre
 export CIP_BASE=~/workspace/cip_collected
 export CIP_SITE=~/workspace/cip_site
 
-python3 coleta_arrecadacao.py     # SICONFI/DCA -> $CIP_BASE/arrecadacao_cip.json (incremental)
 python3 render_site.py            # $CIP_BASE/cip_top500.json -> $CIP_SITE/*.html
 ```
 
