@@ -101,6 +101,13 @@ $env:CIP_DATA="coleta/pilot_cobranca.json"; $env:CIP_SITE="$env:TEMP\cip-pilot";
 
 Registros antigos sem `tipo` continuam no caminho legado, usando apenas `unidade`.
 
+## Atualização mensal (GitHub Actions)
+- Workflow: `.github/workflows/atualizar-arrecadacao.yml` — roda no dia 1, às 12h UTC, e também por `workflow_dispatch`.
+- O job reconsulta os últimos quatro exercícios no SICONFI (`CIP_REFRESH=1`), preserva valores anteriores quando a API falha, regenera o site completo e faz commit apenas se houver diferença.
+- O push do bot publica no GitHub Pages (quando o Pages está configurado pela branch `main`).
+- **Alíquotas não são atualizadas automaticamente:** a coleta de leis municipais continua sendo uma etapa de revisão manual.
+- A primeira execução do workflow aplica o novo layout simplificado às 500 páginas municipais, não apenas ao piloto.
+
 ## Como reproduzir (scripts versionados neste diretório)
 
 Layout esperado: os dados brutos ficam em `CIP_BASE` (default `~/workspace/cip_collected`) e o

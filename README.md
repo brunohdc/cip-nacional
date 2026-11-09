@@ -23,3 +23,5 @@ python3 coleta/render_site.py               # gera as páginas estáticas
 ```
 
 Deploy: push em `main` → GitHub Pages.
+
+Atualização mensal da arrecadação: `.github/workflows/atualizar-arrecadacao.yml` (SICONFI + regeneração + commit automático).

@@ -11,6 +11,7 @@ Saída: ~/workspace/cip_site/
 """
 import json, unicodedata, html, re, os, sys
 from collections import defaultdict
+from datetime import date
 
 from cobranca import brl, esta_desatualizado, fmt_data, fmt_faixa, fmt_valor, tipo_label, validate_record
 
@@ -27,7 +28,11 @@ ARRQ = {}
 _arr = f"{BASE}/arrecadacao_cip.json"
 if not ONLY_MUNICIPAL and os.path.exists(_arr):
     ARRQ = {str(r["cod_ibge"]): r for r in json.load(open(_arr, encoding="utf-8"))}
-YEARS_ARR = [2022, 2023, 2024, 2025]
+if ARRQ:
+    _coletas = [a.get("coletado_em") for a in ARRQ.values() if a.get("coletado_em")]
+    if _coletas:
+        DATA_BR = fmt_data(max(_coletas))
+YEARS_ARR = list(range(date.today().year - 4, date.today().year))
 
 def slugify(s):
     s = unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode()
