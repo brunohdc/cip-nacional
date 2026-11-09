@@ -1,0 +1,152 @@
+[
+ {
+  "cod": "4314902",
+  "nome": "Porto Alegre - RS",
+  "pop": 1332845
+ },
+ {
+  "cod": "1501402",
+  "nome": "Belém - PA",
+  "pop": 1303403
+ },
+ {
+  "cod": "3518800",
+  "nome": "Guarulhos - SP",
+  "pop": 1291771
+ },
+ {
+  "cod": "3509502",
+  "nome": "Campinas - SP",
+  "pop": 1139047
+ },
+ {
+  "cod": "2111300",
+  "nome": "São Luís - MA",
+  "pop": 1037775
+ },
+ {
+  "cod": "2704302",
+  "nome": "Maceió - AL",
+  "pop": 957916
+ },
+ {
+  "cod": "5002704",
+  "nome": "Campo Grande - MS",
+  "pop": 898100
+ },
+ {
+  "cod": "3304904",
+  "nome": "São Gonçalo - RJ",
+  "pop": 896744
+ },
+ {
+  "cod": "2211001",
+  "nome": "Teresina - PI",
+  "pop": 866300
+ },
+ {
+  "cod": "2507507",
+  "nome": "João Pessoa - PB",
+  "pop": 833932
+ },
+ {
+  "cod": "3548708",
+  "nome": "São Bernardo do Campo - SP",
+  "pop": 810729
+ },
+ {
+  "cod": "3301702",
+  "nome": "Duque de Caxias - RJ",
+  "pop": 808161
+ },
+ {
+  "cod": "3303500",
+  "nome": "Nova Iguaçu - RJ",
+  "pop": 785867
+ },
+ {
+  "cod": "2408102",
+  "nome": "Natal - RN",
+  "pop": 751300
+ },
+ {
+  "cod": "3547809",
+  "nome": "Santo André - SP",
+  "pop": 748919
+ },
+ {
+  "cod": "3534401",
+  "nome": "Osasco - SP",
+  "pop": 728615
+ },
+ {
+  "cod": "3552205",
+  "nome": "Sorocaba - SP",
+  "pop": 723682
+ },
+ {
+  "cod": "3170206",
+  "nome": "Uberlândia - MG",
+  "pop": 713224
+ },
+ {
+  "cod": "3543402",
+  "nome": "Ribeirão Preto - SP",
+  "pop": 698642
+ },
+ {
+  "cod": "3549904",
+  "nome": "São José dos Campos - SP",
+  "pop": 697054
+ },
+ {
+  "cod": "5103403",
+  "nome": "Cuiabá - MT",
+  "pop": 650877
+ },
+ {
+  "cod": "2607901",
+  "nome": "Jaboatão dos Guararapes - PE",
+  "pop": 644037
+ },
+ {
+  "cod": "3118601",
+  "nome": "Contagem - MG",
+  "pop": 621863
+ },
+ {
+  "cod": "4209102",
+  "nome": "Joinville - SC",
+  "pop": 616317
+ },
+ {
+  "cod": "2910800",
+  "nome": "Feira de Santana - BA",
+  "pop": 616272
+ },
+ {
+  "cod": "2800308",
+  "nome": "Aracaju - SE",
+  "pop": 602757
+ },
+ {
+  "cod": "4113700",
+  "nome": "Londrina - PR",
+  "pop": 555965
+ },
+ {
+  "cod": "3136702",
+  "nome": "Juiz de Fora - MG",
+  "pop": 540756
+ },
+ {
+  "cod": "4205407",
+  "nome": "Florianópolis - SC",
+  "pop": 537211
+ },
+ {
+  "cod": "5201405",
+  "nome": "Aparecida de Goiânia - GO",
+  "pop": 527796
+ }
+]

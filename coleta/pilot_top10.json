@@ -1,0 +1,1106 @@
+[
+ {
+  "cod_ibge": "3550308",
+  "municipio": "São Paulo",
+  "uf": "SP",
+  "status": "completo",
+  "mecanismo": "Valor fixo mensal por classe e faixa (R$), corrigido anualmente",
+  "base_legal": [
+   "Lei 13.479/2002 (alterada pela Lei 17.719/2021)",
+   "Decreto 56.751/2015",
+   "Portaria SF 330/2025 (valores 2026)"
+  ],
+  "exercicio": 2026,
+  "tabelas": {
+   "residencial": [
+    [
+     "Até 50 kWh",
+     "R$ 1,06"
+    ],
+    [
+     "51-100",
+     "R$ 3,21"
+    ],
+    [
+     "101-150",
+     "R$ 4,84"
+    ],
+    [
+     "151-200",
+     "R$ 6,75"
+    ],
+    [
+     "201-300",
+     "R$ 9,39"
+    ],
+    [
+     "301-400",
+     "R$ 13,27"
+    ],
+    [
+     "401-500",
+     "R$ 17,17"
+    ],
+    [
+     "501-600",
+     "R$ 21,11"
+    ],
+    [
+     "601-800",
+     "R$ 26,49"
+    ],
+    [
+     "801-1000",
+     "R$ 34,49"
+    ],
+    [
+     "1001-1300",
+     "R$ 43,94"
+    ],
+    [
+     "1301-1600",
+     "R$ 55,69"
+    ],
+    [
+     "1601-2000",
+     "R$ 69,25"
+    ],
+    [
+     "2001-2400",
+     "R$ 84,87"
+    ],
+    [
+     "2401-2800",
+     "R$ 100,50"
+    ],
+    [
+     "2801-3400",
+     "R$ 119,37"
+    ],
+    [
+     "3401-4000",
+     "R$ 143,24"
+    ],
+    [
+     "4001-5000",
+     "R$ 171,89"
+    ],
+    [
+     "5001-6000",
+     "R$ 206,27"
+    ],
+    [
+     "6001-8000",
+     "R$ 247,54"
+    ],
+    [
+     "8001-10000",
+     "R$ 297,05"
+    ],
+    [
+     "10001-15000",
+     "R$ 356,46"
+    ],
+    [
+     "15001-20000",
+     "R$ 427,75"
+    ],
+    [
+     "20001-30000",
+     "R$ 513,32"
+    ],
+    [
+     "Acima de 30.001",
+     "R$ 615,98"
+    ]
+   ],
+   "nao_residencial": [
+    [
+     "Até 50 kWh",
+     "R$ 2,14"
+    ],
+    [
+     "51-100",
+     "R$ 6,46"
+    ],
+    [
+     "101-150",
+     "R$ 9,52"
+    ],
+    [
+     "151-200",
+     "R$ 13,52"
+    ],
+    [
+     "201-300",
+     "R$ 19,06"
+    ],
+    [
+     "301-400",
+     "R$ 26,92"
+    ],
+    [
+     "401-500",
+     "R$ 34,31"
+    ],
+    [
+     "501-600",
+     "R$ 42,48"
+    ],
+    [
+     "601-800",
+     "R$ 53,85"
+    ],
+    [
+     "801-1000",
+     "R$ 69,50"
+    ],
+    [
+     "1001-1300",
+     "R$ 88,59"
+    ],
+    [
+     "1301-1600",
+     "R$ 112,09"
+    ],
+    [
+     "1601-2000",
+     "R$ 139,08"
+    ],
+    [
+     "2001-2400",
+     "R$ 170,00"
+    ],
+    [
+     "2401-2800",
+     "R$ 201,46"
+    ],
+    [
+     "2801-3400",
+     "R$ 239,70"
+    ],
+    [
+     "3401-4000",
+     "R$ 286,16"
+    ],
+    [
+     "4001-5000",
+     "R$ 343,41"
+    ],
+    [
+     "5001-6000",
+     "R$ 412,09"
+    ],
+    [
+     "6001-8000",
+     "R$ 494,50"
+    ],
+    [
+     "8001-10000",
+     "R$ 593,41"
+    ],
+    [
+     "10001-15000",
+     "R$ 712,11"
+    ],
+    [
+     "15001-20000",
+     "R$ 854,51"
+    ],
+    [
+     "20001-30000",
+     "R$ 1.025,43"
+    ],
+    [
+     "Acima de 30.001",
+     "R$ 1.230,52"
+    ]
+   ]
+  },
+  "fonte": {
+   "url": "https://sinesp.org.br/multimidia/publicacoes-sinesp/category/47-legislacao-geral?download=9057:portaria-sf-330-2025",
+   "titulo": "Anexo Único Portaria SF 330/2025 - Prefeitura de São Paulo"
+  },
+  "data_coleta": "2026-10-01",
+  "observacoes": "Tabela oficial 2026; valores corrigidos pela Portaria SF anual"
+ },
+ {
+  "cod_ibge": "3304557",
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "status": "completo",
+  "mecanismo": "Fórmula por faixa: R$ fixo + coeficiente × TEIP (tarifa de iluminação pública)",
+  "base_legal": [
+   "Lei 5.132/2009",
+   "Lei 9.049/2025 (alteração vigente)"
+  ],
+  "exercicio": 2025,
+  "tabelas": {
+   "residencial_e_geral": [
+    [
+     "0-100 kWh",
+     "Isento"
+    ],
+    [
+     "101-120 kWh",
+     "Isento"
+    ],
+    [
+     ">120-140 kWh",
+     "R$ 2,65 + 0,00572 x TEIP"
+    ],
+    [
+     ">140-170 kWh",
+     "R$ 3,98 + 0,00857 x TEIP"
+    ],
+    [
+     ">170-200 kWh",
+     "R$ 6,2 + 0,01602 x TEIP"
+    ],
+    [
+     ">200-250 kWh",
+     "R$ 7,29 + 0,01879 x TEIP"
+    ],
+    [
+     ">250-300 kWh",
+     "R$ 9,11 + 0,02349 x TEIP"
+    ],
+    [
+     ">300-350 kWh",
+     "R$ 17,01 + 0,04386 x TEIP"
+    ],
+    [
+     ">350-400 kWh",
+     "R$ 19,84 + 0,05117 x TEIP"
+    ],
+    [
+     ">400-450 kWh",
+     "R$ 22,66 + 0,05839 x TEIP"
+    ],
+    [
+     ">450-500 kWh",
+     "R$ 25,5 + 0,06568 x TEIP"
+    ],
+    [
+     ">500-550 kWh",
+     "R$ 28,31 + 0,07298 x TEIP"
+    ],
+    [
+     ">550-600 kWh",
+     "R$ 31,14 + 0,08028 x TEIP"
+    ],
+    [
+     ">600-650 kWh",
+     "R$ 33,97 + 0,08754 x TEIP"
+    ],
+    [
+     ">650-700 kWh",
+     "R$ 36,8 + 0,09484 x TEIP"
+    ],
+    [
+     ">700-750 kWh",
+     "R$ 39,63 + 0,10213 x TEIP"
+    ],
+    [
+     ">750-800 kWh",
+     "R$ 42,46 + 0,10942 x TEIP"
+    ],
+    [
+     ">800-850 kWh",
+     "R$ 45,29 + 0,11672 x TEIP"
+    ],
+    [
+     ">850-900 kWh",
+     "R$ 48,12 + 0,12401 x TEIP"
+    ],
+    [
+     ">900-950 kWh",
+     "R$ 50,95 + 0,13131 x TEIP"
+    ],
+    [
+     ">950-1000 kWh",
+     "R$ 53,78 + 0,1386 x TEIP"
+    ],
+    [
+     ">1000-1500 kWh",
+     "R$ 56,6 + 0,14591 x TEIP"
+    ],
+    [
+     ">1500-2000 kWh",
+     "R$ 84,89 + 0,21887 x TEIP"
+    ],
+    [
+     ">2000-2500 kWh",
+     "R$ 113,19 + 0,29182 x TEIP"
+    ],
+    [
+     ">2500-3000 kWh",
+     "R$ 141,48 + 0,36478 x TEIP"
+    ],
+    [
+     ">3000-3500 kWh",
+     "R$ 169,78 + 0,43766 x TEIP"
+    ],
+    [
+     ">3500-4000 kWh",
+     "R$ 198,08 + 0,5106 x TEIP"
+    ],
+    [
+     ">4000-4500 kWh",
+     "R$ 226,33 + 0,58337 x TEIP"
+    ],
+    [
+     ">4500-5000 kWh",
+     "R$ 254,62 + 0,65629 x TEIP"
+    ],
+    [
+     ">5000-5500 kWh",
+     "R$ 282,86 + 0,72914 x TEIP"
+    ],
+    [
+     ">5500-6000 kWh",
+     "R$ 311,14 + 0,80205 x TEIP"
+    ],
+    [
+     ">6000-6500 kWh",
+     "R$ 339,38 + 0,87495 x TEIP"
+    ],
+    [
+     ">6500-7000 kWh",
+     "R$ 367,66 + 0,94786 x TEIP"
+    ],
+    [
+     ">7000-7500 kWh",
+     "R$ 395,96 + 1,02074 x TEIP"
+    ],
+    [
+     ">7500-8000 kWh",
+     "R$ 424,24 + 1,09365 x TEIP"
+    ],
+    [
+     ">8000-8500 kWh",
+     "R$ 452,52 + 1,1665 x TEIP"
+    ],
+    [
+     ">8500-9000 kWh",
+     "R$ 480,8 + 1,2394 x TEIP"
+    ],
+    [
+     ">9000-9500 kWh",
+     "R$ 509,03 + 1,31233 x TEIP"
+    ],
+    [
+     ">9500-10000 kWh",
+     "R$ 537,31 + 1,38523 x TEIP"
+    ],
+    [
+     ">10000-12500 kWh",
+     "R$ 565,58 + 1,45807 x TEIP"
+    ],
+    [
+     ">12500-15000 kWh",
+     "R$ 706,98 + 1,82259 x TEIP"
+    ],
+    [
+     ">15000-17500 kWh",
+     "R$ 848,4 + 2,18705 x TEIP"
+    ],
+    [
+     ">17500-20000 kWh",
+     "R$ 989,8 + 2,55156 x TEIP"
+    ],
+    [
+     ">20000-22500 kWh",
+     "R$ 1131,2 + 2,91607 x TEIP"
+    ],
+    [
+     ">22500-25000 kWh",
+     "R$ 1272,59 + 3,28058 x TEIP"
+    ],
+    [
+     ">25000-27500 kWh",
+     "R$ 1414,01 + 3,64515 x TEIP"
+    ],
+    [
+     ">27500-30000 kWh",
+     "R$ 1555,41 + 4,00966 x TEIP"
+    ],
+    [
+     ">30000-32500 kWh",
+     "R$ 1696,81 + 4,37418 x TEIP"
+    ],
+    [
+     ">32500-35000 kWh",
+     "R$ 1838,21 + 4,73869 x TEIP"
+    ],
+    [
+     ">35000-37500 kWh",
+     "R$ 1979,61 + 5,10321 x TEIP"
+    ],
+    [
+     ">37500-40000 kWh",
+     "R$ 2121,01 + 5,46772 x TEIP"
+    ],
+    [
+     ">40000-42500 kWh",
+     "R$ 2262,38 + 5,83218 x TEIP"
+    ],
+    [
+     ">42500-45000 kWh",
+     "R$ 2403,78 + 6,19669 x TEIP"
+    ],
+    [
+     ">45000-47500 kWh",
+     "R$ 2545,18 + 6,5612 x TEIP"
+    ],
+    [
+     ">47500-50000 kWh",
+     "R$ 2686,58 + 6,92572 x TEIP"
+    ],
+    [
+     ">50000-62500 kWh",
+     "R$ 2827,96 + 7,29031 x TEIP"
+    ],
+    [
+     ">62500-75000 kWh",
+     "R$ 3534,95 + 9,11289 x TEIP"
+    ],
+    [
+     ">75000-87500 kWh",
+     "R$ 4241,94 + 10,93546 x TEIP"
+    ],
+    [
+     ">87500-100000 kWh",
+     "R$ 4948,93 + 12,75804 x TEIP"
+    ],
+    [
+     ">100000-150000 kWh",
+     "R$ 5655,72 + 14,58039 x TEIP"
+    ],
+    [
+     ">150000-200000 kWh",
+     "R$ 8483,58 + 21,87059 x TEIP"
+    ]
+   ]
+  },
+  "fonte": {
+   "url": "https://www.legisweb.com.br/legislacao/?legislacao=483417",
+   "titulo": "Lei 9.049 de 11/09/2025 - Rio de Janeiro"
+  },
+  "data_coleta": "2026-10-01",
+  "observacoes": "Isento até 120 kWh; vigência a partir de fev/2026; há 2ª tabela no Anexo (acréscimo por bandeiras) não transcrita aqui"
+ },
+ {
+  "cod_ibge": "5300108",
+  "municipio": "Brasília",
+  "uf": "DF",
+  "status": "parcial",
+  "mecanismo": "Valor fixo mensal por faixa (R$), com tabela anual (decreto por exercício)",
+  "base_legal": [
+   "Lei Complementar 673/2002",
+   "Decreto 23.499/2002 (regulamenta)"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "fonte": {
+   "url": "https://www.lefisc.com.br/banco/estadual/df/2002/decreto23499_02.htm",
+   "titulo": "Decreto 23.499/2002 - DF"
+  },
+  "data_coleta": "2026-10-01",
+  "observacoes": "Falta: tabela vigente do exercício corrente (decreto anual de reajuste — notícia indica valores 2026). Isenção residencial ≤80 kWh confirmada (Lei 4.941/2012)"
+ },
+ {
+  "cod_ibge": "2304400",
+  "municipio": "Fortaleza",
+  "uf": "CE",
+  "status": "completo",
+  "mecanismo": "% do módulo da Tarifa de Iluminação Pública (TIP) por faixa e classe",
+  "base_legal": [
+   "Lei Complementar 159/2013, arts. 374-382",
+   "Lei Complementar 452/2025 (alteração)"
+  ],
+  "exercicio": 2026,
+  "tabelas": {
+   "residencial": [
+    [
+     "Até 50 kWh",
+     "0,47%"
+    ],
+    [
+     "51-100",
+     "0,87%"
+    ],
+    [
+     "101-150",
+     "2,49%"
+    ],
+    [
+     "151-200",
+     "3,26%"
+    ],
+    [
+     "201-250",
+     "4,72%"
+    ],
+    [
+     "251-300",
+     "9,25%"
+    ],
+    [
+     "301-380",
+     "10,34%"
+    ],
+    [
+     "381-500",
+     "11,77%"
+    ],
+    [
+     "501-700",
+     "20,15%"
+    ],
+    [
+     "701-1000",
+     "27,68%"
+    ],
+    [
+     "1001-2000",
+     "39,86%"
+    ],
+    [
+     "Acima de 2000",
+     "47,15%"
+    ]
+   ],
+   "nao_residencial": [
+    [
+     "Até 30 kWh",
+     "1,51%"
+    ],
+    [
+     "31-100",
+     "3,37%"
+    ],
+    [
+     "101-150",
+     "8,62%"
+    ],
+    [
+     "151-200",
+     "8,87%"
+    ],
+    [
+     "201-250",
+     "8,98%"
+    ],
+    [
+     "251-350",
+     "21,29%"
+    ],
+    [
+     "351-400",
+     "21,48%"
+    ],
+    [
+     "401-500",
+     "21,50%"
+    ],
+    [
+     "501-800",
+     "47,72%"
+    ],
+    [
+     "801-1000",
+     "49,04%"
+    ],
+    [
+     "1001-2000",
+     "100,75%"
+    ],
+    [
+     "Acima de 2000",
+     "111,14%"
+    ]
+   ]
+  },
+  "fonte": {
+   "url": "https://sefin.fortaleza.ce.gov.br/Canal/16/Generico/1201/Ler",
+   "titulo": "Sefin Fortaleza - CIP"
+  },
+  "data_coleta": "2026-10-01",
+  "observacoes": "Isenção: residencial monofásico ≤80 kWh. Fonte oficial da prefeitura"
+ },
+ {
+  "cod_ibge": "2927408",
+  "municipio": "Salvador",
+  "uf": "BA",
+  "status": "completo",
+  "mecanismo": "% do módulo da TIP por faixa e classe",
+  "base_legal": [
+   "Lei 7.186/2006 (Código Tributário, Anexo XI - Tabela de Receita)",
+   "Leis 9.279/2017 e 9.823/2024",
+   "Decreto 32.120/2020",
+   "Decreto 39.755/2025"
+  ],
+  "exercicio": 2025,
+  "tabelas": {
+   "residencial": [
+    [
+     "0-30 kWh",
+     "Isento"
+    ],
+    [
+     "31-60 kWh",
+     "n/d na extração (provável isento) — CONFIRMAR"
+    ],
+    [
+     "61-80",
+     "1,44%"
+    ],
+    [
+     "81-100",
+     "2,04%"
+    ],
+    [
+     "101-200",
+     "4,88%"
+    ],
+    [
+     "201-300",
+     "8,03%"
+    ],
+    [
+     "301-450",
+     "10,58%"
+    ],
+    [
+     "451-650",
+     "16,64%"
+    ],
+    [
+     "651-1000",
+     "22,86%"
+    ],
+    [
+     "1001-2000",
+     "41,59%"
+    ],
+    [
+     "Acima de 2000",
+     "44,00%"
+    ]
+   ],
+   "nao_residencial": [
+    [
+     "0-30 kWh",
+     "1,57%"
+    ],
+    [
+     "31-50",
+     "1,97%"
+    ],
+    [
+     "51-60",
+     "3,50%"
+    ],
+    [
+     "61-80",
+     "3,90%"
+    ],
+    [
+     "81-100",
+     "4,44%"
+    ],
+    [
+     "101-200",
+     "15,21%"
+    ],
+    [
+     "201-300",
+     "22,11%"
+    ],
+    [
+     "301-450",
+     "22,33%"
+    ],
+    [
+     "451-650",
+     "49,56%"
+    ],
+    [
+     "651-1000",
+     "50,92%"
+    ],
+    [
+     "1001-2000",
+     "104,63%"
+    ],
+    [
+     "2001-2500",
+     "116,00%"
+    ],
+    [
+     "Acima de 2500",
+     "+1% por cada 500 kWh (ex.: 2501-3000 = 117%)"
+    ]
+   ]
+  },
+  "fonte": {
+   "url": "https://www.legisweb.com.br/legislacao/?id=472683",
+   "titulo": "Decreto 39.755/2025 - Salvador (Anexo Único)"
+  },
+  "data_coleta": "2026-10-01",
+  "observacoes": "Ressalva: layout com células mescladas na extração — faixas 31-60 residencial precisam de confirmação na fonte antes de publicar"
+ },
+ {
+  "cod_ibge": "3106200",
+  "municipio": "Belo Horizonte",
+  "uf": "MG",
+  "status": "nao_encontrado",
+  "mecanismo": null,
+  "base_legal": null,
+  "exercicio": null,
+  "tabelas": null,
+  "fonte": null,
+  "data_coleta": "2026-10-01",
+  "observacoes": "3 rodadas de busca sem localizar a lei/tabela da COSIP de BH (sabe-se que existe — World Bank cita regulação municipal). Próxima tentativa: portal da prefeitura/legislação BH diretamente"
+ },
+ {
+  "cod_ibge": "1302603",
+  "municipio": "Manaus",
+  "uf": "AM",
+  "status": "completo",
+  "mecanismo": "Valor fixo mensal por faixa (R$), tabela anual por decreto",
+  "base_legal": [
+   "Lei 2.802/2021 (com Anexo de valores)",
+   "Decreto 6.036/2024 (valores 2025)",
+   "Lei 9.427/1996"
+  ],
+  "exercicio": 2025,
+  "tabelas": {
+   "residencial": [
+    [
+     "Tarifa Social",
+     "Isento"
+    ],
+    [
+     "0-100 kWh",
+     "R$ 8,53"
+    ],
+    [
+     "101-200",
+     "R$ 10,67"
+    ],
+    [
+     "201-300",
+     "R$ 21,33"
+    ],
+    [
+     "301-500",
+     "R$ 32,00"
+    ],
+    [
+     "501-1000",
+     "R$ 53,33"
+    ],
+    [
+     "1001-1500",
+     "R$ 80,00"
+    ],
+    [
+     "1501-2000",
+     "R$ 106,65"
+    ],
+    [
+     "Acima de 2000",
+     "R$ 122,65"
+    ]
+   ],
+   "nao_residencial": [
+    [
+     "0-100 kWh",
+     "R$ 12,79"
+    ],
+    [
+     "101-200",
+     "R$ 19,20"
+    ],
+    [
+     "201-300",
+     "R$ 25,60"
+    ],
+    [
+     "301-500",
+     "R$ 32,00"
+    ],
+    [
+     "501-1000",
+     "R$ 53,33"
+    ],
+    [
+     "1001-1500",
+     "R$ 63,99"
+    ],
+    [
+     "1501-2000",
+     "R$ 170,65"
+    ],
+    [
+     "2001-5000",
+     "R$ 223,98"
+    ],
+    [
+     "5001-10000",
+     "R$ 533,29"
+    ],
+    [
+     "10001-20000",
+     "R$ 1.279,89"
+    ],
+    [
+     "20001-30000",
+     "R$ 2.026,49"
+    ],
+    [
+     "30001-40000",
+     "R$ 2.666,44"
+    ],
+    [
+     "40001-50000",
+     "R$ 3.413,04"
+    ],
+    [
+     "50001-100000",
+     "R$ 6.399,45"
+    ],
+    [
+     "Acima de 100000",
+     "R$ 8.745,91"
+    ]
+   ]
+  },
+  "fonte": {
+   "url": "https://www.legisweb.com.br/legislacao/?id=469601",
+   "titulo": "Decreto 6.036/2024 - Manaus (Anexo)"
+  },
+  "data_coleta": "2026-10-01",
+  "observacoes": "Valores do exercício 2025; procurar decreto equivalente de nov/2025 para 2026"
+ },
+ {
+  "cod_ibge": "4106902",
+  "municipio": "Curitiba",
+  "uf": "PR",
+  "status": "completo",
+  "mecanismo": "% da TEIP por faixa; teto de 10% do valor total da fatura",
+  "base_legal": [
+   "Lei Complementar 46/2002",
+   "Lei Complementar 129/2021 (Anexos I e II)"
+  ],
+  "exercicio": 2021,
+  "tabelas": {
+   "residencial": [
+    [
+     "0-100 kWh",
+     "0,00%"
+    ],
+    [
+     "101-130",
+     "1,77%"
+    ],
+    [
+     "131-150",
+     "2,66%"
+    ],
+    [
+     "151-170",
+     "3,37%"
+    ],
+    [
+     "171-200",
+     "3,54%"
+    ],
+    [
+     "201-220",
+     "5,32%"
+    ],
+    [
+     "221-300",
+     "6,73%"
+    ],
+    [
+     "301-350",
+     "9,21%"
+    ],
+    [
+     "351-400",
+     "10,63%"
+    ],
+    [
+     "401-450",
+     "12,32%"
+    ],
+    [
+     "451-500",
+     "13,82%"
+    ],
+    [
+     "501-550",
+     "15,41%"
+    ],
+    [
+     "551-600",
+     "16,92%"
+    ],
+    [
+     "601-700",
+     "18,43%"
+    ],
+    [
+     "701-800",
+     "21,53%"
+    ],
+    [
+     "801-850",
+     "24,98%"
+    ],
+    [
+     "851-1000",
+     "26,23%"
+    ],
+    [
+     "1001-1200",
+     "30,83%"
+    ],
+    [
+     "Acima de 1200",
+     "35,44%"
+    ]
+   ],
+   "nao_residencial": [
+    [
+     "0-50 kWh",
+     "0,89%"
+    ],
+    [
+     "51-120",
+     "1,59%"
+    ],
+    [
+     "121-150",
+     "3,72%"
+    ],
+    [
+     "151-180",
+     "4,70%"
+    ],
+    [
+     "181-200",
+     "5,58%"
+    ],
+    [
+     "201-230",
+     "6,29%"
+    ],
+    [
+     "231-250",
+     "7,26%"
+    ],
+    [
+     "251-280",
+     "7,79%"
+    ],
+    [
+     "281-300",
+     "8,86%"
+    ],
+    [
+     "301-330",
+     "9,48%"
+    ],
+    [
+     "331-360",
+     "10,45%"
+    ],
+    [
+     "361-400",
+     "11,34%"
+    ],
+    [
+     "401-450",
+     "12,58%"
+    ],
+    [
+     "451-480",
+     "14,17%"
+    ],
+    [
+     "481-500",
+     "15,15%"
+    ],
+    [
+     "501-600",
+     "15,77%"
+    ],
+    [
+     "601-700",
+     "18,96%"
+    ],
+    [
+     "701-800",
+     "22,06%"
+    ],
+    [
+     "801-1200",
+     "25,16%"
+    ],
+    [
+     "Acima de 1200",
+     "35,44%"
+    ]
+   ]
+  },
+  "fonte": {
+   "url": "https://www.legisweb.com.br/legislacao/?legislacao=420237",
+   "titulo": "LC 129/2021 - Curitiba (Anexos I e II)"
+  },
+  "data_coleta": "2026-10-01",
+  "observacoes": "Isenção residencial ≤100 kWh. TEIP = B4a sem tributos (MWh), atualizada por Resolução Homologatória ANEEL"
+ },
+ {
+  "cod_ibge": "2611606",
+  "municipio": "Recife",
+  "uf": "PE",
+  "status": "parcial",
+  "mecanismo": "CIP calculada sobre TCIP (Tarifa Convencional de Iluminação Pública) = base × índices de tributos e bandeiras",
+  "base_legal": [
+   "Decreto 28.771/2015",
+   "Portaria SEFIN 23/2019 (índices de tributos/bandeiras)"
+  ],
+  "exercicio": 2019,
+  "tabelas": null,
+  "fonte": {
+   "url": "https://www.legisweb.com.br/legislacao/?id=383445",
+   "titulo": "Portaria SEFIN 23/2019 - Recife"
+  },
+  "data_coleta": "2026-10-01",
+  "observacoes": "Falta: tabela de alíquotas da CIP por faixa (não localizada — a portaria só fixa índices de cálculo da TCIP)"
+ },
+ {
+  "cod_ibge": "5208707",
+  "municipio": "Goiânia",
+  "uf": "GO",
+  "status": "parcial",
+  "mecanismo": "COSIP por faixa (alíquotas em 'Planilha de Custos dos Serviços de Iluminação')",
+  "base_legal": [
+   "Lei Complementar 344/2021, art. 317",
+   "Decreto 3794/2022, arts. 345+ (RCTM)"
+  ],
+  "exercicio": 2026,
+  "tabelas": null,
+  "fonte": {
+   "url": "https://www.legisweb.com.br/legislacao/?id=500579",
+   "titulo": "Decreto 166/2026 - Goiânia (altera RCTM)"
+  },
+  "data_coleta": "2026-10-01",
+  "observacoes": "Falta: a tabela em si (Planilha de Custos / anexo da LC 344). Regra de incidência: imóveis a 60m de poste com luminária"
+ }
+]

@@ -1,0 +1,154 @@
+# Links com erro de acesso — download manual (rodadas 1 e 2)
+
+Gerado em 2026-10-01. Motivo: Cloudflare Managed Challenge (cf-mitigated: challenge) — 
+requisição automatizada não executa o JS do desafio. Baixar em navegador e salvar em `~/workspace/cip_collected/manual/` (ou colar o conteúdo/URL alternativa na pendência do registro).
+
+## A. 403 / Cloudflare (leismunicipais, leis.org, jusbrasil, legislacaodigital)
+
+- [ ] `Caucaia-CE` (completo) — https://leis.org/municipais/ce/caucaia/
+- [ ] `Petrolina-PE` (parcial) — https://leis.org/municipais/pe/petrolina/lei/lei-ordinaria/2019/3189/lei-ordinaria-n-3189-2019-altera-e-acrescenta-dispositivos-a-lei-municipal-n-1609-de-21-de-dezembro-de-2004-que-institui-a-contribuicao-para-custeio-dos-servicos-de-iluminacao
+- [ ] `Aracaju-SE` (parcial) — https://leis.org/municipais/se/aracaju/lei/lei-ordinaria/2025/6295/lei-ordinaria-n-6295-2025-institui-a-contribuicao-para-o-custeio-dos-servicos-de-iluminacao-publica-do-municipio-de-aracaju-e-da-outras-providencias
+- [ ] `Vitória da Conquista-BA` (parcial) — https://leis.org/municipais/ba/vitoria-da-conquista/lei/lei-ordinaria/2025/3090/lei-ordinaria-n-3090-2025-altera-a-lei-complementar-n-2-039-2016
+- [ ] `Ribeirão das Neves-MG` (parcial) — https://leismunicipais.com.br/a/mg/r/ribeirao-das-neves/decreto/2023/25/243/decreto-n-243-2023-estabelece-o-valor-por-metro-linear
+- [ ] `Campos dos Goytacazes-RJ` (parcial) — https://leismunicipais.com.br/a/rj/c/campos-dos-goytacazes/lei-ordinaria/2008/807/8066/lei-ordinaria-n-8066-2008-institui-no-munic
+- [ ] `Cotia-SP` (parcial) — https://leismunicipais.com.br/
+- [ ] `Jundiaí-SP` (parcial) — https://leismunicipais.com.br/a/sp/j/jundiai/lei-complementar/2014/56/556/lei-complementar-n-556-2014-institui-a-contribuicao-para
+- [ ] `Ribeirão Preto-SP` (completo) — https://leis.org/municipais/sp/ribeirao-preto/lei/lei-complementar/2023/3156/lei-complementar-n-3156-2023-dispoe-sobre-a-contribu
+- [ ] `São Bernardo do Campo-SP` (parcial) — https://www.jusbrasil.com.br/legislacao/701618/lei-5114-02
+- [ ] `São Vicente-SP` (parcial) — https://leis.org/municipais/sp/sao-vicente/lei/decreto/2024/6635/
+- [ ] `Sorocaba-SP` (parcial) — https://leismunicipais.com.br/a/sp/s/sorocaba/lei-ordinaria/2005/764/7631/lei-ordinaria-n-7631-2005-dispoe-sobre-a-instituicao-da-
+- [ ] `Sumaré-SP` (parcial) — https://legislacaodigital.com.br/
+- [ ] `São José dos Pinhais-PR` (parcial) — https://leismunicipais.com.br/a/pr/s/sao-jose-dos-pinhais/lei-ordinaria/2002/39/383/lei-ordinaria-n-383-2002-institui-no-municipio
+- [ ] `Canoas-RS` (parcial) — https://leis.org/municipais/rs/canoas/lei/lei-ordinaria/2025/6838/lei-ordinaria-n-6838-2025-altera-os-artigos-85-a-85-b-e-85-c-da-
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://leis.org/aneel/lei/resolucao-homologatoria/2023/3183/resolucao-homologatoria-n-3183-202
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://leis.org/municipais/es/cariacica/lei/lei-complementar/2009/27/lei-complementar-n-27-2009-institui-o-codigo-tributario-do-m
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://leis.org/municipais/go/goiania/lei/lei-complementar/2002/119/lei-complementar-n-119-2002-dispoe-sobre-a-institui
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://leis.org/municipais/ms/dourados/lei/lei-complementar/2002/61/lei-complementar-n-61-2002-institui-a-contribuicao-
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://leis.org/municipais/ro/porto-velho/lei/lei-complementar
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://leis.org/municipais/sc/blumenau/lei/lei-complem
+- [ ] (encontrado nos lotes deleg_760b81b3) — https://leis.org/municipais/sp/osasco/lei/decreto/2023/13785/decreto-n-1378
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://leis.org/municipais/sp/sao-vicente/lei/decreto/2024/6635/decreto-n-6635-2024-fixa-os-valores-referentes-a-contribuicao-par
+- [ ] (encontrado nos lotes deleg_760b81b3) — https://leismunicipais.com.br/a/al/m/maceio/lei-ordinaria/2017/6
+- [ ] (encontrado nos lotes deleg_760b81b3) — https://leismunicipais.com.br/a/pa/a/ananindeua/lei-ordinaria/2024/342/3413/lei-ordinaria-n-3413-
+- [ ] (encontrado nos lotes deleg_760b81b3) — https://leismunicipais.com.br/a/pb/j/joao-pessoa/lei-complementar/2002/4/31/lei-complementar-n-31-2002-institui-no-municipio-de-joao-pessoa-a-contribuicao-para-o-custeio-da-iluminacao-publica-nos-termos-do-artigo-149-a-da-con
+- [ ] (encontrado nos lotes deleg_760b81b3) — https://leismunicipais.com.br/a/rs/s/santana-da-boa-vista/decreto/2023/367/3670/decreto-n-3670-2023-estabelece-os-criterios-para-cobranca-da-cosip-e-da-outras-providencias
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://leismunicipais.com.br/a/sc/b/blumenau/lei-complementar
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://leismunicipais.com.br/a/sc/b/blumenau/lei-complementar/2002/38/385/lei-complementar-n-385-2002-institui-a-contribuicao-par
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://leismunicipais.com.br/a/sc/b/blumenau/lei-complementar/2002/38/385/lei-complementar-n-385-2002-institui-a-contribuicao-para-o-custeio-do-servico-de-iluminacao-publica-cosip-e-da-outras-providencias
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://leismunicipais.com.br/a/sp/s/sao-vicente/decreto/2023/629/6284/decreto-n-6284-2023-fixa-os-valores-referentes-a-contribuic
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://www.jusbrasil.com.br/legislacao/5186400525/lei-complementar-562-14-sp-sao-jose-dos-campos
+- [ ] (encontrado nos lotes deleg_a0400e1e) — https://www.jusbrasil.com.br/topicos/26397491/artigo-1-lc-n-562-de-01-de-agosto-de-1987-do-muni
+- [ ] (encontrado nos lotes deleg_760b81b3) — https://www.jusbrasil.com.br/topicos/26397491/artigo-1-lc-n-562-de-01-de-agosto-de-1987-do-municipio-de-blumenau
+
+## B. Documentos pendentes por município (o que falta pra virar 'completo')
+
+- [ ] **Feira de Santana-BA** [nao_encontrado] — (sem pendência escrita)
+- [ ] **Vila Velha-ES** [nao_encontrado] — Rodada 2: sem tabela localizada (portal da distribuidora EDP não traz tabela por município)
+- [ ] **Aparecida de Goiânia-GO** [nao_encontrado] — (sem pendência escrita)
+- [ ] **Belo Horizonte-MG** [nao_encontrado] — Rodada 2: nova coleta sem tabela/lei localizada
+- [ ] **Contagem-MG** [nao_encontrado] — Nova coleta — retomar busca por COSIP Contagem/MG (Decreto anual de valores) no portal da prefeitura/SAPL
+- [ ] **Montes Claros-MG** [nao_encontrado] — Nova coleta — busca por portal da prefeitura/SAPL
+- [ ] **Paulista-PE** [nao_encontrado] — Lei 5.475/2025 existe mas o PDF é digitalizado sem texto extraível — fazer OCR
+    - fontes: https://transparencia.paulista.pe.leg.br/uploads/5311/2/atos-oficiais/2025/leis/1772477016_54752025.pdf
+- [ ] **Belford Roxo-RJ** [nao_encontrado] — Nova coleta — busca por portal da prefeitura/SAPL
+- [ ] **Nova Iguaçu-RJ** [nao_encontrado] — (sem pendência escrita)
+- [ ] **São Gonçalo-RJ** [nao_encontrado] — Rodada 2: sem tabela localizada
+- [ ] **São João de Meriti-RJ** [nao_encontrado] — Nova coleta — busca por portal da prefeitura/SAPL
+- [ ] **Campinas-SP** [nao_encontrado] — (sem pendência escrita)
+- [ ] **Diadema-SP** [nao_encontrado] — Nova coleta — busca por portal da prefeitura/SAPL
+- [ ] **Franca-SP** [nao_encontrado] — CTM não contém COSIP; lei específica não localizada (3 rodadas) — nova coleta
+- [ ] **Itaquaquecetuba-SP** [nao_encontrado] — Nova coleta — busca por portal da prefeitura/SAPL
+- [ ] **Mogi das Cruzes-SP** [nao_encontrado] — Nova coleta — busca por portal da prefeitura/SAPL
+- [ ] **Santo André-SP** [nao_encontrado] — Rodada 2: sem tabela localizada
+- [ ] **Santos-SP** [nao_encontrado] — Nova coleta — busca por portal da prefeitura/SAPL
+- [ ] **São José do Rio Preto-SP** [nao_encontrado] — Rodada 2: sem tabela localizada
+- [ ] **Camaçari-BA** [parcial] — Rodada 2: baixado o PDF oficial da Lei 1.366/2014 (DO) — o Anexo I da tabela não é legível no PDF; página COSIP da SEFAZ sem conteúdo
+    - fontes: https://sefaz.camacari.ba.gov.br/legislacao/
+- [ ] **Vitória da Conquista-BA** [parcial] — Localizar lei final com tabelas; leis.org 403 — tentar Câmara/SAPL
+    - fontes: https://pmvc.ba.gov.br/apos-entender-que-cosip-mu-nao-representa-novo-tributo-camara-aprova-projeto-de-lei-em-primeira-votacao/ | https://leis.org/municipais/ba/vitoria-da-conquista/lei/lei-ordinaria/2025/3090/lei-ordinaria-n-3090-2025-altera-a-lei-complementar-n-2-039-2016
+- [ ] **Juazeiro do Norte-CE** [parcial] — Obter Anexo I (tabela de % sobre a tarifa B4b) — ausente no PDF acessado
+    - fontes: https://juazeiro1.websiteseguro.com/site/midia/9158/ | https://www.juazeirodonorte.ce.gov.br/leis.php?id=7301
+- [ ] **Brasília-DF** [parcial] — Rodada 2: decreto anual (2026) com a tabela vigente não localizado
+    - fontes: https://www.lefisc.com.br/banco/estadual/df/2002/decreto23499_02.htm
+- [ ] **Cariacica-ES** [parcial] — Confirmar se o vigente é o CTM LC 27/2009 art. 312-A; Completar faixas acima de 300 kWh; camarasempapel/portais com timeout no acesso
+    - fontes: https://cariacica.camarasempapel.com.br/Arquivo/Documents/legislacao/html/L39082001.html | https://cariacica.camarasempapel.com.br/legislacao/norma.aspx?id=15075
+- [ ] **Anápolis-GO** [parcial] — Localizar a tabela por faixa de consumo (se houver) e o decreto do exercício 2026
+    - fontes: https://sapl.anapolis.go.leg.br/media/sapl/public/normajuridica/2006/218/218_texto_integral.pdf | https://dom.anapolis.go.gov.br/materias/39865
+- [ ] **Goiânia-GO** [parcial] — Falta: a tabela em si (Planilha de Custos / Anexo III do RCTM). Regra de incidência: imóveis a 60 m de poste com luminária
+    - fontes: https://www.legisweb.com.br/legislacao/?id=500579
+- [ ] **São Luís-MA** [parcial] — Norma municipal vigente com a tabela de alíquotas da CIP de São Luís
+    - fontes: https://www.legisweb.com.br/legislacao/?legislacao=357666 | https://www.legisweb.com.br/legislacao/?legislacao=179235 | https://www.meutorrao.com.br/2024/05/taxa-de-iluminacao-publica-em-sao-luis.html
+- [ ] **Juiz de Fora-MG** [parcial] — Número da lei de 2024 e tabela de faixas da CIPS
+    - fontes: https://www.camarajf.mg.gov.br/www/noticias/exibir/13718/Camara-aprova-atualizacao-na-Contribuicao-de-Iluminacao-Publica-e-sistema-de-monitoramento-para-seguranca-Cips.html | https://folhajf.com.br/o-que-e-a-cobranca-cips-monitoramento-iptu-jf/
+- [ ] **Ribeirão das Neves-MG** [parcial] — Obter texto do Decreto 243/2023 (portal 403); Valor por metro linear e tabela de faixas da CIP
+    - fontes: https://leismunicipais.com.br/a/mg/r/ribeirao-das-neves/decreto/2023/25/243/decreto-n-243-2023-estabelece-o-valor-por-metro-linear | https://ribeiraodasneves.mg.gov.br/
+- [ ] **Uberlândia-MG** [parcial] — Lei e tabela de COSIP para imóveis edificados de Uberlândia
+    - fontes: https://www.camarauberlandia.mg.gov.br/imprensa/noticias/2025/projeto-de-lei-que-estabelece-cobranca-do-servico-de-iluminacao-publica-de-imoveis-nao-edificados-lotes-vagos-e-aprovado-em-dois-turnos
+- [ ] **Campo Grande-MS** [parcial] — Localizar a 'Tabela Única' anexa à LC 58/2003 (valores por faixa de consumo) e as leis posteriores que a atualizaram
+    - fontes: https://www.legisweb.com.br/legislacao/?id=393982 | https://www.normasbrasil.com.br/norma/lei-complementar-58-2003-campo-grande_326693.html | https://www.legisweb.com.br/legislacao/?id=393982
+- [ ] **Várzea Grande-MT** [parcial] — Localizar Lei 2.527/2002 e tabela de alíquotas; Portal remete a leismunicipais (403)
+    - fontes: https://www.varzeagrande.mt.gov.br/ | https://www.varzeagrande.mt.gov.br/legislacao
+- [ ] **Ananindeua-PA** [parcial] — Tabela de faixas/valores da CIP (CTM LC 2.181/2005, arts. 147-A e seguintes)
+    - fontes: https://www.ananindeua.pa.gov.br/midias/legislacao/719_lei_complementar_n._3.137_06_de_abril_de_2021.pdf
+- [ ] **Belém-PA** [parcial] — Anexo Único (alíquotas por classe e faixa de consumo) da Lei 10.113/2024 — não consta no texto do agregador; buscar no DOM de Belém/Câmara
+    - fontes: https://www.legisweb.com.br/legislacao/?legislacao=471271
+- [ ] **Santarém-PA** [parcial] — Localizar lei/tabela da CIP — só há dados de arrecadação
+    - fontes: https://transparencia.santarem.pa.gov.br/
+- [ ] **Campina Grande-PB** [parcial] — CTM apenas classifica a COSIP entre as contribuições — localizar a lei específica com a tabela de alíquotas por faixa
+    - fontes: https://campinagrande.pb.gov.br/wp-content/uploads/2022/01/Lei_Complementar_TAXA_NOVO_CDIGO_TRIBUTRIO.pdf
+- [ ] **Olinda-PE** [parcial] — Rodada 2: PL 129/2022 não confirmado como sancionado; lei vigente e tabela de alíquotas não localizadas
+    - fontes: https://www.olinda.pe.leg.br/institucional/projeto-de-lei/projetos-de-lei-2022/pl-129-2022-autor-poder-executivo.pdf
+- [ ] **Petrolina-PE** [parcial] — Localizar tabela de alíquotas da CIP (texto integral da Lei 3.648/2023 não trouxe a tabela); leis.org retornou 403 — tentar via portal/SAPL da Câmara
+    - fontes: https://petrolina.pe.gov.br/lei-no-3-648-de-12-de-setembro-de-2023/ | https://leis.org/municipais/pe/petrolina/lei/lei-ordinaria/2019/3189/lei-ordinaria-n-3189-2019-altera-e-acrescenta-dispositivos-a-lei-municipal-n-1609-de-21-de-dezembro-de-2004-que-institui-a-contribuicao-para-custeio-dos-servicos-de-iluminacao
+- [ ] **Teresina-PI** [parcial] — Rodada 2: LC 5.139/2017 traz alíquota de 12% e isenções (art. 308 CTM); confirmar a base de cálculo (art. 309) para classificar o mecanismo
+    - fontes: https://www.legisweb.com.br/legislacao/?legislacao=354592 | https://www.legisweb.com.br/legislacao/?legislacao=488579
+- [ ] **Foz do Iguaçu-PR** [parcial] — Tabela de consumo para imóveis LIGADOS à rede fica na concessionária (art.617 CTM) — obter da Copel
+    - fontes: https://foz.pr.gov.br/wp-content/uploads/2025/09/EDITAL-DE-LANCAMENTO-TCL-E-COSIP-2025.pdf | https://sapl.fozdoiguacu.pr.leg.br/media/sapl/public/normajuridica/2022/1417/390.pdf
+- [ ] **Ponta Grossa-PR** [parcial] — Obter o texto integral da Lei 16.017/2026 para a tabela exata de faixas/percentuais da COSIP-PG
+    - fontes: https://pontagrossa.pr.gov.br/iluminacao-publica/ | https://www.jusdiario.com.br/noticia/lei-ordinaria-16017-2026-dispoe-sobre-a-contribuicao-para-custeio
+- [ ] **São José dos Pinhais-PR** [parcial] — Obter texto da Lei 383/2002 (portais deram 403)
+    - fontes: https://leismunicipais.com.br/a/pr/s/sao-jose-dos-pinhais/lei-ordinaria/2002/39/383/lei-ordinaria-n-383-2002-institui-no-municipio | https://www.sjp.pr.gov.br/servicos/servicos-do-cidadao/iluminacao-publica-e-limpeza/
+- [ ] **Campos dos Goytacazes-RJ** [parcial] — Tabela de faixas/valores da COSIP (página oficial descreve critérios sem publicar a tabela)
+    - fontes: https://fazenda.campos.rj.gov.br/taxas/cosip/ | https://leismunicipais.com.br/a/rj/c/campos-dos-goytacazes/lei-ordinaria/2008/807/8066/lei-ordinaria-n-8066-2008-institui-no-munic
+- [ ] **Petrópolis-RJ** [parcial] — Extrair percentuais dos Anexos I/II da Lei 5.951/2002 (não publicados na íntegra das leis alteradoras)
+    - fontes: https://petropolis.processolegislativo.com.br/areapublica/documento/?Lei/1621 | https://sapl.petropolis.rj.leg.br/media/sapl/public/normajuridica/2024/11643/lei_8906-2024.pdf
+- [ ] **Boa Vista-RR** [parcial] — Localizar a tabela de alíquotas/faixas de consumo da CIP (o art. 177-A define apenas o fato gerador, sem tabela)
+    - fontes: https://www.legisweb.com.br/legislacao/?id=241729
+- [ ] **Canoas-RS** [parcial] — Extrair alíquotas dos arts. 85-A a 85-C (texto integral inacessível)
+    - fontes: https://canoas.rs.gov.br/servicos/legislacao-tributaria-municipal-2/ | https://leis.org/municipais/rs/canoas/lei/lei-ordinaria/2025/6838/lei-ordinaria-n-6838-2025-altera-os-artigos-85-a-85-b-e-85-c-da-
+- [ ] **Caxias do Sul-RS** [parcial] — Rodada 2: link do PLC 34/2021 na notícia aponta para documento diverso (permissão de subsolo); tabela não obtida
+    - fontes: https://www.camaracaxias.rs.gov.br/noticias/index/22791
+- [ ] **Joinville-SC** [parcial] — Texto da lei municipal da COSIP de Joinville e valores vigentes da UPM
+    - fontes: https://ecoaenergias.com.br/blog/cobranca-cosip-joinville/ | https://www.joinville.sc.gov.br/servicos/requerer-isencao-de-cosip/
+- [ ] **Aracaju-SE** [parcial] — Tabela de faixas e valores da COMSIP (Lei 6.295/2025)
+    - fontes: https://www.aracaju.se.leg.br/institucional/noticias/camara-aprova-projeto-do-poder-executivo-que-institui-a-cosimp-e-traz-alteracoes-para-o-uso-do-recurso | https://leis.org/municipais/se/aracaju/lei/lei-ordinaria/2025/6295/lei-ordinaria-n-6295-2025-institui-a-contribuicao-para-o-custeio-dos-servicos-de-iluminacao-publica-do-municipio-de-aracaju-e-da-outras-providencias | https://www.legisweb.com.br/legislacao/?legislacao=172096
+- [ ] **Barueri-SP** [parcial] — Extrair tabela de valores do Decreto 10.102/2024
+    - fontes: https://barueri.sp.gov.br/Transparencia/legislacao.aspx
+- [ ] **Bauru-SP** [parcial] — Rodada 2: SAPL traz apenas metadados da Lei 5.075/2003; tabela de alíquotas não localizada
+    - fontes: https://www2.bauru.sp.gov.br/arquivos/sist_juridico/documentos/leis/lei7152.pdf
+- [ ] **Carapicuíba-SP** [parcial] — Extrair a tabela de valores do Decreto 5.390/2024 (página só expõe a ementa)
+    - fontes: https://carapicuiba.sp.gov.br/legislacao/view/5160/decreto-n-5390-de-24-de-outubro-de-2024
+- [ ] **Cotia-SP** [parcial] — Rodada 2: Lei 1.745/2012 inacessível (403); tabela não obtida
+    - fontes: https://leismunicipais.com.br/
+- [ ] **Guarujá-SP** [parcial] — Confirmar tabela corrente (reajustes posteriores a 2018)
+    - fontes: https://camaraguaruja.sp.gov.br/Arquivos/Downloads/2017128_pcosip.pdf | https://camaraguaruja.sp.gov.br/Noticia/Visualizar/1414
+- [ ] **Jundiaí-SP** [parcial] — Extrair tabela de alíquotas da LC 556/2014
+    - fontes: https://leismunicipais.com.br/a/sp/j/jundiai/lei-complementar/2014/56/556/lei-complementar-n-556-2014-institui-a-contribuicao-para | https://jundiai.sp.gov.br/financas/issqn/legislacao/
+- [ ] **Limeira-SP** [parcial] — Rodada 2: PDFs do CTM não localizados; tabela não obtida
+    - fontes: https://limeira.sp.gov.br/secretarias/fazenda/codigo-tributario-municipal
+- [ ] **Osasco-SP** [parcial] — Extrair tabela de alíquotas da Lei 3.811/2003 / CTM
+    - fontes: https://leggicomunali.it/codigo-tributario-osasco-sp | https://sf.osasco.sp.gov.br/pages/legislacao/demais-legislacoes
+- [ ] **Piracicaba-SP** [parcial] — Tabela completa (demais faixas residenciais e não residenciais) e número do decreto vigente
+    - fontes: https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/04/08/piracicaba-aumenta-taxa-de-iluminacao-publica-a-partir-de-maio-confira-valores.ghtml | https://radiopiracicaba.com.br/post/211091/cosip-e-atualizada-e-reduz-valor-da-taxa-de-iluminacao-publica-na-conta-de-energia-em-piracicaba
+- [ ] **Praia Grande-SP** [parcial] — Extrair tabela de alíquotas vigente
+    - fontes: https://www.praiagrande.sp.gov.br/Administracao/leisdecretos_view.asp?codLeis=2571
+- [ ] **Sorocaba-SP** [parcial] — Extrair tabela de alíquotas da Lei 7.631/2005 (portal com timeout)
+    - fontes: https://leismunicipais.com.br/a/sp/s/sorocaba/lei-ordinaria/2005/764/7631/lei-ordinaria-n-7631-2005-dispoe-sobre-a-instituicao-da- | https://sorocaba.camarasempapel.com.br/legislacao/
+- [ ] **Sumaré-SP** [parcial] — Rodada 2: LC 399/2024 inacessível; tabela não obtida
+    - fontes: https://legislacaodigital.com.br/
+- [ ] **São Bernardo do Campo-SP** [parcial] — Extrair tabela de valores da CIP (Lei 5.114/2002 / Lei 6.635/2018)
+    - fontes: https://www.jusbrasil.com.br/legislacao/701618/lei-5114-02 | https://guiadeservicos.saobernardo.sp.gov.br/guia-de-servicos/servicos/215161/mostrar
+- [ ] **São Vicente-SP** [parcial] — Extrair valores do decreto (portal leis.org deu 403 no acesso direto)
+    - fontes: https://leis.org/municipais/sp/sao-vicente/lei/decreto/2024/6635/
+
+Total: 63 municípios pendentes (44 parciais, 19 não encontrados).

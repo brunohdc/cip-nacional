@@ -1,0 +1,1061 @@
+[
+ {
+  "municipio": "Porto Velho",
+  "uf": "RO",
+  "status": "completo",
+  "exercicio": null,
+  "n_val": 19,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Rio Branco",
+  "uf": "AC",
+  "status": "completo",
+  "exercicio": 2003,
+  "n_val": 4,
+  "miss": [
+   3.0,
+   5.0,
+   6.0,
+   7.0
+  ],
+  "fontes_ok": 0,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Manaus",
+  "uf": "AM",
+  "status": "completo",
+  "exercicio": 2025,
+  "n_val": 21,
+  "miss": [
+   1279.89,
+   2026.49,
+   2666.44,
+   3413.04,
+   6399.45,
+   8745.91
+  ],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Boa Vista",
+  "uf": "RR",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Ananindeua",
+  "uf": "PA",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Belém",
+  "uf": "PA",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Santarém",
+  "uf": "PA",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Macapá",
+  "uf": "AP",
+  "status": "completo",
+  "exercicio": 2019,
+  "n_val": 22,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Palmas",
+  "uf": "TO",
+  "status": "completo",
+  "exercicio": 2005,
+  "n_val": 20,
+  "miss": [
+   2.95,
+   5.8,
+   5.95,
+   7.8,
+   8.85,
+   9.7,
+   10.4,
+   11.9,
+   12.7,
+   13.8,
+   15.85,
+   17.6,
+   19.6,
+   21.75,
+   22.75,
+   28.4,
+   29.7,
+   38.6,
+   39.9,
+   59.8
+  ],
+  "fontes_ok": 0,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "São Luís",
+  "uf": "MA",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 3,
+  "n_fontes": 3
+ },
+ {
+  "municipio": "Teresina",
+  "uf": "PI",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Caucaia",
+  "uf": "CE",
+  "status": "completo",
+  "exercicio": 2009,
+  "n_val": 23,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Fortaleza",
+  "uf": "CE",
+  "status": "completo",
+  "exercicio": 2026,
+  "n_val": 24,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Juazeiro do Norte",
+  "uf": "CE",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Natal",
+  "uf": "RN",
+  "status": "completo",
+  "exercicio": 2002,
+  "n_val": 3,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Campina Grande",
+  "uf": "PB",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "João Pessoa",
+  "uf": "PB",
+  "status": "completo",
+  "exercicio": 2002,
+  "n_val": 3,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Caruaru",
+  "uf": "PE",
+  "status": "completo",
+  "exercicio": null,
+  "n_val": 3,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Jaboatão dos Guararapes",
+  "uf": "PE",
+  "status": "completo",
+  "exercicio": 2002,
+  "n_val": 18,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Olinda",
+  "uf": "PE",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Paulista",
+  "uf": "PE",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Petrolina",
+  "uf": "PE",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Recife",
+  "uf": "PE",
+  "status": "completo",
+  "exercicio": 2002,
+  "n_val": 12,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Maceió",
+  "uf": "AL",
+  "status": "completo",
+  "exercicio": 2017,
+  "n_val": 41,
+  "miss": [
+   1058.91,
+   1257.955
+  ],
+  "fontes_ok": 3,
+  "n_fontes": 3
+ },
+ {
+  "municipio": "Aracaju",
+  "uf": "SE",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 3
+ },
+ {
+  "municipio": "Camaçari",
+  "uf": "BA",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Feira de Santana",
+  "uf": "BA",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Salvador",
+  "uf": "BA",
+  "status": "completo",
+  "exercicio": 2025,
+  "n_val": 21,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Vitória da Conquista",
+  "uf": "BA",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Belo Horizonte",
+  "uf": "MG",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Betim",
+  "uf": "MG",
+  "status": "completo",
+  "exercicio": 2026,
+  "n_val": 15,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Contagem",
+  "uf": "MG",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Juiz de Fora",
+  "uf": "MG",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Montes Claros",
+  "uf": "MG",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Ribeirão das Neves",
+  "uf": "MG",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Uberaba",
+  "uf": "MG",
+  "status": "completo",
+  "exercicio": 2022,
+  "n_val": 10,
+  "miss": [
+   4.41,
+   6.188,
+   9.429,
+   13.265,
+   14.308,
+   31.416,
+   35.462,
+   63.133
+  ],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Uberlândia",
+  "uf": "MG",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Cariacica",
+  "uf": "ES",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Serra",
+  "uf": "ES",
+  "status": "completo",
+  "exercicio": 2019,
+  "n_val": 22,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Vila Velha",
+  "uf": "ES",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Vitória",
+  "uf": "ES",
+  "status": "completo",
+  "exercicio": 2002,
+  "n_val": 18,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Belford Roxo",
+  "uf": "RJ",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Campos dos Goytacazes",
+  "uf": "RJ",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Duque de Caxias",
+  "uf": "RJ",
+  "status": "completo",
+  "exercicio": 2026,
+  "n_val": 13,
+  "miss": [
+   1.2,
+   12.0,
+   15.0,
+   25.0,
+   42.0
+  ],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Niterói",
+  "uf": "RJ",
+  "status": "completo",
+  "exercicio": 2016,
+  "n_val": 19,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Nova Iguaçu",
+  "uf": "RJ",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Petrópolis",
+  "uf": "RJ",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "status": "completo",
+  "exercicio": 2025,
+  "n_val": 59,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "São Gonçalo",
+  "uf": "RJ",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "São João de Meriti",
+  "uf": "RJ",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Barueri",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Bauru",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Campinas",
+  "uf": "SP",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Carapicuíba",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": 2025,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Cotia",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Diadema",
+  "uf": "SP",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Franca",
+  "uf": "SP",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Guarujá",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Guarulhos",
+  "uf": "SP",
+  "status": "completo",
+  "exercicio": 2026,
+  "n_val": 9,
+  "miss": [
+   7.48
+  ],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Itaquaquecetuba",
+  "uf": "SP",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Jundiaí",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Limeira",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Mauá",
+  "uf": "SP",
+  "status": "completo",
+  "exercicio": 2026,
+  "n_val": 5,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Mogi das Cruzes",
+  "uf": "SP",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Osasco",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Piracicaba",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Praia Grande",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Ribeirão Preto",
+  "uf": "SP",
+  "status": "completo",
+  "exercicio": 2002,
+  "n_val": 3,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Santo André",
+  "uf": "SP",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Santos",
+  "uf": "SP",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "São Bernardo do Campo",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "São José do Rio Preto",
+  "uf": "SP",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "São José dos Campos",
+  "uf": "SP",
+  "status": "completo",
+  "exercicio": 2014,
+  "n_val": 18,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "São Paulo",
+  "uf": "SP",
+  "status": "completo",
+  "exercicio": 2026,
+  "n_val": 50,
+  "miss": [
+   1025.43,
+   1230.52
+  ],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "São Vicente",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Sorocaba",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Sumaré",
+  "uf": "SP",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Suzano",
+  "uf": "SP",
+  "status": "completo",
+  "exercicio": 2014,
+  "n_val": 2,
+  "miss": [
+   3.0,
+   4.2787
+  ],
+  "fontes_ok": 0,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Taubaté",
+  "uf": "SP",
+  "status": "completo",
+  "exercicio": 2014,
+  "n_val": 5,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Cascavel",
+  "uf": "PR",
+  "status": "completo",
+  "exercicio": 2015,
+  "n_val": 9,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Curitiba",
+  "uf": "PR",
+  "status": "completo",
+  "exercicio": 2021,
+  "n_val": 37,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Foz do Iguaçu",
+  "uf": "PR",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Londrina",
+  "uf": "PR",
+  "status": "completo",
+  "exercicio": 2025,
+  "n_val": 15,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 3
+ },
+ {
+  "municipio": "Maringá",
+  "uf": "PR",
+  "status": "completo",
+  "exercicio": 2026,
+  "n_val": 20,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Ponta Grossa",
+  "uf": "PR",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "São José dos Pinhais",
+  "uf": "PR",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Blumenau",
+  "uf": "SC",
+  "status": "completo",
+  "exercicio": 2026,
+  "n_val": 45,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Florianópolis",
+  "uf": "SC",
+  "status": "completo",
+  "exercicio": 2026,
+  "n_val": 17,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Joinville",
+  "uf": "SC",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Canoas",
+  "uf": "RS",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Caxias do Sul",
+  "uf": "RS",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Pelotas",
+  "uf": "RS",
+  "status": "completo",
+  "exercicio": 2019,
+  "n_val": 14,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Porto Alegre",
+  "uf": "RS",
+  "status": "completo",
+  "exercicio": null,
+  "n_val": 2,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Campo Grande",
+  "uf": "MS",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 3,
+  "n_fontes": 3
+ },
+ {
+  "municipio": "Cuiabá",
+  "uf": "MT",
+  "status": "completo",
+  "exercicio": 2014,
+  "n_val": 39,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Várzea Grande",
+  "uf": "MT",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Anápolis",
+  "uf": "GO",
+  "status": "parcial",
+  "exercicio": 2025,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 2,
+  "n_fontes": 2
+ },
+ {
+  "municipio": "Aparecida de Goiânia",
+  "uf": "GO",
+  "status": "nao_encontrado",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 0,
+  "n_fontes": 0
+ },
+ {
+  "municipio": "Goiânia",
+  "uf": "GO",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ },
+ {
+  "municipio": "Brasília",
+  "uf": "DF",
+  "status": "parcial",
+  "exercicio": null,
+  "n_val": 0,
+  "miss": [],
+  "fontes_ok": 1,
+  "n_fontes": 1
+ }
+]

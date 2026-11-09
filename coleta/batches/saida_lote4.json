@@ -1,0 +1,2036 @@
+[
+ {
+  "cod_ibge": "1400100",
+  "municipio": "Boa Vista",
+  "uf": "RR",
+  "slug": "boa-vista",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 1.223/2009 (CTM de Boa Vista) — art. 177-A e Capítulo V do Título II (CIP)",
+    "vigencia": "2009",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=241729"
+   },
+   {
+    "norma": "Lei Complementar 2/2011 (altera o CTM; nova redação do art. 177-A)",
+    "vigencia": "2011",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=241729"
+   }
+  ],
+  "distribuidoras": [
+   "ÂMBAR ENERGIA RR"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=241729",
+    "titulo": "LC 2/2011 — Boa Vista/RR (legisweb)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Localizar a tabela de alíquotas/faixas de consumo da CIP (o art. 177-A define apenas o fato gerador, sem tabela)"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Rodada 2: confirmado que a LC 2/2011 e o art. 177-A definem somente hipótese de incidência; a tabela de alíquotas segue não localizada em fontes abertas."
+ },
+ {
+  "cod_ibge": "1506807",
+  "municipio": "Santarém",
+  "uf": "PA",
+  "slug": "santarem",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "EQUATORIAL PA"
+  ],
+  "fontes": [
+   {
+    "url": "https://transparencia.santarem.pa.gov.br/",
+    "titulo": "Santarém/PA — transparência (receita/despesa CIP)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Localizar lei/tabela da CIP — só há dados de arrecadação"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "2303709",
+  "municipio": "Caucaia",
+  "uf": "CE",
+  "slug": "caucaia",
+  "status": "completo",
+  "mecanismo": "percentual_teip",
+  "exercicio": 2009,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 50
+     },
+     "valor": "isento",
+     "unidade": "PERCENTUAL_TEIP",
+     "nota": "classe monofásica; isenção confirmada no art. 246, I"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 100
+     },
+     "valor": 2.23,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 4.46,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 200
+     },
+     "valor": 4.46,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 300
+     },
+     "valor": 9.47,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 400
+     },
+     "valor": 10.74,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 500
+     },
+     "valor": 12.31,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 16.73,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 700
+     },
+     "valor": 17.63,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 701,
+      "max": 800
+     },
+     "valor": 18.88,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 900
+     },
+     "valor": 19.5,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 901,
+      "max": 1000
+     },
+     "valor": 21.28,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": null
+     },
+     "valor": 21.94,
+     "unidade": "PERCENTUAL_TEIP"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 50
+     },
+     "valor": "isento",
+     "unidade": "PERCENTUAL_TEIP",
+     "nota": "classe monofásica; isenção confirmada no art. 246, I"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 100
+     },
+     "valor": 3.9,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 7.25,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 200
+     },
+     "valor": 8.92,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 300
+     },
+     "valor": 11.15,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 400
+     },
+     "valor": 12.14,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 500
+     },
+     "valor": 15.08,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 22.15,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 700
+     },
+     "valor": 24.4,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 701,
+      "max": 800
+     },
+     "valor": 26.05,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 900
+     },
+     "valor": 27.88,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 901,
+      "max": 1000
+     },
+     "valor": 28.78,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": null
+     },
+     "valor": 30.47,
+     "unidade": "PERCENTUAL_TEIP"
+    }
+   ]
+  },
+  "isencoes": [
+   {
+    "descricao": "Unidades residenciais e não residenciais com ligação monofásica e consumo mensal até 50 kWh",
+    "limite_kwh": 50,
+    "base_legal": "LC 02/2009, art. 246, I",
+    "fonte_url": "https://mpce.mp.br/wp-content/uploads/2019/09/CodigoTributario-Caucaia-2009.pdf"
+   },
+   {
+    "descricao": "Produtores rurais com consumo até 500 kWh",
+    "limite_kwh": 500,
+    "base_legal": "LC 02/2009, art. 246, II",
+    "fonte_url": "https://mpce.mp.br/wp-content/uploads/2019/09/CodigoTributario-Caucaia-2009.pdf"
+   },
+   {
+    "descricao": "Entidades religiosas (templos e casas paroquiais/pastorais)",
+    "base_legal": "LC 02/2009, art. 246, III",
+    "fonte_url": "https://mpce.mp.br/wp-content/uploads/2019/09/CodigoTributario-Caucaia-2009.pdf"
+   },
+   {
+    "descricao": "Unidades da União, do Estado e do Município de Caucaia",
+    "base_legal": "LC 02/2009, art. 246, IV",
+    "fonte_url": "https://mpce.mp.br/wp-content/uploads/2019/09/CodigoTributario-Caucaia-2009.pdf"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 02/2009 (Código Tributário de Caucaia), arts. 239-246 e Anexo III",
+    "vigencia": "2009",
+    "fonte_url": "https://mpce.mp.br/wp-content/uploads/2019/09/CodigoTributario-Caucaia-2009.pdf"
+   },
+   {
+    "norma": "Lei Complementar 156/2025 (altera o CTM)",
+    "vigencia": "2025",
+    "fonte_url": "https://leis.org/municipais/ce/caucaia/"
+   }
+  ],
+  "distribuidoras": [
+   "ENEL CE"
+  ],
+  "fontes": [
+   {
+    "url": "https://mpce.mp.br/wp-content/uploads/2019/09/CodigoTributario-Caucaia-2009.pdf",
+    "titulo": "CTM de Caucaia — LC 02/2009 consolidada (MPCE, PDF)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://leis.org/municipais/ce/caucaia/",
+    "titulo": "Caucaia/CE — leis municipais (leis.org)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Tabela extraída do Anexo III da LC 02/2009 (art. 243): alíquotas em % da Tarifa de Iluminação Pública (ANEEL) por faixa de consumo.",
+   "A LC 156/2025 alterou o CTM de Caucaia; não foi possível confirmar se modificou alíquotas ou a isenção (notícia citava isenção até 150 kWh em 2025)."
+  ],
+  "pendencias": [
+   "Confirmar alterações de alíquotas/isenção introduzidas pela LC 156/2025"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Valores = alíquota (%) aplicada sobre a Tarifa de Iluminação Pública homologada pela ANEEL, por faixa de consumo."
+ },
+ {
+  "cod_ibge": "2507507",
+  "municipio": "João Pessoa",
+  "uf": "PB",
+  "slug": "joao-pessoa",
+  "status": "completo",
+  "mecanismo": "outro",
+  "exercicio": 2002,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 4.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "alíquota única por classe (o Anexo I publicado lista uma alíquota por classe, não por faixa de kWh)"
+    }
+   ],
+   "comercial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 5.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "alíquota única por classe (o Anexo I publicado lista uma alíquota por classe, não por faixa de kWh)"
+    }
+   ],
+   "servico": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 5.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "alíquota única por classe (o Anexo I publicado lista uma alíquota por classe, não por faixa de kWh)"
+    }
+   ],
+   "industrial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 6.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "alíquota única por classe (o Anexo I publicado lista uma alíquota por classe, não por faixa de kWh)"
+    }
+   ],
+   "rural": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 4.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "alíquota única por classe (o Anexo I publicado lista uma alíquota por classe, não por faixa de kWh)"
+    }
+   ],
+   "servico_publico": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 6.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "alíquota única por classe (o Anexo I publicado lista uma alíquota por classe, não por faixa de kWh)"
+    }
+   ],
+   "poder_publico": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 6.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "alíquota única por classe (o Anexo I publicado lista uma alíquota por classe, não por faixa de kWh)"
+    }
+   ],
+   "consumo_proprio": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 6.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "alíquota única por classe (o Anexo I publicado lista uma alíquota por classe, não por faixa de kWh)"
+    }
+   ]
+  },
+  "isencoes": [
+   {
+    "descricao": "Imóveis residenciais com consumo mensal igual ou inferior a 50 kWh",
+    "limite_kwh": 50,
+    "base_legal": "LC 31/2002, art. 9º",
+    "fonte_url": "https://www.normasbrasil.com.br/norma/lei-complementar-31-2002-joao-pessoa-pb_174628.html"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 31/2002 (institui a COSIP), arts. 4º e 9º e Anexo I",
+    "vigencia": "2002",
+    "fonte_url": "https://www.normasbrasil.com.br/norma/lei-complementar-31-2002-joao-pessoa-pb_174628.html"
+   }
+  ],
+  "distribuidoras": [
+   "EPB"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.normasbrasil.com.br/norma/lei-complementar-31-2002-joao-pessoa-pb_174628.html",
+    "titulo": "LC 31/2002 — João Pessoa (COSIP, texto integral)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=175239",
+    "titulo": "LC 31/2002 - João Pessoa (COSIP)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "O art. 4º prevê alíquotas diferenciadas por classe E quantidade de consumo (kWh), mas o Anexo I reproduzido nas fontes lista apenas uma alíquota percentual por classe.",
+   "Valores de 2002, atualizados nos mesmos índices/data dos reajustes ANEEL (art. 4º, §2º)."
+  ],
+  "pendencias": [
+   "Confirmar existência de tabela de faixas por kWh (o Anexo I localizado lista alíquota única por classe)"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "COSIP = alíquota (%) por classe de consumidor. Imóveis não edificados pagam valor fixo médio residencial do bairro."
+ },
+ {
+  "cod_ibge": "2610707",
+  "municipio": "Paulista",
+  "uf": "PE",
+  "slug": "paulista",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "Neoenergia PE"
+  ],
+  "fontes": [
+   {
+    "url": "https://transparencia.paulista.pe.leg.br/uploads/5311/2/atos-oficiais/2025/leis/1772477016_54752025.pdf",
+    "titulo": "Lei 5.475/2025 — Paulista/PE (PDF digitalizado)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Lei 5.475/2025 existe mas o PDF é digitalizado sem texto extraível — fazer OCR"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "2704302",
+  "municipio": "Maceió",
+  "uf": "AL",
+  "slug": "maceio",
+  "status": "completo",
+  "mecanismo": "formula_teip",
+  "exercicio": 2017,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": 0.0,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 50
+     },
+     "valor": 0.0,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 60
+     },
+     "valor": 0.0,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 61,
+      "max": 100
+     },
+     "valor": 54.402,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 72.821,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 200
+     },
+     "valor": 80.104,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 250
+     },
+     "valor": 88.171,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 251,
+      "max": 300
+     },
+     "valor": 105.805,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 350
+     },
+     "valor": 116.372,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 351,
+      "max": 400
+     },
+     "valor": 139.574,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 450
+     },
+     "valor": 160.564,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 451,
+      "max": 500
+     },
+     "valor": 184.624,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 203.043,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 700
+     },
+     "valor": 233.529,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 701,
+      "max": 800
+     },
+     "valor": 280.22,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 900
+     },
+     "valor": 308.277,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 901,
+      "max": 1100
+     },
+     "valor": 339.048,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1101,
+      "max": 1500
+     },
+     "valor": 372.96,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1501,
+      "max": 2000
+     },
+     "valor": 484.834,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 5000
+     },
+     "valor": 581.858,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5001,
+      "max": 10000
+     },
+     "valor": 756.344,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 10001,
+      "max": null
+     },
+     "valor": 1058.91,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    }
+   ],
+   "comercial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": 15.079,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 50
+     },
+     "valor": 28.558,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 60
+     },
+     "valor": 53.545,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 61,
+      "max": 100
+     },
+     "valor": 76.677,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 107.09,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 200
+     },
+     "valor": 139.218,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 250
+     },
+     "valor": 153.139,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 251,
+      "max": 300
+     },
+     "valor": 168.489,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 350
+     },
+     "valor": 202.186,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 351,
+      "max": 400
+     },
+     "valor": 222.391,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 450
+     },
+     "valor": 244.594,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 451,
+      "max": 500
+     },
+     "valor": 269.082,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 295.997,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 700
+     },
+     "valor": 355.183,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 701,
+      "max": 800
+     },
+     "valor": 390.666,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 900
+     },
+     "valor": 429.789,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 901,
+      "max": 1100
+     },
+     "valor": 472.769,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1101,
+      "max": 1500
+     },
+     "valor": 567.293,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1501,
+      "max": 2000
+     },
+     "valor": 623.981,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 5000
+     },
+     "valor": 748.777,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5001,
+      "max": 10000
+     },
+     "valor": 898.56,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 10001,
+      "max": null
+     },
+     "valor": 1257.955,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    }
+   ],
+   "industrial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": 15.079,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 50
+     },
+     "valor": 28.558,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 60
+     },
+     "valor": 53.545,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 61,
+      "max": 100
+     },
+     "valor": 76.677,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 107.09,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 200
+     },
+     "valor": 139.218,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 250
+     },
+     "valor": 153.139,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 251,
+      "max": 300
+     },
+     "valor": 168.489,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 350
+     },
+     "valor": 202.186,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 351,
+      "max": 400
+     },
+     "valor": 222.391,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 450
+     },
+     "valor": 244.594,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 451,
+      "max": 500
+     },
+     "valor": 269.082,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 295.997,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 700
+     },
+     "valor": 355.183,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 701,
+      "max": 800
+     },
+     "valor": 390.666,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 900
+     },
+     "valor": 429.789,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 901,
+      "max": 1100
+     },
+     "valor": 472.769,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1101,
+      "max": 1500
+     },
+     "valor": 567.293,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1501,
+      "max": 2000
+     },
+     "valor": 623.981,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 5000
+     },
+     "valor": 748.777,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5001,
+      "max": 10000
+     },
+     "valor": 898.56,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 10001,
+      "max": null
+     },
+     "valor": 1257.955,
+     "unidade": "FORMULA_TEIP",
+     "formula": "fator (Anexo XIII, Tabela 2) x Tarifa de Iluminação Pública (subgrupo B4a)"
+    }
+   ]
+  },
+  "isencoes": [
+   {
+    "descricao": "Poder Público Municipal, Estadual e Federal",
+    "base_legal": "Lei 6.685/2017 (CTM), art. 252, I-III",
+    "fonte_url": "https://www.agenciatatu.com.br/wp-content/uploads/LEI-No.-6.685-de-2017-Institui-a-COSIP.pdf"
+   },
+   {
+    "descricao": "Consumo próprio de energia",
+    "base_legal": "Lei 6.685/2017, art. 252, IV",
+    "fonte_url": "https://www.agenciatatu.com.br/wp-content/uploads/LEI-No.-6.685-de-2017-Institui-a-COSIP.pdf"
+   },
+   {
+    "descricao": "Possuidores de imóveis rurais",
+    "base_legal": "Lei 6.685/2017, art. 252, V",
+    "fonte_url": "https://www.agenciatatu.com.br/wp-content/uploads/LEI-No.-6.685-de-2017-Institui-a-COSIP.pdf"
+   },
+   {
+    "descricao": "Imóveis residenciais com consumo de até 60 kWh/mês",
+    "limite_kwh": 60,
+    "base_legal": "Lei 6.685/2017, art. 252, VI",
+    "fonte_url": "https://www.agenciatatu.com.br/wp-content/uploads/LEI-No.-6.685-de-2017-Institui-a-COSIP.pdf"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 6.685/2017 (Código Tributário de Maceió) — arts. 238-252 e Anexo XIII (Tabelas 1 e 2)",
+    "vigencia": "2017",
+    "fonte_url": "https://www.agenciatatu.com.br/wp-content/uploads/LEI-No.-6.685-de-2017-Institui-a-COSIP.pdf"
+   },
+   {
+    "norma": "Lei 5.262/2002 (instituiu a COSIP; revogada) e Lei 6.293/2013 (revogada pela 6.685/2017)",
+    "vigencia": "2013",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=263846"
+   }
+  ],
+  "distribuidoras": [
+   "EQUATORIAL AL"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.agenciatatu.com.br/wp-content/uploads/LEI-No.-6.685-de-2017-Institui-a-COSIP.pdf",
+    "titulo": "Lei 6.685/2017 (CTM de Maceió) — DOM, com Anexo XIII (CIP)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=263846",
+    "titulo": "Lei 6.293/2013 — Maceió (revogada pela 6.685/2017)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.agenciatatu.com.br/noticia/taxa-de-iluminacao-publica-alagoas/",
+    "titulo": "Agência Tatu - taxa de iluminação pública em Alagoas",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Anexo XIII Tabela 2: os valores são fatores/multiplicadores aplicados à Tarifa de Iluminação Pública (subgrupo B4a), não valores em R$ fixos.",
+   "Possível erro de OCR: valor da faixa 501-600 kWh comercial/industrial extraído como '295,007' (demais fontes trazem 295,997).",
+   "Imóveis não edificados (Anexo XIII Tabela 1): R$ 56,24 até 50 m²; R$ 98,42 de 50,1 a 100 m²; R$ 140,60 acima de 100 m² (anuais, atualizáveis por IPCA)."
+  ],
+  "pendencias": [
+   "Confirmar valor da faixa 501-600 kWh (OCR: 295,007 vs 295,997)"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "CIP (COSIP) = fator da Tabela 2 x Tarifa de Iluminação Pública, por classe e faixa de consumo."
+ },
+ {
+  "cod_ibge": "2910800",
+  "municipio": "Feira de Santana",
+  "uf": "BA",
+  "slug": "feira-de-santana",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "COELBA"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3106705",
+  "municipio": "Betim",
+  "uf": "MG",
+  "slug": "betim",
+  "status": "completo",
+  "mecanismo": "formula_teip",
+  "exercicio": 2026,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 50
+     },
+     "valor": 0.015,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 100
+     },
+     "valor": 0.03,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 200
+     },
+     "valor": 0.06,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 300
+     },
+     "valor": 0.08,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 1000
+     },
+     "valor": 0.1,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 2000
+     },
+     "valor": 0.12,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 3000
+     },
+     "valor": 0.14,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3001,
+      "max": null
+     },
+     "valor": 0.2,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    }
+   ],
+   "residencial_social": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 80
+     },
+     "valor": "isento",
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)",
+     "nota": "Tarifa Social/Baixa Renda até 80 kWh"
+    },
+    {
+     "faixa_kwh": {
+      "min": 81,
+      "max": 100
+     },
+     "valor": 0.03,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 200
+     },
+     "valor": 0.06,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 300
+     },
+     "valor": 0.08,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 1000
+     },
+     "valor": 0.1,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 2000
+     },
+     "valor": 0.12,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 3000
+     },
+     "valor": 0.14,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3001,
+      "max": null
+     },
+     "valor": 0.2,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 70
+     },
+     "valor": 0.03,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 71,
+      "max": 200
+     },
+     "valor": 0.08,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 400
+     },
+     "valor": 0.1,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 1000
+     },
+     "valor": 0.14,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 2000
+     },
+     "valor": 0.18,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 3000
+     },
+     "valor": 0.22,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3001,
+      "max": 5000
+     },
+     "valor": 0.3,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5001,
+      "max": 30000
+     },
+     "valor": 0.5,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 30001,
+      "max": 50000
+     },
+     "valor": 0.8,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 50001,
+      "max": 100000
+     },
+     "valor": 1.0,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    },
+    {
+     "faixa_kwh": {
+      "min": 100001,
+      "max": null
+     },
+     "valor": 1.5,
+     "unidade": "FORMULA_TEIP",
+     "formula": "Fator K (Lei 8.021/2025) x tarifa de fornecimento à Iluminação Pública (subgrupo B4a, R$/MWh)"
+    }
+   ]
+  },
+  "isencoes": [
+   {
+    "descricao": "Classe residencial - Tarifa Social/Baixa Renda com consumo até 80 kWh",
+    "limite_kwh": 80,
+    "base_legal": "Lei 8.021/2025, Anexo II",
+    "fonte_url": "https://www.mpmg.mp.br/data/files/47/20/CF/19/E36FF91021C3EDF9B9A8F9C2/Betim%20-%20MPe%20n.%2034.16.0024.0367276.2026.92%20-%20Lei%20Municipal%20n.%208.021-2025%20-%20COSIP.pdf"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Municipal 8.021/2025 (COSISP) — arts. 3º-4º e Anexos I, II e III (revoga a Lei 3.742/2002)",
+    "vigencia": "2026",
+    "fonte_url": "https://www.mpmg.mp.br/data/files/47/20/CF/19/E36FF91021C3EDF9B9A8F9C2/Betim%20-%20MPe%20n.%2034.16.0024.0367276.2026.92%20-%20Lei%20Municipal%20n.%208.021-2025%20-%20COSIP.pdf"
+   }
+  ],
+  "distribuidoras": [
+   "CEMIG-D"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.mpmg.mp.br/data/files/47/20/CF/19/E36FF91021C3EDF9B9A8F9C2/Betim%20-%20MPe%20n.%2034.16.0024.0367276.2026.92%20-%20Lei%20Municipal%20n.%208.021-2025%20-%20COSIP.pdf",
+    "titulo": "MPMG — Lei 8.021/2025 (COSISP) de Betim, íntegra com Anexos I a III",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "O MPMG apontou inconstitucionalidade parcial da Lei 8.021/2025 (art. 2º, §1º, III e art. 2º, §2º, III — custeio de 'demais atividades correlatas' e obras de infraestrutura urbana); as regras de cálculo (art. 3º e Anexos I-III) não foram impugnadas.",
+   "Cobrança com efeitos financeiros a partir de 1º/04/2026 (art. 16, II)."
+  ],
+  "pendencias": [
+   "Acompanhar audiência autocompositiva MPMG sobre a constitucionalidade parcial (2026)"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "COSISP = Fator de Contribuição (K) x tarifa B4a (R$/MWh). Imóveis não edificados: 12 x K fixo de 0,0400 x tarifa de janeiro (art. 4º)."
+ },
+ {
+  "cod_ibge": "3143302",
+  "municipio": "Montes Claros",
+  "uf": "MG",
+  "slug": "montes-claros",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CEMIG-D"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3170206",
+  "municipio": "Uberlândia",
+  "uf": "MG",
+  "slug": "uberlandia",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CEMIG-D"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.camarauberlandia.mg.gov.br/imprensa/noticias/2025/projeto-de-lei-que-estabelece-cobranca-do-servico-de-iluminacao-publica-de-imoveis-nao-edificados-lotes-vagos-e-aprovado-em-dois-turnos",
+    "titulo": "Câmara de Uberlândia - cobrança de COSIP de lotes vagos",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Lei e tabela de COSIP para imóveis edificados de Uberlândia"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3300456",
+  "municipio": "Belford Roxo",
+  "uf": "RJ",
+  "slug": "belford-roxo",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "LIGHT SESA"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3303500",
+  "municipio": "Nova Iguaçu",
+  "uf": "RJ",
+  "slug": "nova-iguacu",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "LIGHT SESA"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3305109",
+  "municipio": "São João de Meriti",
+  "uf": "RJ",
+  "slug": "sao-joao-de-meriti",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "LIGHT SESA"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3509502",
+  "municipio": "Campinas",
+  "uf": "SP",
+  "slug": "campinas",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CPFL-PAULISTA"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3513801",
+  "municipio": "Diadema",
+  "uf": "SP",
+  "slug": "diadema",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "ELETROPAULO"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3523107",
+  "municipio": "Itaquaquecetuba",
+  "uf": "SP",
+  "slug": "itaquaquecetuba",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "EDP SP"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3530607",
+  "municipio": "Mogi das Cruzes",
+  "uf": "SP",
+  "slug": "mogi-das-cruzes",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CERMC",
+   "EDP SP"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3541000",
+  "municipio": "Praia Grande",
+  "uf": "SP",
+  "slug": "praia-grande",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "LC 465/2006 alterada pela LC 1007/2024",
+    "vigencia": "2024",
+    "fonte_url": "https://www.praiagrande.sp.gov.br/Administracao/leisdecretos_view.asp?codLeis=2571"
+   }
+  ],
+  "distribuidoras": [
+   "CPFL-PIRATINING",
+   "ELEKTRO"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.praiagrande.sp.gov.br/Administracao/leisdecretos_view.asp?codLeis=2571",
+    "titulo": "Praia Grande/SP — consulta de leis",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Extrair tabela de alíquotas vigente"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3548500",
+  "municipio": "Santos",
+  "uf": "SP",
+  "slug": "santos",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CPFL-PIRATINING",
+   "ELEKTRO"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3551009",
+  "municipio": "São Vicente",
+  "uf": "SP",
+  "slug": "sao-vicente",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Decreto 6.635/2024 (fixa valores da COSIP)",
+    "vigencia": "2024",
+    "fonte_url": "https://leis.org/municipais/sp/sao-vicente/lei/decreto/2024/6635/"
+   }
+  ],
+  "distribuidoras": [
+   "CPFL-PIRATINING"
+  ],
+  "fontes": [
+   {
+    "url": "https://leis.org/municipais/sp/sao-vicente/lei/decreto/2024/6635/",
+    "titulo": "Decreto 6.635/2024 — São Vicente/SP (leis.org)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Extrair valores do decreto (portal leis.org deu 403 no acesso direto)"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "4108304",
+  "municipio": "Foz do Iguaçu",
+  "uf": "PR",
+  "slug": "foz-do-iguacu",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "CTM art.617 (COSIP dos imóveis ligados definida na concessionária); Edital TCL/COSIP 2025",
+    "vigencia": "2025",
+    "fonte_url": "https://foz.pr.gov.br/wp-content/uploads/2025/09/EDITAL-DE-LANCAMENTO-TCL-E-COSIP-2025.pdf"
+   }
+  ],
+  "distribuidoras": [
+   "COPEL-DIS"
+  ],
+  "fontes": [
+   {
+    "url": "https://foz.pr.gov.br/wp-content/uploads/2025/09/EDITAL-DE-LANCAMENTO-TCL-E-COSIP-2025.pdf",
+    "titulo": "Edital TCL/COSIP 2025 — Foz do Iguaçu/PR (PDF oficial)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://sapl.fozdoiguacu.pr.leg.br/media/sapl/public/normajuridica/2022/1417/390.pdf",
+    "titulo": "LC 390/2022 — Foz do Iguaçu (altera o CTM LC 82/2003)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Tabela de consumo para imóveis LIGADOS à rede fica na concessionária (art.617 CTM) — obter da Copel"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "4119905",
+  "municipio": "Ponta Grossa",
+  "uf": "PR",
+  "slug": "ponta-grossa",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei Ordinária 16.017/2026 (COSIP-PG) — revoga as Leis 7.094/2002, 7.496/2004, 11.621/2013, 13.463/2019 e arts. 2º-3º da Lei 8.388/2005",
+    "vigencia": "2026",
+    "fonte_url": "https://www.jusdiario.com.br/noticia/lei-ordinaria-16017-2026-dispoe-sobre-a-contribuicao-para-custeio"
+   }
+  ],
+  "distribuidoras": [
+   "COPEL-DIS"
+  ],
+  "fontes": [
+   {
+    "url": "https://pontagrossa.pr.gov.br/iluminacao-publica/",
+    "titulo": "Ponta Grossa/PR — iluminação pública (portal oficial)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.jusdiario.com.br/noticia/lei-ordinaria-16017-2026-dispoe-sobre-a-contribuicao-para-custeio",
+    "titulo": "JusDiário — Lei Ordinária 16.017/2026 (COSIP-PG), Ponta Grossa",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Cálculo parte da Unidade de Valor para Custeio (UVC) de R$ 114,60, com tabela de 'percentuais de desconto' por faixa de consumo (100% de desconto em 0-90 kWh, 81,90% em 91-120 kWh, decrescentes; menor desconto 29,77%).",
+   "A fonte jornalística descreve a tabela como confusa; percentuais exatos por faixa não puderam ser confirmados.",
+   "Imóveis sem ligação elétrica: cobrança anual por área (R$ 114,60 até 300 m² até R$ 988,23 acima de 5.000 m²)."
+  ],
+  "pendencias": [
+   "Obter o texto integral da Lei 16.017/2026 para a tabela exata de faixas/percentuais da COSIP-PG"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Rodada 2: localizada a norma (Lei 16.017/2026) e a UVC (R$ 114,60); tabela completa de faixas ainda não extraída (fonte jornalística apenas)."
+ },
+ {
+  "cod_ibge": "4209102",
+  "municipio": "Joinville",
+  "uf": "SC",
+  "slug": "joinville",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CELESC"
+  ],
+  "fontes": [
+   {
+    "url": "https://ecoaenergias.com.br/blog/cobranca-cosip-joinville/",
+    "titulo": "Ecoa Energias - cobrança da COSIP em Joinville",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.joinville.sc.gov.br/servicos/requerer-isencao-de-cosip/",
+    "titulo": "Prefeitura de Joinville - requerer isenção de COSIP",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Texto da lei municipal da COSIP de Joinville e valores vigentes da UPM"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "5002704",
+  "municipio": "Campo Grande",
+  "uf": "MS",
+  "slug": "campo-grande",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 58/2003 (institui a COSIP; arts. 6º-7º referem 'Tabela Única' em anexo; arts. 1º-8º suspensos pela LC 285/2016)",
+    "vigencia": "2003",
+    "fonte_url": "https://www.normasbrasil.com.br/norma/lei-complementar-58-2003-campo-grande_326693.html"
+   },
+   {
+    "norma": "Lei Complementar 386/2020 (isenção da COSIP para unidades da Tarifa Social com consumo inferior a 220 kWh/mês)",
+    "vigencia": "2020",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=393982"
+   }
+  ],
+  "distribuidoras": [
+   "EMS"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=393982",
+    "titulo": "Lei Complementar 386/2020 - Campo Grande",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.normasbrasil.com.br/norma/lei-complementar-58-2003-campo-grande_326693.html",
+    "titulo": "LC 58/2003 — Campo Grande (COSIP, texto integral)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=393982",
+    "titulo": "LC 386/2020 — Campo Grande (isenção Tarifa Social)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Localizar a 'Tabela Única' anexa à LC 58/2003 (valores por faixa de consumo) e as leis posteriores que a atualizaram"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Rodada 2: localizadas LC 58/2003 e LC 386/2020; a Tabela Única de valores (anexa) não está reproduzida nas fontes textuais."
+ },
+ {
+  "cod_ibge": "5201405",
+  "municipio": "Aparecida de Goiânia",
+  "uf": "GO",
+  "slug": "aparecida-de-goiania",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "EQUATORIAL GO"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ }
+]

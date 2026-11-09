@@ -1,0 +1,2217 @@
+[
+ {
+  "cod_ibge": "3550308",
+  "municipio": "São Paulo",
+  "uf": "SP",
+  "slug": "sao-paulo",
+  "status": "completo",
+  "mecanismo": "valor_fixo",
+  "exercicio": 2026,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 50
+     },
+     "valor": 1.06,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 100
+     },
+     "valor": 3.21,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 4.84,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 200
+     },
+     "valor": 6.75,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 300
+     },
+     "valor": 9.39,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 400
+     },
+     "valor": 13.27,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 500
+     },
+     "valor": 17.17,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 21.11,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 800
+     },
+     "valor": 26.49,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 1000
+     },
+     "valor": 34.49,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 1300
+     },
+     "valor": 43.94,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1301,
+      "max": 1600
+     },
+     "valor": 55.69,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1601,
+      "max": 2000
+     },
+     "valor": 69.25,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 2400
+     },
+     "valor": 84.87,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2401,
+      "max": 2800
+     },
+     "valor": 100.5,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2801,
+      "max": 3400
+     },
+     "valor": 119.37,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3401,
+      "max": 4000
+     },
+     "valor": 143.24,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 4001,
+      "max": 5000
+     },
+     "valor": 171.89,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5001,
+      "max": 6000
+     },
+     "valor": 206.27,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 6001,
+      "max": 8000
+     },
+     "valor": 247.54,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 8001,
+      "max": 10000
+     },
+     "valor": 297.05,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 10001,
+      "max": 15000
+     },
+     "valor": 356.46,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 15001,
+      "max": 20000
+     },
+     "valor": 427.75,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 20001,
+      "max": 30000
+     },
+     "valor": 513.32,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 30001,
+      "max": null
+     },
+     "valor": 615.98,
+     "unidade": "BRL"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 50
+     },
+     "valor": 2.14,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 100
+     },
+     "valor": 6.46,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 9.52,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 200
+     },
+     "valor": 13.52,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 300
+     },
+     "valor": 19.06,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 400
+     },
+     "valor": 26.92,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 500
+     },
+     "valor": 34.31,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 42.48,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 800
+     },
+     "valor": 53.85,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 1000
+     },
+     "valor": 69.5,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 1300
+     },
+     "valor": 88.59,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1301,
+      "max": 1600
+     },
+     "valor": 112.09,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1601,
+      "max": 2000
+     },
+     "valor": 139.08,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 2400
+     },
+     "valor": 170.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2401,
+      "max": 2800
+     },
+     "valor": 201.46,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2801,
+      "max": 3400
+     },
+     "valor": 239.7,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3401,
+      "max": 4000
+     },
+     "valor": 286.16,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 4001,
+      "max": 5000
+     },
+     "valor": 343.41,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5001,
+      "max": 6000
+     },
+     "valor": 412.09,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 6001,
+      "max": 8000
+     },
+     "valor": 494.5,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 8001,
+      "max": 10000
+     },
+     "valor": 593.41,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 10001,
+      "max": 15000
+     },
+     "valor": 712.11,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 15001,
+      "max": 20000
+     },
+     "valor": 854.51,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 20001,
+      "max": 30000
+     },
+     "valor": 1025.43,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 30001,
+      "max": null
+     },
+     "valor": 1230.52,
+     "unidade": "BRL"
+    }
+   ]
+  },
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei 13.479/2002 (alterada pela Lei 17.719/2021)",
+    "vigencia": null,
+    "fonte_url": "https://sinesp.org.br/multimidia/publicacoes-sinesp/category/47-legislacao-geral?download=9057:portaria-sf-330-2025"
+   },
+   {
+    "norma": "Decreto 56.751/2015",
+    "vigencia": null,
+    "fonte_url": "https://sinesp.org.br/multimidia/publicacoes-sinesp/category/47-legislacao-geral?download=9057:portaria-sf-330-2025"
+   },
+   {
+    "norma": "Portaria SF 330/2025 (valores 2026)",
+    "vigencia": null,
+    "fonte_url": "https://sinesp.org.br/multimidia/publicacoes-sinesp/category/47-legislacao-geral?download=9057:portaria-sf-330-2025"
+   }
+  ],
+  "distribuidoras": [
+   "CERIS",
+   "ELETROPAULO"
+  ],
+  "fontes": [
+   {
+    "url": "https://sinesp.org.br/multimidia/publicacoes-sinesp/category/47-legislacao-geral?download=9057:portaria-sf-330-2025",
+    "titulo": "Anexo Único Portaria SF 330/2025 - Prefeitura de São Paulo",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Tabela oficial 2026; valores corrigidos pela Portaria SF anual"
+ },
+ {
+  "cod_ibge": "3304557",
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "slug": "rio-de-janeiro",
+  "status": "completo",
+  "mecanismo": "formula_teip",
+  "exercicio": 2025,
+  "tabelas": {
+   "residencial_e_geral": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 100
+     },
+     "valor": "isento",
+     "unidade": "FORMULA_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 120
+     },
+     "valor": "isento",
+     "unidade": "FORMULA_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 120,
+      "max": 140
+     },
+     "valor": 2.65,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 140,
+      "max": 170
+     },
+     "valor": 3.98,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 170,
+      "max": 200
+     },
+     "valor": 6.2,
+     "unidade": "FORMULA_TEIP",
+     "formula": "6,2 + 0,01602 x TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 200,
+      "max": 250
+     },
+     "valor": 7.29,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 250,
+      "max": 300
+     },
+     "valor": 9.11,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 300,
+      "max": 350
+     },
+     "valor": 17.01,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 350,
+      "max": 400
+     },
+     "valor": 19.84,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 400,
+      "max": 450
+     },
+     "valor": 22.66,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 450,
+      "max": 500
+     },
+     "valor": 25.5,
+     "unidade": "FORMULA_TEIP",
+     "formula": "25,5 + 0,06568 x TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 500,
+      "max": 550
+     },
+     "valor": 28.31,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 550,
+      "max": 600
+     },
+     "valor": 31.14,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 600,
+      "max": 650
+     },
+     "valor": 33.97,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 650,
+      "max": 700
+     },
+     "valor": 36.8,
+     "unidade": "FORMULA_TEIP",
+     "formula": "36,8 + 0,09484 x TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 700,
+      "max": 750
+     },
+     "valor": 39.63,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 750,
+      "max": 800
+     },
+     "valor": 42.46,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 800,
+      "max": 850
+     },
+     "valor": 45.29,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 850,
+      "max": 900
+     },
+     "valor": 48.12,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 900,
+      "max": 950
+     },
+     "valor": 50.95,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 950,
+      "max": 1000
+     },
+     "valor": 53.78,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1000,
+      "max": 1500
+     },
+     "valor": 56.6,
+     "unidade": "FORMULA_TEIP",
+     "formula": "56,6 + 0,14591 x TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1500,
+      "max": 2000
+     },
+     "valor": 84.89,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2000,
+      "max": 2500
+     },
+     "valor": 113.19,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2500,
+      "max": 3000
+     },
+     "valor": 141.48,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3000,
+      "max": 3500
+     },
+     "valor": 169.78,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3500,
+      "max": 4000
+     },
+     "valor": 198.08,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 4000,
+      "max": 4500
+     },
+     "valor": 226.33,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 4500,
+      "max": 5000
+     },
+     "valor": 254.62,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5000,
+      "max": 5500
+     },
+     "valor": 282.86,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5500,
+      "max": 6000
+     },
+     "valor": 311.14,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 6000,
+      "max": 6500
+     },
+     "valor": 339.38,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 6500,
+      "max": 7000
+     },
+     "valor": 367.66,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 7000,
+      "max": 7500
+     },
+     "valor": 395.96,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 7500,
+      "max": 8000
+     },
+     "valor": 424.24,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 8000,
+      "max": 8500
+     },
+     "valor": 452.52,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 8500,
+      "max": 9000
+     },
+     "valor": 480.8,
+     "unidade": "FORMULA_TEIP",
+     "formula": "480,8 + 1,2394 x TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 9000,
+      "max": 9500
+     },
+     "valor": 509.03,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 9500,
+      "max": 10000
+     },
+     "valor": 537.31,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 10000,
+      "max": 12500
+     },
+     "valor": 565.58,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 12500,
+      "max": 15000
+     },
+     "valor": 706.98,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 15000,
+      "max": 17500
+     },
+     "valor": 848.4,
+     "unidade": "FORMULA_TEIP",
+     "formula": "848,4 + 2,18705 x TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 17500,
+      "max": 20000
+     },
+     "valor": 989.8,
+     "unidade": "FORMULA_TEIP",
+     "formula": "989,8 + 2,55156 x TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 20000,
+      "max": 22500
+     },
+     "valor": 1131.2,
+     "unidade": "FORMULA_TEIP",
+     "formula": "1131,2 + 2,91607 x TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 22500,
+      "max": 25000
+     },
+     "valor": 1272.59,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 25000,
+      "max": 27500
+     },
+     "valor": 1414.01,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 27500,
+      "max": 30000
+     },
+     "valor": 1555.41,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 30000,
+      "max": 32500
+     },
+     "valor": 1696.81,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 32500,
+      "max": 35000
+     },
+     "valor": 1838.21,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 35000,
+      "max": 37500
+     },
+     "valor": 1979.61,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 37500,
+      "max": 40000
+     },
+     "valor": 2121.01,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 40000,
+      "max": 42500
+     },
+     "valor": 2262.38,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 42500,
+      "max": 45000
+     },
+     "valor": 2403.78,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 45000,
+      "max": 47500
+     },
+     "valor": 2545.18,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 47500,
+      "max": 50000
+     },
+     "valor": 2686.58,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 50000,
+      "max": 62500
+     },
+     "valor": 2827.96,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 62500,
+      "max": 75000
+     },
+     "valor": 3534.95,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 75000,
+      "max": 87500
+     },
+     "valor": 4241.94,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 87500,
+      "max": 100000
+     },
+     "valor": 4948.93,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 100000,
+      "max": 150000
+     },
+     "valor": 5655.72,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 150000,
+      "max": 200000
+     },
+     "valor": 8483.58,
+     "unidade": "BRL"
+    }
+   ]
+  },
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei 5.132/2009",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=483417"
+   },
+   {
+    "norma": "Lei 9.049/2025 (alteração vigente)",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=483417"
+   }
+  ],
+  "distribuidoras": [
+   "LIGHT SESA"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=483417",
+    "titulo": "Lei 9.049 de 11/09/2025 - Rio de Janeiro",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Isento até 120 kWh; vigência a partir de fev/2026; há 2ª tabela no Anexo (acréscimo por bandeiras) não transcrita aqui"
+ },
+ {
+  "cod_ibge": "5300108",
+  "municipio": "Brasília",
+  "uf": "DF",
+  "slug": "brasilia",
+  "status": "parcial",
+  "mecanismo": "valor_fixo",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 673/2002",
+    "vigencia": null,
+    "fonte_url": "https://www.lefisc.com.br/banco/estadual/df/2002/decreto23499_02.htm"
+   },
+   {
+    "norma": "Decreto 23.499/2002 (regulamenta)",
+    "vigencia": null,
+    "fonte_url": "https://www.lefisc.com.br/banco/estadual/df/2002/decreto23499_02.htm"
+   }
+  ],
+  "distribuidoras": [
+   "Neoenergia Brasília"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.lefisc.com.br/banco/estadual/df/2002/decreto23499_02.htm",
+    "titulo": "Decreto 23.499/2002 - DF",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Falta: tabela vigente do exercício corrente (decreto anual de reajuste — notícia indica valores 2026). Isenção residencial ≤80 kWh confirmada (Lei 4.941/2012)"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Falta: tabela vigente do exercício corrente (decreto anual de reajuste — notícia indica valores 2026). Isenção residencial ≤80 kWh confirmada (Lei 4.941/2012)"
+ },
+ {
+  "cod_ibge": "2304400",
+  "municipio": "Fortaleza",
+  "uf": "CE",
+  "slug": "fortaleza",
+  "status": "completo",
+  "mecanismo": "percentual_modulo_tip",
+  "exercicio": 2026,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 50
+     },
+     "valor": 0.47,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 100
+     },
+     "valor": 0.87,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 2.49,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 200
+     },
+     "valor": 3.26,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 250
+     },
+     "valor": 4.72,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 251,
+      "max": 300
+     },
+     "valor": 9.25,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 380
+     },
+     "valor": 10.34,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 381,
+      "max": 500
+     },
+     "valor": 11.77,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 700
+     },
+     "valor": 20.15,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 701,
+      "max": 1000
+     },
+     "valor": 27.68,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 2000
+     },
+     "valor": 39.86,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2000,
+      "max": null
+     },
+     "valor": 47.15,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": 1.51,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 100
+     },
+     "valor": 3.37,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 8.62,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 200
+     },
+     "valor": 8.87,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 250
+     },
+     "valor": 8.98,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 251,
+      "max": 350
+     },
+     "valor": 21.29,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 351,
+      "max": 400
+     },
+     "valor": 21.48,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 500
+     },
+     "valor": 21.5,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 800
+     },
+     "valor": 47.72,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 1000
+     },
+     "valor": 49.04,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 2000
+     },
+     "valor": 100.75,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2000,
+      "max": null
+     },
+     "valor": 111.14,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    }
+   ]
+  },
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 159/2013, arts. 374-382",
+    "vigencia": null,
+    "fonte_url": "https://sefin.fortaleza.ce.gov.br/Canal/16/Generico/1201/Ler"
+   },
+   {
+    "norma": "Lei Complementar 452/2025 (alteração)",
+    "vigencia": null,
+    "fonte_url": "https://sefin.fortaleza.ce.gov.br/Canal/16/Generico/1201/Ler"
+   }
+  ],
+  "distribuidoras": [
+   "ENEL CE"
+  ],
+  "fontes": [
+   {
+    "url": "https://sefin.fortaleza.ce.gov.br/Canal/16/Generico/1201/Ler",
+    "titulo": "Sefin Fortaleza - CIP",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Isenção: residencial monofásico ≤80 kWh. Fonte oficial da prefeitura"
+ },
+ {
+  "cod_ibge": "2927408",
+  "municipio": "Salvador",
+  "uf": "BA",
+  "slug": "salvador",
+  "status": "completo",
+  "mecanismo": "percentual_modulo_tip",
+  "exercicio": 2025,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": "isento",
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 60
+     },
+     "valor": "n/d",
+     "nota": "n/d na extração (provável isento) — CONFIRMAR",
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 61,
+      "max": 80
+     },
+     "valor": 1.44,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 81,
+      "max": 100
+     },
+     "valor": 2.04,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 200
+     },
+     "valor": 4.88,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 300
+     },
+     "valor": 8.03,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 450
+     },
+     "valor": 10.58,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 451,
+      "max": 650
+     },
+     "valor": 16.64,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 651,
+      "max": 1000
+     },
+     "valor": 22.86,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 2000
+     },
+     "valor": 41.59,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2000,
+      "max": null
+     },
+     "valor": 44.0,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": 1.57,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 50
+     },
+     "valor": 1.97,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 60
+     },
+     "valor": 3.5,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 61,
+      "max": 80
+     },
+     "valor": 3.9,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 81,
+      "max": 100
+     },
+     "valor": 4.44,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 200
+     },
+     "valor": 15.21,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 300
+     },
+     "valor": 22.11,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 450
+     },
+     "valor": 22.33,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 451,
+      "max": 650
+     },
+     "valor": 49.56,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 651,
+      "max": 1000
+     },
+     "valor": 50.92,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 2000
+     },
+     "valor": 104.63,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 2500
+     },
+     "valor": 116.0,
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2500,
+      "max": null
+     },
+     "valor": "+1% por cada 500 kWh (ex.: 2501-3000 = 117%)",
+     "unidade": "PERCENTUAL_MODULO_TIP"
+    }
+   ]
+  },
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei 7.186/2006 (Código Tributário, Anexo XI - Tabela de Receita)",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=472683"
+   },
+   {
+    "norma": "Leis 9.279/2017 e 9.823/2024",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=472683"
+   },
+   {
+    "norma": "Decreto 32.120/2020",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=472683"
+   },
+   {
+    "norma": "Decreto 39.755/2025",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=472683"
+   }
+  ],
+  "distribuidoras": [
+   "COELBA"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=472683",
+    "titulo": "Decreto 39.755/2025 - Salvador (Anexo Único)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Ressalva: layout com células mescladas na extração — faixas 31-60 residencial precisam de confirmação na fonte antes de publicar"
+  ],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Ressalva: layout com células mescladas na extração — faixas 31-60 residencial precisam de confirmação na fonte antes de publicar"
+ },
+ {
+  "cod_ibge": "3106200",
+  "municipio": "Belo Horizonte",
+  "uf": "MG",
+  "slug": "belo-horizonte",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CEMIG-D"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "3 rodadas de busca sem localizar a lei/tabela da COSIP de BH (sabe-se que existe — World Bank cita regulação municipal). Próxima tentativa: portal da prefeitura/legislação BH diretamente"
+ },
+ {
+  "cod_ibge": "1302603",
+  "municipio": "Manaus",
+  "uf": "AM",
+  "slug": "manaus",
+  "status": "completo",
+  "mecanismo": "valor_fixo",
+  "exercicio": 2025,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": null,
+      "max": null
+     },
+     "valor": "isento",
+     "nota": "Tarifa Social",
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 100
+     },
+     "valor": 8.53,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 200
+     },
+     "valor": 10.67,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 300
+     },
+     "valor": 21.33,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 500
+     },
+     "valor": 32.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 1000
+     },
+     "valor": 53.33,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 1500
+     },
+     "valor": 80.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1501,
+      "max": 2000
+     },
+     "valor": 106.65,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2000,
+      "max": null
+     },
+     "valor": 122.65,
+     "unidade": "BRL"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 100
+     },
+     "valor": 12.79,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 200
+     },
+     "valor": 19.2,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 300
+     },
+     "valor": 25.6,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 500
+     },
+     "valor": 32.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 1000
+     },
+     "valor": 53.33,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 1500
+     },
+     "valor": 63.99,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1501,
+      "max": 2000
+     },
+     "valor": 170.65,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 5000
+     },
+     "valor": 223.98,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5001,
+      "max": 10000
+     },
+     "valor": 533.29,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 10001,
+      "max": 20000
+     },
+     "valor": 1279.89,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 20001,
+      "max": 30000
+     },
+     "valor": 2026.49,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 30001,
+      "max": 40000
+     },
+     "valor": 2666.44,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 40001,
+      "max": 50000
+     },
+     "valor": 3413.04,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 50001,
+      "max": 100000
+     },
+     "valor": 6399.45,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 100000,
+      "max": null
+     },
+     "valor": 8745.91,
+     "unidade": "BRL"
+    }
+   ]
+  },
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei 2.802/2021 (com Anexo de valores)",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=469601"
+   },
+   {
+    "norma": "Decreto 6.036/2024 (valores 2025)",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=469601"
+   },
+   {
+    "norma": "Lei 9.427/1996",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=469601"
+   }
+  ],
+  "distribuidoras": [
+   "Âmbar Amazonas"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=469601",
+    "titulo": "Decreto 6.036/2024 - Manaus (Anexo)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Valores do exercício 2025; procurar decreto equivalente de nov/2025 para 2026"
+ },
+ {
+  "cod_ibge": "4106902",
+  "municipio": "Curitiba",
+  "uf": "PR",
+  "slug": "curitiba",
+  "status": "completo",
+  "mecanismo": "percentual_teip",
+  "exercicio": 2021,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 100
+     },
+     "valor": 0.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 130
+     },
+     "valor": 1.77,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 131,
+      "max": 150
+     },
+     "valor": 2.66,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 170
+     },
+     "valor": 3.37,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 171,
+      "max": 200
+     },
+     "valor": 3.54,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 220
+     },
+     "valor": 5.32,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 221,
+      "max": 300
+     },
+     "valor": 6.73,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 350
+     },
+     "valor": 9.21,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 351,
+      "max": 400
+     },
+     "valor": 10.63,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 450
+     },
+     "valor": 12.32,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 451,
+      "max": 500
+     },
+     "valor": 13.82,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 550
+     },
+     "valor": 15.41,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 551,
+      "max": 600
+     },
+     "valor": 16.92,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 700
+     },
+     "valor": 18.43,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 701,
+      "max": 800
+     },
+     "valor": 21.53,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 850
+     },
+     "valor": 24.98,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 851,
+      "max": 1000
+     },
+     "valor": 26.23,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 1200
+     },
+     "valor": 30.83,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1200,
+      "max": null
+     },
+     "valor": 35.44,
+     "unidade": "PERCENTUAL_TEIP"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 50
+     },
+     "valor": 0.89,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 120
+     },
+     "valor": 1.59,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 121,
+      "max": 150
+     },
+     "valor": 3.72,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 180
+     },
+     "valor": 4.7,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 181,
+      "max": 200
+     },
+     "valor": 5.58,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 230
+     },
+     "valor": 6.29,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 231,
+      "max": 250
+     },
+     "valor": 7.26,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 251,
+      "max": 280
+     },
+     "valor": 7.79,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 281,
+      "max": 300
+     },
+     "valor": 8.86,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 330
+     },
+     "valor": 9.48,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 331,
+      "max": 360
+     },
+     "valor": 10.45,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 361,
+      "max": 400
+     },
+     "valor": 11.34,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 450
+     },
+     "valor": 12.58,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 451,
+      "max": 480
+     },
+     "valor": 14.17,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 481,
+      "max": 500
+     },
+     "valor": 15.15,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 15.77,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 700
+     },
+     "valor": 18.96,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 701,
+      "max": 800
+     },
+     "valor": 22.06,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 1200
+     },
+     "valor": 25.16,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1200,
+      "max": null
+     },
+     "valor": 35.44,
+     "unidade": "PERCENTUAL_TEIP"
+    }
+   ]
+  },
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 46/2002",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=420237"
+   },
+   {
+    "norma": "Lei Complementar 129/2021 (Anexos I e II)",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=420237"
+   }
+  ],
+  "distribuidoras": [
+   "COPEL-DIS"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=420237",
+    "titulo": "LC 129/2021 - Curitiba (Anexos I e II)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Isenção residencial ≤100 kWh. TEIP = B4a sem tributos (MWh), atualizada por Resolução Homologatória ANEEL"
+ },
+ {
+  "cod_ibge": "2611606",
+  "municipio": "Recife",
+  "uf": "PE",
+  "slug": "recife",
+  "status": "parcial",
+  "mecanismo": "outro",
+  "exercicio": 2019,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Decreto 28.771/2015",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=383445"
+   },
+   {
+    "norma": "Portaria SEFIN 23/2019 (índices de tributos/bandeiras)",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=383445"
+   }
+  ],
+  "distribuidoras": [
+   "Neoenergia PE"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=383445",
+    "titulo": "Portaria SEFIN 23/2019 - Recife",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Falta: tabela de alíquotas da CIP por faixa (não localizada — a portaria só fixa índices de cálculo da TCIP)"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Falta: tabela de alíquotas da CIP por faixa (não localizada — a portaria só fixa índices de cálculo da TCIP)"
+ },
+ {
+  "cod_ibge": "5208707",
+  "municipio": "Goiânia",
+  "uf": "GO",
+  "slug": "goiania",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": 2026,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 344/2021, art. 317",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=500579"
+   },
+   {
+    "norma": "Decreto 3794/2022, arts. 345+ (RCTM)",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=500579"
+   }
+  ],
+  "distribuidoras": [
+   "EQUATORIAL GO"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=500579",
+    "titulo": "Decreto 166/2026 - Goiânia (altera RCTM)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [],
+  "pendencias": [
+   "Falta: a tabela em si (Planilha de Custos / anexo da LC 344). Regra de incidência: imóveis a 60m de poste com luminária"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Falta: a tabela em si (Planilha de Custos / anexo da LC 344). Regra de incidência: imóveis a 60m de poste com luminária"
+ }
+]

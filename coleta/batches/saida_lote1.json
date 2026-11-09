@@ -1,0 +1,2079 @@
+[
+ {
+  "cod_ibge": "4314902",
+  "municipio": "Porto Alegre",
+  "uf": "RS",
+  "slug": "porto-alegre",
+  "status": "completo",
+  "mecanismo": "percentual_teip",
+  "exercicio": null,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 2.33,
+     "unidade": "PERCENTUAL_TEIP",
+     "nota": "2,33% ao mês sobre o valor de 1 MWh da tarifa B4a (Iluminação Pública)"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 7.4,
+     "unidade": "PERCENTUAL_TEIP",
+     "nota": "7,40% ao mês sobre o valor de 1 MWh da tarifa B4a"
+    }
+   ]
+  },
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei nº 9.329/2003 (institui a CIP; art. 4º, §1º)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=176971",
+    "fonte_url": "2003-12-22"
+   },
+   {
+    "norma": "Lei nº 13.159/2022 (amplia serviços custeados)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=433114",
+    "fonte_url": "2022-06-22"
+   },
+   {
+    "norma": "Lei Complementar nº 840/2018 (atualização automática pela tarifa ANEEL)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=176971",
+    "fonte_url": "2018-12-27"
+   }
+  ],
+  "distribuidoras": [
+   "CEEE-D"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=176971",
+    "titulo": "Lei nº 9.329/2003 - Porto Alegre (CIP)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Base de cálculo = valor de 1 MWh da tarifa B4a (ANEEL), atualizada anualmente; por isso o valor em R$ é automaticamente ajustado (não é faixa por consumo).",
+   "Decretos anuais (ex.: Decreto 20.130/2018) fixam valores em R$ por bandeira tarifária; isenções do art. 5º não extraídas integralmente."
+  ],
+  "pendencias": [
+   "Confirmar alíquotas vigentes no exercício atual e rol de isenções do art. 5º"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "1501402",
+  "municipio": "Belém",
+  "uf": "PA",
+  "slug": "belem",
+  "status": "parcial",
+  "mecanismo": "percentual_teip",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [
+   {
+    "descricao": "Contribuinte de baixa renda com consumo mensal até 79 kWh",
+    "limite_kwh": 79,
+    "base_legal": "Lei 10.113/2024, art. 12, III",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=471271"
+   },
+   {
+    "descricao": "Órgãos da administração direta municipal, autarquias, fundações e empresas públicas municipais",
+    "limite_kwh": null,
+    "base_legal": "Lei 10.113/2024, art. 12, I e II",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=471271"
+   },
+   {
+    "descricao": "Associações de utilidade pública, centros comunitários e templos religiosos",
+    "limite_kwh": null,
+    "base_legal": "Lei 10.113/2024, art. 12, IV",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=471271"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei nº 10.113/2024 (institui a COSIP de Belém; revoga Lei 8.226/2002)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=471271",
+    "fonte_url": "2024-12-26"
+   }
+  ],
+  "distribuidoras": [
+   "EQUATORIAL PA"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=471271",
+    "titulo": "Lei nº 10.113/2024 - Belém (COSIP)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Base de cálculo = Tarifa de Iluminação Pública (TIP), subclasse B4a, definida pela ANEEL. Alíquotas por classe/faixa estão no Anexo Único, cujo conteúdo não foi recuperado na fonte consultada.",
+   "Imóveis prediais/territoriais sem unidade consumidora: base = metro linear da testada x R$ 61,11, com alíquota de 15%."
+  ],
+  "pendencias": [
+   "Anexo Único (alíquotas por classe e faixa de consumo) da Lei 10.113/2024"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3518800",
+  "municipio": "Guarulhos",
+  "uf": "SP",
+  "slug": "guarulhos",
+  "status": "completo",
+  "mecanismo": "outro",
+  "exercicio": 2026,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 50
+     },
+     "valor": 0.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 100
+     },
+     "valor": 2.49,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 4.99,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 200
+     },
+     "valor": 7.48,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 300
+     },
+     "valor": 9.97,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 400
+     },
+     "valor": 12.47,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 500
+     },
+     "valor": 14.96,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 16.21,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 1000
+     },
+     "valor": 17.45,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": null
+     },
+     "valor": 18.7,
+     "unidade": "BRL"
+    }
+   ]
+  },
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei nº 7.345/2014, Anexos I e II (com alterações de 04/07/2025; efeitos a partir de 01/01/2026)",
+    "vigencia": "https://www.escavador.com/diarios/6084728/DOMGRU-SP/legal/2025-07-04?page=28",
+    "fonte_url": "2014-12-22"
+   }
+  ],
+  "distribuidoras": [
+   "EDP SP"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.escavador.com/diarios/6084728/DOMGRU-SP/legal/2025-07-04?page=28",
+    "titulo": "DOM Guarulhos 04/07/2025 - alteração da COSIP",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Tabela reconstruída de OCR do Diário Oficial (layout quebrado) — valores conferidos linha a linha, mas recomenda-se conferir no DOM original.",
+   "Consumidor não residencial: Anexo II traz alíquotas de 4% (comercial, rural e consumo próprio) e 6% (industrial) aplicadas sobre o TOTAL do valor da fatura de energia — percentual sobre a fatura não tem unidade correspondente no schema, por isso não foi tabulado aqui.",
+   "Mecanismo: residencial = R$ fixo por faixa (valor_fixo); não residencial = percentual sobre a fatura (outro). Campo 'mecanismo' registrado como 'outro'."
+  ],
+  "pendencias": [
+   "Confirmar número da lei de 04/07/2025 que alterou a Lei 7.345/2014 (DOM lista várias leis na mesma edição)"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3509502",
+  "municipio": "Campinas",
+  "uf": "SP",
+  "slug": "campinas",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CPFL-PAULISTA"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Várias rodadas de busca não localizaram a lei/tabela vigente da COSIP de Campinas (nem base legal municipal específica). Próxima tentativa: portal da legislação da Prefeitura de Campinas e Câmara Municipal."
+ },
+ {
+  "cod_ibge": "2111300",
+  "municipio": "São Luís",
+  "uf": "MA",
+  "slug": "sao-luis",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei nº 6.289/2017 (Código Tributário Municipal; art. 5º, IV institui a CIP)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=357666",
+    "fonte_url": "2017-12-28"
+   },
+   {
+    "norma": "Lei nº 4.135/2002 (lei específica da CIP, revogada pela Lei 6.289/2017)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=179235",
+    "fonte_url": "2002-12-30"
+   }
+  ],
+  "distribuidoras": [
+   "EQUATORIAL MA"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=357666",
+    "titulo": "Lei nº 6.289/2017 - CTM São Luís",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=179235",
+    "titulo": "Lei nº 4.135/2002 - São Luís (revogada)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "A lei específica da CIP em vigor (que sucede a Lei 4.135/2002) não foi localizada; o CTM apenas lista a CIP entre os tributos.",
+   "A Lei 4.135/2002 (revogada) previa limites de 17% (residencial) e 27% (comercial/industrial) da conta e tabela em Anexo Único."
+  ],
+  "pendencias": [
+   "Norma municipal vigente com a tabela de alíquotas da CIP de São Luís"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "2704302",
+  "municipio": "Maceió",
+  "uf": "AL",
+  "slug": "maceio",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Lei nº 6.685/2017 (legislação mais recente que atualizou a COSIP)",
+    "vigencia": "https://www.agenciatatu.com.br/noticia/taxa-de-iluminacao-publica-alagoas/",
+    "fonte_url": "https://www.agenciatatu.com.br/noticia/taxa-de-iluminacao-publica-alagoas/"
+   },
+   {
+    "norma": "Lei nº 5.262/2002 (instituiu a COSIP) e Lei nº 6.293/2013 (alteração; revogada pela 6.685/2017)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?id=263846",
+    "fonte_url": "2013-12-27"
+   }
+  ],
+  "distribuidoras": [
+   "EQUATORIAL AL"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=263846",
+    "titulo": "Lei nº 6.293/2013 - Maceió (revogada pela 6.685/2017)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.agenciatatu.com.br/noticia/taxa-de-iluminacao-publica-alagoas/",
+    "titulo": "Agência Tatu - taxa de iluminação pública em Alagoas",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Lei 6.293/2013 (consultada) está revogada pela Lei 6.685/2017, cujo texto/tabela não foi recuperado."
+  ],
+  "pendencias": [
+   "Texto e tabela de alíquotas da Lei nº 6.685/2017"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "5002704",
+  "municipio": "Campo Grande",
+  "uf": "MS",
+  "slug": "campo-grande",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [
+   {
+    "descricao": "Contribuintes vinculados a unidades consumidoras na Tarifa Social com consumo inferior a 220 kWh/mês (isenção de 1º/4 a 30/6/2020)",
+    "limite_kwh": 220,
+    "base_legal": "Lei Complementar 386/2020",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=393982"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar nº 386/2020 (isenção de COSIP à Tarifa Social)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?id=393982",
+    "fonte_url": "2020-04-28"
+   }
+  ],
+  "distribuidoras": [
+   "EMS"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=393982",
+    "titulo": "Lei Complementar 386/2020 - Campo Grande",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Localizada apenas norma de isenção; a lei/tabela de alíquotas vigente da COSIP não foi recuperada."
+  ],
+  "pendencias": [
+   "Lei e tabela de valores da COSIP de Campo Grande para imóveis edificados"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3304904",
+  "municipio": "São Gonçalo",
+  "uf": "RJ",
+  "slug": "sao-goncalo",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "ENEL RJ"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Buscas não localizaram lei/tabela da CIP/COSIP de São Gonçalo (RJ). Há página institucional da Câmara sobre iluminação pública, mas sem tabela de alíquotas acessível."
+ },
+ {
+  "cod_ibge": "2211001",
+  "municipio": "Teresina",
+  "uf": "PI",
+  "slug": "teresina",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": 2017,
+  "tabelas": null,
+  "isencoes": [
+   {
+    "descricao": "Consumidores na faixa de 0 a 30 kWh/mês",
+    "limite_kwh": 30,
+    "base_legal": "LC 5.139/2017, art. 1º (art. 308, I do CTM)",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=354592"
+   },
+   {
+    "descricao": "Órgãos da Administração Direta e Indireta municipal e Câmara Municipal",
+    "limite_kwh": null,
+    "base_legal": "LC 5.139/2017, art. 1º (art. 308, II)",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=354592"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar nº 4.974/2016 (Código Tributário; arts. 308-310 - COSIP)",
+    "vigencia": "https://www.lefisc.com.br/regulamentos/ctmTeresina/conteudo.asp",
+    "fonte_url": "2016-12-26"
+   },
+   {
+    "norma": "Lei Complementar nº 5.139/2017 (alíquota de 12% para todas as classes; exclusões e isenções)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=354592",
+    "fonte_url": "2017-12-22"
+   },
+   {
+    "norma": "Lei Complementar nº 6.313/2025 (altera o CTM; trata da COSISP)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=488579",
+    "fonte_url": "2025-12-23"
+   }
+  ],
+  "distribuidoras": [
+   "EQUATORIAL PI"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=354592",
+    "titulo": "LC 5.139/2017 - Teresina (COSIP)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=488579",
+    "titulo": "LC 6.313/2025 - Teresina",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Alíquota única de 12% para todas as classes de consumo (art. 310, §1º), com exclusão da base do excedente a 2.400 kWh (residencial/rural) e 6.000 kWh (demais).",
+   "A base de cálculo detalhada (art. 309 do CTM) não foi recuperada, por isso o mecanismo ficou 'desconhecido'."
+  ],
+  "pendencias": [
+   "Definição da base de cálculo da COSIP (art. 309 do CTM) para enquadrar a alíquota de 12% no mecanismo correto"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "2507507",
+  "municipio": "João Pessoa",
+  "uf": "PB",
+  "slug": "joao-pessoa",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [
+   {
+    "descricao": "Imóveis residenciais com consumo mensal igual ou inferior a 50 kWh",
+    "limite_kwh": 50,
+    "base_legal": "LC 31/2002, art. 9º",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=175239"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar nº 31/2002 (institui a COSIP; alíquotas por classe e consumo em tabela anexa)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=175239",
+    "fonte_url": "2002-12-27"
+   }
+  ],
+  "distribuidoras": [
+   "EPB"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=175239",
+    "titulo": "LC 31/2002 - João Pessoa (COSIP)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "A tabela anexa de alíquotas por classe/faixa de consumo não estava disponível no texto consultado."
+  ],
+  "pendencias": [
+   "Tabela anexa da LC 31/2002 (alíquotas por classe e faixa de consumo)"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3548708",
+  "municipio": "São Bernardo do Campo",
+  "uf": "SP",
+  "slug": "sao-bernardo-do-campo",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "ELETROPAULO"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Não localizada a norma/tabela da COSIP de São Bernardo do Campo. Encontradas apenas referências genéricas (Lei 5.114/2002 citada em agregador, sem texto/tabela)."
+ },
+ {
+  "cod_ibge": "3301702",
+  "municipio": "Duque de Caxias",
+  "uf": "RJ",
+  "slug": "duque-de-caxias",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "ENEL RJ",
+   "LIGHT SESA"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Não localizada lei/tabela da CIP/COSIP de Duque de Caxias em múltiplas buscas."
+ },
+ {
+  "cod_ibge": "3303500",
+  "municipio": "Nova Iguaçu",
+  "uf": "RJ",
+  "slug": "nova-iguacu",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "LIGHT SESA"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Não localizada lei/tabela da CIP/COSIP de Nova Iguaçu em múltiplas buscas."
+ },
+ {
+  "cod_ibge": "2408102",
+  "municipio": "Natal",
+  "uf": "RN",
+  "slug": "natal",
+  "status": "completo",
+  "mecanismo": "valor_fixo",
+  "exercicio": 2002,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 55.27,
+     "unidade": "BRL",
+     "nota": "valor mensal; limitado a 15% do valor do consumo de energia (art. 6º, IV)"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 165.81,
+     "unidade": "BRL",
+     "nota": "valor mensal; limitado a 15% do valor do consumo (art. 6º, IV)"
+    }
+   ],
+   "nao_edificado": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 15.0,
+     "unidade": "BRL",
+     "nota": "valor ANUAL; limitado a 15% do IPTU (art. 6º, III e V)"
+    }
+   ]
+  },
+  "isencoes": [
+   {
+    "descricao": "Imóveis não edificados com valor venal igual ou inferior a R$ 1.450,00",
+    "limite_kwh": null,
+    "base_legal": "LC 47/2002, art. 7º, II",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=334932"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar nº 47/2002 (institui a COSIP de Natal; art. 6º fixa os valores)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=334932",
+    "fonte_url": "2002-12-30"
+   },
+   {
+    "norma": "Lei Complementar nº 238/2023 (altera apuração/recolhimento da CIP e o CTM)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=453750",
+    "fonte_url": "2023-12-21"
+   }
+  ],
+  "distribuidoras": [
+   "COSERN"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=334932",
+    "titulo": "LC 47/2002 - Natal (COSIP)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=453750",
+    "titulo": "LC 238/2023 - Natal",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Valores constantes da LC 47/2002; não foi localizado decreto anual de reajuste posterior — confirmar se há atualização vigente."
+  ],
+  "pendencias": [
+   "Verificar reajustes anuais da COSIP de Natal posteriores a 2002"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3547809",
+  "municipio": "Santo André",
+  "uf": "SP",
+  "slug": "santo-andre",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "ELETROPAULO"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Não localizada lei/tabela da CIP de Santo André. A Enel informa que os valores de CIP/COSIP de Santo André alteram mensalmente e remetem à prefeitura, sem tabela pública consolidada."
+ },
+ {
+  "cod_ibge": "3534401",
+  "municipio": "Osasco",
+  "uf": "SP",
+  "slug": "osasco",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "ELETROPAULO"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Não localizada lei/tabela da COSIP de Osasco em múltiplas buscas."
+ },
+ {
+  "cod_ibge": "3552205",
+  "municipio": "Sorocaba",
+  "uf": "SP",
+  "slug": "sorocaba",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CERIM",
+   "CPFL-PIRATINING"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Não localizada lei/tabela da COSIP de Sorocaba em múltiplas buscas."
+ },
+ {
+  "cod_ibge": "3170206",
+  "municipio": "Uberlândia",
+  "uf": "MG",
+  "slug": "uberlandia",
+  "status": "parcial",
+  "mecanismo": "valor_fixo",
+  "exercicio": 2025,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CEMIG-D"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.camarauberlandia.mg.gov.br/imprensa/noticias/2025/projeto-de-lei-que-estabelece-cobranca-do-servico-de-iluminacao-publica-de-imoveis-nao-edificados-lotes-vagos-e-aprovado-em-dois-turnos",
+    "titulo": "Câmara de Uberlândia - cobrança de COSIP de lotes vagos",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Extraídos apenas os valores para imóveis NÃO edificados (lotes vagos), escalonados por metragem: até 10 m R$70; 10-30 m R$140; 30-50 m R$210; 50-100 m R$280; acima de 100 m R$350 (anual, ligado ao IPTU). A tabela para imóveis edificados não foi localizada."
+  ],
+  "pendencias": [
+   "Lei e tabela de COSIP para imóveis edificados de Uberlândia"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3543402",
+  "municipio": "Ribeirão Preto",
+  "uf": "SP",
+  "slug": "ribeirao-preto",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CPFL-PAULISTA"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Não localizada lei/tabela da COSIP de Ribeirão Preto em múltiplas buscas."
+ },
+ {
+  "cod_ibge": "3549904",
+  "municipio": "São José dos Campos",
+  "uf": "SP",
+  "slug": "sao-jose-dos-campos",
+  "status": "completo",
+  "mecanismo": "valor_fixo",
+  "exercicio": 2014,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 100
+     },
+     "valor": 2.5,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 300
+     },
+     "valor": 3.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 600
+     },
+     "valor": 3.5,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 10000
+     },
+     "valor": 4.0,
+     "unidade": "BRL"
+    }
+   ],
+   "baixa_renda": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": null
+     },
+     "valor": 1.0,
+     "unidade": "BRL"
+    }
+   ],
+   "nao_residencial_comercial_bt": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 100
+     },
+     "valor": 10.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 300
+     },
+     "valor": 20.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 600
+     },
+     "valor": 25.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 1000
+     },
+     "valor": 35.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 10000
+     },
+     "valor": 40.0,
+     "unidade": "BRL"
+    }
+   ],
+   "nao_residencial_industrial_bt": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 100
+     },
+     "valor": 10.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 300
+     },
+     "valor": 20.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 600
+     },
+     "valor": 25.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 1000
+     },
+     "valor": 35.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 10000
+     },
+     "valor": 40.0,
+     "unidade": "BRL"
+    }
+   ],
+   "rural": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 10000
+     },
+     "valor": 2.0,
+     "unidade": "BRL"
+    }
+   ],
+   "poder_publico_municipal": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 10000
+     },
+     "valor": 20.0,
+     "unidade": "BRL"
+    }
+   ],
+   "poder_publico_estadual_federal": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 10000
+     },
+     "valor": 30.0,
+     "unidade": "BRL"
+    }
+   ],
+   "nao_residencial_comercial_a": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 1000
+     },
+     "valor": 50.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 3000
+     },
+     "valor": 150.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3001,
+      "max": 10000
+     },
+     "valor": 200.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 10001,
+      "max": null
+     },
+     "valor": 220.0,
+     "unidade": "BRL"
+    }
+   ],
+   "nao_residencial_industrial_a": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 1000
+     },
+     "valor": 100.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 3000
+     },
+     "valor": 200.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3001,
+      "max": 10000
+     },
+     "valor": 220.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 10001,
+      "max": null
+     },
+     "valor": 250.0,
+     "unidade": "BRL"
+    }
+   ]
+  },
+  "isencoes": [
+   {
+    "descricao": "Entidades filantrópicas e templos religiosos",
+    "limite_kwh": null,
+    "base_legal": "LC 562/2014, art. 11",
+    "fonte_url": "https://servicos.sjc.sp.gov.br/Legislacao/Arquivos/LeisComplementares/2014/LC_2014_00000562.pdf"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar nº 562/2014 (institui a CIP; Anexo Único com valores por classe e faixa)",
+    "vigencia": "https://servicos.sjc.sp.gov.br/Legislacao/Arquivos/LeisComplementares/2014/LC_2014_00000562.pdf",
+    "fonte_url": "2014-12-18"
+   }
+  ],
+  "distribuidoras": [
+   "EDP SP"
+  ],
+  "fontes": [
+   {
+    "url": "https://servicos.sjc.sp.gov.br/Legislacao/Arquivos/LeisComplementares/2014/LC_2014_00000562.pdf",
+    "titulo": "LC 562/2014 - São José dos Campos (Anexo Único)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Valores do Anexo Único extraídos de PDF digitalizado (OCR); conferir no original.",
+   "Lotes sem ligação de energia: R$ 0,50 por metro linear de testada, limitado a R$ 20,00/mês (art. 8º).",
+   "Valores reajustados anualmente pelo IPCA (art. 9º) — o exercício 2014 é o dos valores nominais da lei."
+  ],
+  "pendencias": [
+   "Confirmar valores reajustados pelo IPCA para o exercício corrente"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "5103403",
+  "municipio": "Cuiabá",
+  "uf": "MT",
+  "slug": "cuiaba",
+  "status": "completo",
+  "mecanismo": "percentual_teip",
+  "exercicio": 2014,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 70
+     },
+     "valor": "isento",
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 71,
+      "max": 100
+     },
+     "valor": 1.5,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 140
+     },
+     "valor": 2.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 141,
+      "max": 180
+     },
+     "valor": 3.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 181,
+      "max": 220
+     },
+     "valor": 4.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 221,
+      "max": 300
+     },
+     "valor": 5.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 400
+     },
+     "valor": 6.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 500
+     },
+     "valor": 7.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 8.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 700
+     },
+     "valor": 9.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 701,
+      "max": 800
+     },
+     "valor": 10.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 1000
+     },
+     "valor": 11.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 1200
+     },
+     "valor": 12.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1201,
+      "max": 1500
+     },
+     "valor": 13.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1501,
+      "max": 2000
+     },
+     "valor": 14.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 2500
+     },
+     "valor": 15.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2501,
+      "max": 3000
+     },
+     "valor": 16.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3001,
+      "max": 3500
+     },
+     "valor": 17.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3501,
+      "max": 4000
+     },
+     "valor": 18.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 4001,
+      "max": 4500
+     },
+     "valor": 19.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 4501,
+      "max": 5000
+     },
+     "valor": 20.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5001,
+      "max": 6000
+     },
+     "valor": 21.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 6001,
+      "max": 7000
+     },
+     "valor": 22.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 7001,
+      "max": 8000
+     },
+     "valor": 23.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 8001,
+      "max": 9000
+     },
+     "valor": 24.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 9001,
+      "max": 10000
+     },
+     "valor": 25.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 10001,
+      "max": null
+     },
+     "valor": 26.0,
+     "unidade": "PERCENTUAL_TEIP"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": 2.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 50
+     },
+     "valor": 3.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 70
+     },
+     "valor": 4.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 71,
+      "max": 100
+     },
+     "valor": 5.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 140
+     },
+     "valor": 6.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 141,
+      "max": 180
+     },
+     "valor": 7.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 181,
+      "max": 220
+     },
+     "valor": 8.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 221,
+      "max": 300
+     },
+     "valor": 10.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 400
+     },
+     "valor": 12.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 500
+     },
+     "valor": 14.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 16.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 700
+     },
+     "valor": 18.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 701,
+      "max": 800
+     },
+     "valor": 20.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 1000
+     },
+     "valor": 22.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 1200
+     },
+     "valor": 24.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1201,
+      "max": 1500
+     },
+     "valor": 26.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1501,
+      "max": 2000
+     },
+     "valor": 28.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 2500
+     },
+     "valor": 30.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2501,
+      "max": 3000
+     },
+     "valor": 32.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3001,
+      "max": 3500
+     },
+     "valor": 34.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 3501,
+      "max": 4000
+     },
+     "valor": 36.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 4001,
+      "max": 4500
+     },
+     "valor": 38.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 4501,
+      "max": 5000
+     },
+     "valor": 40.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5001,
+      "max": 6000
+     },
+     "valor": 42.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 6001,
+      "max": 7000
+     },
+     "valor": 44.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 7001,
+      "max": 8000
+     },
+     "valor": 46.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 8001,
+      "max": 9000
+     },
+     "valor": 48.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 9001,
+      "max": 10000
+     },
+     "valor": 50.0,
+     "unidade": "PERCENTUAL_TEIP"
+    },
+    {
+     "faixa_kwh": {
+      "min": 10001,
+      "max": null
+     },
+     "valor": 52.0,
+     "unidade": "PERCENTUAL_TEIP"
+    }
+   ]
+  },
+  "isencoes": [
+   {
+    "descricao": "Consumidores residenciais com consumo mensal até 70 kWh e classe Rural",
+    "limite_kwh": 70,
+    "base_legal": "LC 366/2014, art. 3º",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=279894"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar nº 87/2002 (institui a CIP de Cuiabá)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=173892",
+    "fonte_url": "2002-12-26"
+   },
+   {
+    "norma": "Lei Complementar nº 366/2014 (nova redação do art. 5º e Anexo Único - Tabelas I e II)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=279894",
+    "fonte_url": "2014-12-26"
+   }
+  ],
+  "distribuidoras": [
+   "EMT"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=279894",
+    "titulo": "LC 366/2014 - Cuiabá (Tabelas I e II)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=173892",
+    "titulo": "LC 87/2002 - Cuiabá",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Alíquotas percentuais incidentes sobre a Tarifa de Iluminação Pública (R$/MWh - B4a); o valor em R$ varia conforme a tarifa definida pela ANEEL.",
+   "Tabelas vigentes conforme LC 366/2014; confirmar se há alteração posterior."
+  ],
+  "pendencias": [
+   "Verificar eventual lei posterior que altere as Tabelas I e II de Cuiabá"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "2607901",
+  "municipio": "Jaboatão dos Guararapes",
+  "uf": "PE",
+  "slug": "jaboatao-dos-guararapes",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "Neoenergia PE"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Não localizada lei/tabela da COSIP de Jaboatão dos Guararapes; encontradas apenas leis de PPP (LC 42/2021) sem tabela de alíquotas acessível."
+ },
+ {
+  "cod_ibge": "3118601",
+  "municipio": "Contagem",
+  "uf": "MG",
+  "slug": "contagem",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CEMIG-D"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Não localizada lei/tabela da CIP/COSIP de Contagem em múltiplas buscas."
+ },
+ {
+  "cod_ibge": "4209102",
+  "municipio": "Joinville",
+  "uf": "SC",
+  "slug": "joinville",
+  "status": "parcial",
+  "mecanismo": "outro",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CELESC"
+  ],
+  "fontes": [
+   {
+    "url": "https://ecoaenergias.com.br/blog/cobranca-cosip-joinville/",
+    "titulo": "Ecoa Energias - cobrança da COSIP em Joinville",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.joinville.sc.gov.br/servicos/requerer-isencao-de-cosip/",
+    "titulo": "Prefeitura de Joinville - requerer isenção de COSIP",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "COSIP de Joinville é calculada como percentual da UPM (Unidade Padrão Municipal) em função da metragem (testada): 01-30 m 7,20%; 31-60 m 14,40%; 61-100 m 21,60%; 101-200 m 28,80%; >200 m 36% (UPM/mês) — valores reproduzidos por notícia, sem confirmação na lei municipal.",
+   "Imóveis em zona rural têm redução de 75% (art. 12).",
+   "Não há unidade equivalente no schema para '% da UPM'; por isso a tabela não foi tabulada (mecanismo 'outro')."
+  ],
+  "pendencias": [
+   "Texto da lei municipal da COSIP de Joinville e valores vigentes da UPM"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "2910800",
+  "municipio": "Feira de Santana",
+  "uf": "BA",
+  "slug": "feira-de-santana",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "COELBA"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Não localizada a lei/tabela vigente da COSIP de Feira de Santana (apenas documento de 2003/2008 em Scribd, sem acesso ao conteúdo)."
+ },
+ {
+  "cod_ibge": "2800308",
+  "municipio": "Aracaju",
+  "uf": "SE",
+  "slug": "aracaju",
+  "status": "parcial",
+  "mecanismo": "valor_fixo",
+  "exercicio": 2025,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [
+   {
+    "norma": "Projeto de Lei nº 496/2025 (COMSIP - substitui a COSIP de 2013; aprovado em 18/12/2025)",
+    "vigencia": "https://www.aracaju.se.leg.br/institucional/noticias/camara-aprova-projeto-do-poder-executivo-que-institui-a-cosimp-e-traz-alteracoes-para-o-uso-do-recurso",
+    "fonte_url": "2025-12-18"
+   },
+   {
+    "norma": "Lei Complementar nº 2/1991 (Tabela XI - antiga taxa de iluminação pública, % da UFM por faixa)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=172096",
+    "fonte_url": "1991-12-30"
+   }
+  ],
+  "distribuidoras": [
+   "ESE"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aracaju.se.leg.br/institucional/noticias/camara-aprova-projeto-do-poder-executivo-que-institui-a-cosimp-e-traz-alteracoes-para-o-uso-do-recurso",
+    "titulo": "Câmara de Aracaju - nova COMSIP",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=172096",
+    "titulo": "LC 2/1991 - Aracaju (tabela antiga)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Nova COMSIP (2025) cobra por faixas de consumo em kWh, com isenção para órgãos públicos municipais; os valores das faixas não foram recuperados.",
+   "A tabela antiga (LC 2/1991) era percentual da UFM por faixa de consumo (0-60 isento; até 1000 kWh; teto de 15% do consumo)."
+  ],
+  "pendencias": [
+   "Tabela de faixas e valores da COMSIP aprovada em 2025"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "4113700",
+  "municipio": "Londrina",
+  "uf": "PR",
+  "slug": "londrina",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "COPEL-DIS"
+  ],
+  "fontes": [
+   {
+    "url": "https://cbnlondrina.com.br/materias/camara-de-londrina-aprova-nova-cosip-para-iluminacao-e-seguranca-publica",
+    "titulo": "CBN Londrina - nova Cosip aprovada",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Nova Cosip (2025) aprovada, com valores por consumo e categoria e isenção para baixa renda; tabela não recuperada."
+  ],
+  "pendencias": [
+   "Lei e tabela de valores da nova Cosip de Londrina"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "3136702",
+  "municipio": "Juiz de Fora",
+  "uf": "MG",
+  "slug": "juiz-de-fora",
+  "status": "parcial",
+  "mecanismo": "outro",
+  "exercicio": 2025,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "CEMIG-D"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.camarajf.mg.gov.br/www/noticias/exibir/13718/Camara-aprova-atualizacao-na-Contribuicao-de-Iluminacao-Publica-e-sistema-de-monitoramento-para-seguranca-Cips.html",
+    "titulo": "Câmara de Juiz de Fora - atualização da Cips",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Cips (CIP + monitoramento) cobra percentual sobre a faixa de consumo de energia elétrica; tabela de faixas não recuperada.",
+   "Imóveis sem cadastro na Cemig (não edificados): R$ 72,34/ano, lançado com o IPTU."
+  ],
+  "pendencias": [
+   "Tabela de faixas de consumo e percentuais da Cips de Juiz de Fora"
+  ],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "4205407",
+  "municipio": "Florianópolis",
+  "uf": "SC",
+  "slug": "florianopolis",
+  "status": "completo",
+  "mecanismo": "valor_fixo",
+  "exercicio": 2026,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": "isento",
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 50
+     },
+     "valor": "isento",
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 100
+     },
+     "valor": "isento",
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 200
+     },
+     "valor": 9.84,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 400
+     },
+     "valor": 17.71,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 600
+     },
+     "valor": 35.26,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 800
+     },
+     "valor": 42.19,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 1000
+     },
+     "valor": 55.32,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 1300
+     },
+     "valor": 64.97,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1301,
+      "max": 1600
+     },
+     "valor": 72.72,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1601,
+      "max": null
+     },
+     "valor": 109.09,
+     "unidade": "BRL"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": "isento",
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 50
+     },
+     "valor": "isento",
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 100
+     },
+     "valor": 17.04,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 200
+     },
+     "valor": 34.46,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 400
+     },
+     "valor": 53.77,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": 600
+     },
+     "valor": 102.26,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 800
+     },
+     "valor": 130.25,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 801,
+      "max": 1000
+     },
+     "valor": 159.55,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 1300
+     },
+     "valor": 227.96,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1301,
+      "max": 1600
+     },
+     "valor": 286.37,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1601,
+      "max": null
+     },
+     "valor": 360.19,
+     "unidade": "BRL"
+    }
+   ]
+  },
+  "isencoes": [
+   {
+    "descricao": "Unidades habitacionais de núcleo familiar com consumo até 100 kWh/mês",
+    "limite_kwh": 100,
+    "base_legal": "LC 790/2026, Anexo I",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=496640"
+   },
+   {
+    "descricao": "Unidades produtivas ou institucionais com consumo até 50 kWh/mês",
+    "limite_kwh": 50,
+    "base_legal": "LC 790/2026, Anexo I",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=496640"
+   }
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar nº 790/2026 (COSISP; Anexo I - custo mensal por faixa; revoga a LC 109/2002)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=496640",
+    "fonte_url": "2026-06-08"
+   }
+  ],
+  "distribuidoras": [
+   "CELESC"
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=496640",
+    "titulo": "LC 790/2026 - Florianópolis (COSISP)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "ressalvas": [
+   "Tabela do Anexo I: colunas 'unidades habitacionais de núcleo familiar' e 'unidades produtivas ou institucionais'.",
+   "Para imóveis não edificados, aplica-se a faixa IV, podendo ser lançado anualmente (x12) junto ao IPTU."
+  ],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": ""
+ },
+ {
+  "cod_ibge": "5201405",
+  "municipio": "Aparecida de Goiânia",
+  "uf": "GO",
+  "slug": "aparecida-de-goiania",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "exercicio": null,
+  "tabelas": null,
+  "isencoes": [],
+  "base_legal": [],
+  "distribuidoras": [
+   "EQUATORIAL GO"
+  ],
+  "fontes": [],
+  "ressalvas": [],
+  "pendencias": [],
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "observacoes": "Não recuperada norma/tabela vigente da COSIP de Aparecida de Goiânia (apenas indicativo de projeto de ampliação de isenção na Câmara)."
+ }
+]

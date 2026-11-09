@@ -1,0 +1,1356 @@
+[
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?id=384808",
+  "key": "c0546e5333c6",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 65222,
+  "final": "https://www.legisweb.com.br/legislacao/?id=384808",
+  "muns": [
+   "Porto Velho/RO"
+  ]
+ },
+ {
+  "url": "https://portalcgm.riobranco.ac.gov.br/portal/wp-content/uploads/2013/10/LEI-1508-DE-08.12.2003-Codigo-Tributario-Municipal.pdf",
+  "key": "1ad4b57d63e8",
+  "status": "ERR",
+  "ct": "",
+  "len": 0,
+  "final": "HTTPSConnectionPool(host='portalcgm.riobranco.ac.gov.br', port=443): Max retries exceeded with url: /portal/wp-content/u",
+  "muns": [
+   "Rio Branco/AC"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?id=469601",
+  "key": "a509bfe34c55",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 61261,
+  "final": "https://www.legisweb.com.br/legislacao/?id=469601",
+  "muns": [
+   "Manaus/AM"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?id=241729",
+  "key": "5c673b2c2b40",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 68895,
+  "final": "https://www.legisweb.com.br/legislacao/?id=241729",
+  "muns": [
+   "Boa Vista/RR"
+  ]
+ },
+ {
+  "url": "https://www.ananindeua.pa.gov.br/midias/legislacao/719_lei_complementar_n._3.137_06_de_abril_de_2021.pdf",
+  "key": "86db56640577",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 19753,
+  "final": "https://www.ananindeua.pa.gov.br/midias/legislacao/719_lei_complementar_n._3.137_06_de_abril_de_2021.pdf",
+  "muns": [
+   "Ananindeua/PA"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=471271",
+  "key": "10972b757804",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 69158,
+  "final": "https://www.legisweb.com.br/legislacao/?id=471271",
+  "muns": [
+   "Belém/PA"
+  ]
+ },
+ {
+  "url": "https://transparencia.santarem.pa.gov.br/",
+  "key": "177f57fd7cc8",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 123050,
+  "final": "https://transparencia.santarem.pa.gov.br/",
+  "muns": [
+   "Santarém/PA"
+  ]
+ },
+ {
+  "url": "https://lefisc.com.br/regulamentos/stmMacapa/anexoX.asp",
+  "key": "3c44196c8e2a",
+  "status": 200,
+  "ct": "text/html",
+  "len": 38352,
+  "final": "https://lefisc.com.br/regulamentos/stmMacapa/anexoX.asp",
+  "muns": [
+   "Macapá/AP"
+  ]
+ },
+ {
+  "url": "https://legislativo.palmas.to.gov.br/media/leis/lei-complementar-102-2005.pdf",
+  "key": "19281c7c5dbf",
+  "status": 404,
+  "ct": "text/html; charset=utf-8",
+  "len": 2749,
+  "final": "https://legislativo.palmas.to.gov.br/media/leis/lei-complementar-102-2005.pdf",
+  "muns": [
+   "Palmas/TO"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=357666",
+  "key": "e129db9892c9",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 635252,
+  "final": "https://www.legisweb.com.br/legislacao/?id=357666",
+  "muns": [
+   "São Luís/MA"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=179235",
+  "key": "adface6eb8e8",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 74808,
+  "final": "https://www.legisweb.com.br/legislacao/?id=179235",
+  "muns": [
+   "São Luís/MA"
+  ]
+ },
+ {
+  "url": "https://www.meutorrao.com.br/2024/05/taxa-de-iluminacao-publica-em-sao-luis.html",
+  "key": "bee78cce3c10",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 109586,
+  "final": "https://www.meutorrao.com.br/2024/05/taxa-de-iluminacao-publica-em-sao-luis.html",
+  "muns": [
+   "São Luís/MA"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=354592",
+  "key": "169e2f5602ee",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 59141,
+  "final": "https://www.legisweb.com.br/legislacao/?id=354592",
+  "muns": [
+   "Teresina/PI"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=488579",
+  "key": "4b6eb2066144",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 91611,
+  "final": "https://www.legisweb.com.br/legislacao/?id=488579",
+  "muns": [
+   "Teresina/PI"
+  ]
+ },
+ {
+  "url": "https://mpce.mp.br/wp-content/uploads/2019/09/CodigoTributario-Caucaia-2009.pdf",
+  "key": "005ac64565d2",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 687375,
+  "final": "https://mpce.mp.br/wp-content/uploads/2019/09/CodigoTributario-Caucaia-2009.pdf",
+  "muns": [
+   "Caucaia/CE"
+  ]
+ },
+ {
+  "url": "https://leis.org/municipais/ce/caucaia/",
+  "key": "02a85964f307",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 5709,
+  "final": "https://leis.org/municipais/ce/caucaia/",
+  "muns": [
+   "Caucaia/CE"
+  ]
+ },
+ {
+  "url": "https://sefin.fortaleza.ce.gov.br/Canal/16/Generico/1201/Ler",
+  "key": "a28db3782319",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 86079,
+  "final": "https://sefin.fortaleza.ce.gov.br/Canal/16/Generico/1201/Ler",
+  "muns": [
+   "Fortaleza/CE"
+  ]
+ },
+ {
+  "url": "https://juazeiro1.websiteseguro.com/site/midia/9158/",
+  "key": "da66f5b6a08f",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 1097,
+  "final": "https://juazeiro1.websiteseguro.com/site/midia/9158/",
+  "muns": [
+   "Juazeiro do Norte/CE"
+  ]
+ },
+ {
+  "url": "https://www.juazeirodonorte.ce.gov.br/leis.php?id=7301",
+  "key": "8d85cd8a49d6",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 75149,
+  "final": "https://www.juazeirodonorte.ce.gov.br/leis.php?id=7301",
+  "muns": [
+   "Juazeiro do Norte/CE"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=334932",
+  "key": "070651782f0d",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 68681,
+  "final": "https://www.legisweb.com.br/legislacao/?id=334932",
+  "muns": [
+   "Natal/RN"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=453750",
+  "key": "7499b6e1317d",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 67473,
+  "final": "https://www.legisweb.com.br/legislacao/?id=453750",
+  "muns": [
+   "Natal/RN"
+  ]
+ },
+ {
+  "url": "https://campinagrande.pb.gov.br/wp-content/uploads/2022/01/Lei_Complementar_TAXA_NOVO_CDIGO_TRIBUTRIO.pdf",
+  "key": "4bf0e77ee23d",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 13825447,
+  "final": "https://campinagrande.pb.gov.br/wp-content/uploads/2022/01/Lei_Complementar_TAXA_NOVO_CDIGO_TRIBUTRIO.pdf",
+  "muns": [
+   "Campina Grande/PB"
+  ]
+ },
+ {
+  "url": "https://www.normasbrasil.com.br/norma/lei-complementar-31-2002-joao-pessoa-pb_174628.html",
+  "key": "8f25751d712e",
+  "status": 200,
+  "ct": "text/html",
+  "len": 14374,
+  "final": "https://www.normasbrasil.com.br/norma/lei-complementar-31-2002-joao-pessoa-pb_174628.html",
+  "muns": [
+   "João Pessoa/PB"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=175239",
+  "key": "673bc33d971c",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 63715,
+  "final": "https://www.legisweb.com.br/legislacao/?id=175239",
+  "muns": [
+   "João Pessoa/PB"
+  ]
+ },
+ {
+  "url": "https://sapl.caruaru.pe.leg.br/media/sapl/public/normajuridica/2009/2813/014.pdf",
+  "key": "6f4f33c1ae0f",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 3927046,
+  "final": "https://sapl.caruaru.pe.leg.br/media/sapl/public/normajuridica/2009/2813/014.pdf",
+  "muns": [
+   "Caruaru/PE"
+  ]
+ },
+ {
+  "url": "https://emlume.com.br/wp-content/uploads/2022/02/LEI-188-2002-CIP.pdf",
+  "key": "9fd833a6a585",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 1037589,
+  "final": "https://emlume.com.br/wp-content/uploads/2022/02/LEI-188-2002-CIP.pdf",
+  "muns": [
+   "Jaboatão dos Guararapes/PE"
+  ]
+ },
+ {
+  "url": "https://emlume.com.br/wp-content/uploads/2023/12/DOM_LEI_N_1582.pdf",
+  "key": "4a8dbf73dd40",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 118099,
+  "final": "https://emlume.com.br/wp-content/uploads/2023/12/DOM_LEI_N_1582.pdf",
+  "muns": [
+   "Jaboatão dos Guararapes/PE"
+  ]
+ },
+ {
+  "url": "https://www.olinda.pe.leg.br/institucional/projeto-de-lei/projetos-de-lei-2022/pl-129-2022-autor-poder-executivo.pdf",
+  "key": "e045879b99a5",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 300323,
+  "final": "https://www.olinda.pe.leg.br/institucional/projeto-de-lei/projetos-de-lei-2022/pl-129-2022-autor-poder-executivo.pdf",
+  "muns": [
+   "Olinda/PE"
+  ]
+ },
+ {
+  "url": "https://transparencia.paulista.pe.leg.br/uploads/5311/2/atos-oficiais/2025/leis/1772477016_54752025.pdf",
+  "key": "8d5f1faa2063",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 5982,
+  "final": "https://transparencia.paulista.pe.leg.br/uploads/5311/2/atos-oficiais/2025/leis/1772477016_54752025.pdf",
+  "muns": [
+   "Paulista/PE"
+  ]
+ },
+ {
+  "url": "https://petrolina.pe.gov.br/lei-no-3-648-de-12-de-setembro-de-2023/",
+  "key": "c8004b76cfc1",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 113645,
+  "final": "https://petrolina.pe.gov.br/lei-no-3-648-de-12-de-setembro-de-2023/",
+  "muns": [
+   "Petrolina/PE"
+  ]
+ },
+ {
+  "url": "https://leis.org/municipais/pe/petrolina/lei/lei-ordinaria/2019/3189/lei-ordinaria-n-3189-2019-altera-e-acrescenta-dispositivos-a-lei-municipal-n-1609-de-21-de-dezembro-de-2004-que-institui-a-contribuicao-para-custeio-dos-servicos-de-iluminacao",
+  "key": "343599b4374c",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 6602,
+  "final": "https://leis.org/municipais/pe/petrolina/lei/lei-ordinaria/2019/3189/lei-ordinaria-n-3189-2019-altera-e-acrescenta-dispositivos-a-lei-municipal-n-1609-de-21-de-dezembro-de-2004-que-institui-a-contribuicao-para-custeio-dos-servicos-de-iluminacao",
+  "muns": [
+   "Petrolina/PE"
+  ]
+ },
+ {
+  "url": "http://www.legiscidade.recife.pe.gov.br/lei/16833/",
+  "key": "b0d73da1a79c",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 21207,
+  "final": "http://www.legiscidade.recife.pe.gov.br/lei/16833/",
+  "muns": [
+   "Recife/PE"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?id=383445",
+  "key": "fc96fdcc9728",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 58602,
+  "final": "https://www.legisweb.com.br/legislacao/?id=383445",
+  "muns": [
+   "Recife/PE"
+  ]
+ },
+ {
+  "url": "https://www.agenciatatu.com.br/wp-content/uploads/LEI-No.-6.685-de-2017-Institui-a-COSIP.pdf",
+  "key": "6cbda6fc6f31",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 1242350,
+  "final": "https://www.agenciatatu.com.br/wp-content/uploads/LEI-No.-6.685-de-2017-Institui-a-COSIP.pdf",
+  "muns": [
+   "Maceió/AL"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?id=263846",
+  "key": "9888c14e57c8",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 82584,
+  "final": "https://www.legisweb.com.br/legislacao/?id=263846",
+  "muns": [
+   "Maceió/AL"
+  ]
+ },
+ {
+  "url": "https://www.agenciatatu.com.br/noticia/taxa-de-iluminacao-publica-alagoas/",
+  "key": "5e24e9172585",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 185696,
+  "final": "https://www.agenciatatu.com.br/noticia/taxa-de-iluminacao-publica-alagoas/",
+  "muns": [
+   "Maceió/AL"
+  ]
+ },
+ {
+  "url": "https://www.aracaju.se.leg.br/institucional/noticias/camara-aprova-projeto-do-poder-executivo-que-institui-a-cosimp-e-traz-alteracoes-para-o-uso-do-recurso",
+  "key": "dc365dfbee77",
+  "status": 200,
+  "ct": "text/html;charset=utf-8",
+  "len": 250947,
+  "final": "https://www.aracaju.se.leg.br/institucional/noticias/camara-aprova-projeto-do-poder-executivo-que-institui-a-cosimp-e-traz-alteracoes-para-o-uso-do-recurso",
+  "muns": [
+   "Aracaju/SE"
+  ]
+ },
+ {
+  "url": "https://leis.org/municipais/se/aracaju/lei/lei-ordinaria/2025/6295/lei-ordinaria-n-6295-2025-institui-a-contribuicao-para-o-custeio-dos-servicos-de-iluminacao-publica-do-municipio-de-aracaju-e-da-outras-providencias",
+  "key": "ee87f9a009de",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 6493,
+  "final": "https://leis.org/municipais/se/aracaju/lei/lei-ordinaria/2025/6295/lei-ordinaria-n-6295-2025-institui-a-contribuicao-para-o-custeio-dos-servicos-de-iluminacao-publica-do-municipio-de-aracaju-e-da-outras-providencias",
+  "muns": [
+   "Aracaju/SE"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=172096",
+  "key": "33011979702c",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 98393,
+  "final": "https://www.legisweb.com.br/legislacao/?id=172096",
+  "muns": [
+   "Aracaju/SE"
+  ]
+ },
+ {
+  "url": "https://sefaz.camacari.ba.gov.br/legislacao/",
+  "key": "2888889bed1e",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 356658,
+  "final": "https://sefaz.camacari.ba.gov.br/legislacao/",
+  "muns": [
+   "Camaçari/BA"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?id=472683",
+  "key": "b78ce13061b0",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 76567,
+  "final": "https://www.legisweb.com.br/legislacao/?id=472683",
+  "muns": [
+   "Salvador/BA"
+  ]
+ },
+ {
+  "url": "https://pmvc.ba.gov.br/apos-entender-que-cosip-mu-nao-representa-novo-tributo-camara-aprova-projeto-de-lei-em-primeira-votacao/",
+  "key": "a322be46f8e9",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 52572,
+  "final": "https://www.pmvc.ba.gov.br/apos-entender-que-cosip-mu-nao-representa-novo-tributo-camara-aprova-projeto-de-lei-em-primeira-votacao/",
+  "muns": [
+   "Vitória da Conquista/BA"
+  ]
+ },
+ {
+  "url": "https://leis.org/municipais/ba/vitoria-da-conquista/lei/lei-ordinaria/2025/3090/lei-ordinaria-n-3090-2025-altera-a-lei-complementar-n-2-039-2016",
+  "key": "ab0752bbc3b2",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 6174,
+  "final": "https://leis.org/municipais/ba/vitoria-da-conquista/lei/lei-ordinaria/2025/3090/lei-ordinaria-n-3090-2025-altera-a-lei-complementar-n-2-039-2016",
+  "muns": [
+   "Vitória da Conquista/BA"
+  ]
+ },
+ {
+  "url": "https://www.mpmg.mp.br/data/files/47/20/CF/19/E36FF91021C3EDF9B9A8F9C2/Betim%20-%20MPe%20n.%2034.16.0024.0367276.2026.92%20-%20Lei%20Municipal%20n.%208.021-2025%20-%20COSIP.pdf",
+  "key": "3c886a650f11",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 1091688,
+  "final": "https://www.mpmg.mp.br/data/files/47/20/CF/19/E36FF91021C3EDF9B9A8F9C2/Betim%20-%20MPe%20n.%2034.16.0024.0367276.2026.92%20-%20Lei%20Municipal%20n.%208.021-2025%20-%20COSIP.pdf",
+  "muns": [
+   "Betim/MG"
+  ]
+ },
+ {
+  "url": "https://www.camarajf.mg.gov.br/www/noticias/exibir/13718/Camara-aprova-atualizacao-na-Contribuicao-de-Iluminacao-Publica-e-sistema-de-monitoramento-para-seguranca-Cips.html",
+  "key": "89c54ab48969",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 67459,
+  "final": "https://www.camarajf.mg.gov.br/www/noticias/exibir/13718/Camara-aprova-atualizacao-na-Contribuicao-de-Iluminacao-Publica-e-sistema-de-monitoramento-para-seguranca-Cips.html",
+  "muns": [
+   "Juiz de Fora/MG"
+  ]
+ },
+ {
+  "url": "https://folhajf.com.br/o-que-e-a-cobranca-cips-monitoramento-iptu-jf/",
+  "key": "e8f4ed9714e8",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 166877,
+  "final": "https://folhajf.com.br/o-que-e-a-cobranca-cips-monitoramento-iptu-jf/",
+  "muns": [
+   "Juiz de Fora/MG"
+  ]
+ },
+ {
+  "url": "https://leismunicipais.com.br/a/mg/r/ribeirao-das-neves/decreto/2023/25/243/decreto-n-243-2023-estabelece-o-valor-por-metro-linear",
+  "key": "07f18f73ba92",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 6106,
+  "final": "https://leismunicipais.com.br/a/mg/r/ribeirao-das-neves/decreto/2023/25/243/decreto-n-243-2023-estabelece-o-valor-por-metro-linear",
+  "muns": [
+   "Ribeirão das Neves/MG"
+  ]
+ },
+ {
+  "url": "https://ribeiraodasneves.mg.gov.br/",
+  "key": "943f6c3d0f02",
+  "status": 200,
+  "ct": "text/html",
+  "len": 40875,
+  "final": "https://ribeiraodasneves.mg.gov.br/",
+  "muns": [
+   "Ribeirão das Neves/MG"
+  ]
+ },
+ {
+  "url": "https://servico.uberaba.mg.gov.br/tributos/leis_dec/LEI10710.pdf",
+  "key": "75c0acb28c06",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 308990,
+  "final": "https://servico.uberaba.mg.gov.br/tributos/leis_dec/LEI10710.pdf",
+  "muns": [
+   "Uberaba/MG"
+  ]
+ },
+ {
+  "url": "https://dosp.com.br/exibe_do.php?i=Mjc4ODIw",
+  "key": "78b8d0743fbf",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 828619,
+  "final": "https://dosp.com.br/exibe_do.php?i=Mjc4ODIw",
+  "muns": [
+   "Uberaba/MG"
+  ]
+ },
+ {
+  "url": "https://www.camarauberlandia.mg.gov.br/imprensa/noticias/2025/projeto-de-lei-que-estabelece-cobranca-do-servico-de-iluminacao-publica-de-imoveis-nao-edificados-lotes-vagos-e-aprovado-em-dois-turnos",
+  "key": "3ce82eb78c2e",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 497943,
+  "final": "https://www.camarauberlandia.mg.gov.br/imprensa/noticias/2025/projeto-de-lei-que-estabelece-cobranca-do-servico-de-iluminacao-publica-de-imoveis-nao-edificados-lotes-vagos-e-aprovado-em-dois-turnos",
+  "muns": [
+   "Uberlândia/MG"
+  ]
+ },
+ {
+  "url": "https://cariacica.camarasempapel.com.br/Arquivo/Documents/legislacao/html/L39082001.html",
+  "key": "8a8f83bfe7e3",
+  "status": 200,
+  "ct": "text/html",
+  "len": 49721,
+  "final": "https://cariacica.camarasempapel.com.br/Arquivo/Documents/legislacao/html/L39082001.html",
+  "muns": [
+   "Cariacica/ES"
+  ]
+ },
+ {
+  "url": "https://cariacica.camarasempapel.com.br/legislacao/norma.aspx?id=15075",
+  "key": "1884041e1f92",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 59969,
+  "final": "https://cariacica.camarasempapel.com.br/legislacao/norma.aspx?id=15075",
+  "muns": [
+   "Cariacica/ES"
+  ]
+ },
+ {
+  "url": "https://legislacao.serra.es.gov.br/Arquivo/Documents/legislacao/html/L51252019.html",
+  "key": "8133111784e7",
+  "status": 200,
+  "ct": "text/html",
+  "len": 111956,
+  "final": "https://legislacao.serra.es.gov.br/Arquivo/Documents/legislacao/html/L51252019.html",
+  "muns": [
+   "Serra/ES"
+  ]
+ },
+ {
+  "url": "https://camarasempapel.cmv.es.gov.br/Arquivo/Documents/legislacao/html/L58152002.html",
+  "key": "8cc2a01cc1dd",
+  "status": 200,
+  "ct": "text/html",
+  "len": 87655,
+  "final": "https://camarasempapel.cmv.es.gov.br/Arquivo/Documents/legislacao/html/L58152002.html",
+  "muns": [
+   "Vitória/ES"
+  ]
+ },
+ {
+  "url": "https://fazenda.campos.rj.gov.br/taxas/cosip/",
+  "key": "24084270a54e",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 52438,
+  "final": "https://fazenda.campos.rj.gov.br/taxas/cosip/",
+  "muns": [
+   "Campos dos Goytacazes/RJ"
+  ]
+ },
+ {
+  "url": "https://leismunicipais.com.br/a/rj/c/campos-dos-goytacazes/lei-ordinaria/2008/807/8066/lei-ordinaria-n-8066-2008-institui-no-munic",
+  "key": "9b38195e7827",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 6106,
+  "final": "https://leismunicipais.com.br/a/rj/c/campos-dos-goytacazes/lei-ordinaria/2008/807/8066/lei-ordinaria-n-8066-2008-institui-no-munic",
+  "muns": [
+   "Campos dos Goytacazes/RJ"
+  ]
+ },
+ {
+  "url": "https://www.cmdc.rj.gov.br/?p=8691",
+  "key": "de9693122bd2",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 67537,
+  "final": "https://www.cmdc.rj.gov.br/?p=8691",
+  "muns": [
+   "Duque de Caxias/RJ"
+  ]
+ },
+ {
+  "url": "https://www.fazenda.niteroi.rj.gov.br/site/wp-content/uploads/2016/05/Resolucao-SMF-11-2015.pdf",
+  "key": "c68620411b13",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 87217,
+  "final": "https://www.fazenda.niteroi.rj.gov.br/site/wp-content/uploads/2016/05/Resolucao-SMF-11-2015.pdf",
+  "muns": [
+   "Niterói/RJ"
+  ]
+ },
+ {
+  "url": "https://petropolis.processolegislativo.com.br/areapublica/documento/?Lei/1621",
+  "key": "6d81a4517307",
+  "status": 200,
+  "ct": "text/html; Charset=UTF-8",
+  "len": 89663,
+  "final": "https://petropolis.sicam.app/areapublica/lei/1621-altera-a-lei-n-5-951-de-27-de-dezembro-de-2002-que-institui",
+  "muns": [
+   "Petrópolis/RJ"
+  ]
+ },
+ {
+  "url": "https://sapl.petropolis.rj.leg.br/media/sapl/public/normajuridica/2024/11643/lei_8906-2024.pdf",
+  "key": "c0301750bdc6",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 90827,
+  "final": "https://sapl.petropolis.rj.leg.br/media/sapl/public/normajuridica/2024/11643/lei_8906-2024.pdf",
+  "muns": [
+   "Petrópolis/RJ"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=483417",
+  "key": "e6718839cc9d",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 86446,
+  "final": "https://www.legisweb.com.br/legislacao/?id=483417",
+  "muns": [
+   "Rio de Janeiro/RJ"
+  ]
+ },
+ {
+  "url": "https://barueri.sp.gov.br/Transparencia/legislacao.aspx",
+  "key": "4baf8703f32c",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 18099,
+  "final": "https://barueri.sp.gov.br/Transparencia/legislacao.aspx",
+  "muns": [
+   "Barueri/SP"
+  ]
+ },
+ {
+  "url": "https://www2.bauru.sp.gov.br/arquivos/sist_juridico/documentos/leis/lei7152.pdf",
+  "key": "750c21cb08d7",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 132292,
+  "final": "https://www2.bauru.sp.gov.br/arquivos/sist_juridico/documentos/leis/lei7152.pdf",
+  "muns": [
+   "Bauru/SP"
+  ]
+ },
+ {
+  "url": "https://carapicuiba.sp.gov.br/legislacao/view/5160/decreto-n-5390-de-24-de-outubro-de-2024",
+  "key": "b107a0c9a767",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 139,
+  "final": "https://carapicuiba.sp.gov.br/legislacao/view/5160/decreto-n-5390-de-24-de-outubro-de-2024",
+  "muns": [
+   "Carapicuíba/SP"
+  ]
+ },
+ {
+  "url": "https://leismunicipais.com.br/",
+  "key": "612c36f51ec6",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 5678,
+  "final": "https://leismunicipais.com.br/",
+  "muns": [
+   "Cotia/SP"
+  ]
+ },
+ {
+  "url": "https://camaraguaruja.sp.gov.br/Arquivos/Downloads/2017128_pcosip.pdf",
+  "key": "19e16de12d3a",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 413460,
+  "final": "https://camaraguaruja.sp.gov.br/Arquivos/Downloads/2017128_pcosip.pdf",
+  "muns": [
+   "Guarujá/SP"
+  ]
+ },
+ {
+  "url": "https://camaraguaruja.sp.gov.br/Noticia/Visualizar/1414",
+  "key": "1ea789cb2867",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 55312,
+  "final": "https://camaraguaruja.sp.gov.br/Noticia/Visualizar/1414",
+  "muns": [
+   "Guarujá/SP"
+  ]
+ },
+ {
+  "url": "https://www.escavador.com/diarios/6084728/DOMGRU-SP/legal/2025-07-04?page=28",
+  "key": "fe08f3ad2a1c",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 123546,
+  "final": "https://www.escavador.com/diarios/6084728/DOMGRU-SP/legal/2025-07-04?page=28",
+  "muns": [
+   "Guarulhos/SP"
+  ]
+ },
+ {
+  "url": "https://leismunicipais.com.br/a/sp/j/jundiai/lei-complementar/2014/56/556/lei-complementar-n-556-2014-institui-a-contribuicao-para",
+  "key": "b8edc9a24fa7",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 6106,
+  "final": "https://leismunicipais.com.br/a/sp/j/jundiai/lei-complementar/2014/56/556/lei-complementar-n-556-2014-institui-a-contribuicao-para",
+  "muns": [
+   "Jundiaí/SP"
+  ]
+ },
+ {
+  "url": "https://jundiai.sp.gov.br/financas/issqn/legislacao/",
+  "key": "d949fbf2fe4f",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 49276,
+  "final": "https://jundiai.sp.gov.br/financas/issqn/legislacao/",
+  "muns": [
+   "Jundiaí/SP"
+  ]
+ },
+ {
+  "url": "https://limeira.sp.gov.br/secretarias/fazenda/codigo-tributario-municipal",
+  "key": "93d55e79f6d3",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 152002,
+  "final": "https://limeira.sp.gov.br/secretarias/fazenda/codigo-tributario-municipal",
+  "muns": [
+   "Limeira/SP"
+  ]
+ },
+ {
+  "url": "https://dom.maua.sp.gov.br/public/docs/76985da9b8996be2b3db9b2cc9763913.pdf",
+  "key": "ad0e8edd3586",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 190684,
+  "final": "https://dom.maua.sp.gov.br/public/docs/76985da9b8996be2b3db9b2cc9763913.pdf",
+  "muns": [
+   "Mauá/SP"
+  ]
+ },
+ {
+  "url": "https://leggicomunali.it/codigo-tributario-osasco-sp",
+  "key": "a031f9c136b5",
+  "status": 200,
+  "ct": "text/html;charset=UTF-8",
+  "len": 747269,
+  "final": "https://leggicomunali.it/codigo-tributario-osasco-sp",
+  "muns": [
+   "Osasco/SP"
+  ]
+ },
+ {
+  "url": "https://sf.osasco.sp.gov.br/pages/legislacao/demais-legislacoes",
+  "key": "7b20ff260f79",
+  "status": 200,
+  "ct": "text/html",
+  "len": 6506,
+  "final": "https://sf.osasco.sp.gov.br/pages/legislacao/demais-legislacoes",
+  "muns": [
+   "Osasco/SP"
+  ]
+ },
+ {
+  "url": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/04/08/piracicaba-aumenta-taxa-de-iluminacao-publica-a-partir-de-maio-confira-valores.ghtml",
+  "key": "f0a318b95c2a",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 1112409,
+  "final": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/04/08/piracicaba-aumenta-taxa-de-iluminacao-publica-a-partir-de-maio-confira-valores.ghtml",
+  "muns": [
+   "Piracicaba/SP"
+  ]
+ },
+ {
+  "url": "https://radiopiracicaba.com.br/post/211091/cosip-e-atualizada-e-reduz-valor-da-taxa-de-iluminacao-publica-na-conta-de-energia-em-piracicaba",
+  "key": "ac9555610727",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 51310,
+  "final": "https://radiopiracicaba.com.br/post/211091/cosip-e-atualizada-e-reduz-valor-da-taxa-de-iluminacao-publica-na-conta-de-energia-em-piracicaba",
+  "muns": [
+   "Piracicaba/SP"
+  ]
+ },
+ {
+  "url": "https://www.praiagrande.sp.gov.br/Administracao/leisdecretos_view.asp?codLeis=2571",
+  "key": "6122e1ae007b",
+  "status": 200,
+  "ct": "text/html",
+  "len": 25850,
+  "final": "https://www.praiagrande.sp.gov.br/Administracao/leisdecretos_view.asp?codLeis=2571",
+  "muns": [
+   "Praia Grande/SP"
+  ]
+ },
+ {
+  "url": "https://www.ribeiraopreto.sp.gov.br/legislacao-municipal/pesquisa/lei/6442",
+  "key": "aabfb1cbeadf",
+  "status": 200,
+  "ct": "text/html;charset=UTF-8",
+  "len": 25101,
+  "final": "https://www.ribeiraopreto.sp.gov.br/legislacao-municipal/pesquisa/lei/6442",
+  "muns": [
+   "Ribeirão Preto/SP"
+  ]
+ },
+ {
+  "url": "https://leis.org/municipais/sp/ribeirao-preto/lei/lei-complementar/2023/3156/lei-complementar-n-3156-2023-dispoe-sobre-a-contribu",
+  "key": "624f1f7b716b",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 6107,
+  "final": "https://leis.org/municipais/sp/ribeirao-preto/lei/lei-complementar/2023/3156/lei-complementar-n-3156-2023-dispoe-sobre-a-contribu",
+  "muns": [
+   "Ribeirão Preto/SP"
+  ]
+ },
+ {
+  "url": "https://www.jusbrasil.com.br/legislacao/701618/lei-5114-02",
+  "key": "3c1790576ff2",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 5743,
+  "final": "https://www.jusbrasil.com.br/legislacao/701618/lei-5114-02",
+  "muns": [
+   "São Bernardo do Campo/SP"
+  ]
+ },
+ {
+  "url": "https://guiadeservicos.saobernardo.sp.gov.br/guia-de-servicos/servicos/215161/mostrar",
+  "key": "a0308bcc9ad5",
+  "status": 200,
+  "ct": "text/html;charset=UTF-8",
+  "len": 16527,
+  "final": "https://guiadeservicos.saobernardo.sp.gov.br/guia-de-servicos/servicos/215161/mostrar",
+  "muns": [
+   "São Bernardo do Campo/SP"
+  ]
+ },
+ {
+  "url": "https://servicos.sjc.sp.gov.br/Legislacao/Arquivos/LeisComplementares/2014/LC_2014_00000562.pdf",
+  "key": "35bdeec2acca",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 2043971,
+  "final": "https://servicos.sjc.sp.gov.br/Legislacao/Arquivos/LeisComplementares/2014/LC_2014_00000562.pdf",
+  "muns": [
+   "São José dos Campos/SP"
+  ]
+ },
+ {
+  "url": "https://sinesp.org.br/multimidia/publicacoes-sinesp/category/47-legislacao-geral?download=9057:portaria-sf-330-2025",
+  "key": "1c5e8d9fdf28",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 436555,
+  "final": "https://sinesp.org.br/multimidia/publicacoes-sinesp/category/47-legislacao-geral?download=9057:portaria-sf-330-2025",
+  "muns": [
+   "São Paulo/SP"
+  ]
+ },
+ {
+  "url": "https://leis.org/municipais/sp/sao-vicente/lei/decreto/2024/6635/",
+  "key": "d39dc3809be9",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 5830,
+  "final": "https://leis.org/municipais/sp/sao-vicente/lei/decreto/2024/6635/",
+  "muns": [
+   "São Vicente/SP"
+  ]
+ },
+ {
+  "url": "https://leismunicipais.com.br/a/sp/s/sorocaba/lei-ordinaria/2005/764/7631/lei-ordinaria-n-7631-2005-dispoe-sobre-a-instituicao-da-",
+  "key": "5e7412fd5644",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 6106,
+  "final": "https://leismunicipais.com.br/a/sp/s/sorocaba/lei-ordinaria/2005/764/7631/lei-ordinaria-n-7631-2005-dispoe-sobre-a-instituicao-da-",
+  "muns": [
+   "Sorocaba/SP"
+  ]
+ },
+ {
+  "url": "https://sorocaba.camarasempapel.com.br/legislacao/",
+  "key": "79d95e56ce3d",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 81493,
+  "final": "https://sorocaba.camarasempapel.com.br/legislacao/",
+  "muns": [
+   "Sorocaba/SP"
+  ]
+ },
+ {
+  "url": "https://legislacaodigital.com.br/",
+  "key": "fd63ebfc311a",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 5575,
+  "final": "https://legislacaodigital.com.br/",
+  "muns": [
+   "Sumaré/SP"
+  ]
+ },
+ {
+  "url": "https://suzano.sp.gov.br/wp-content/uploads/2018/11/262-14-Contribuicao-de-Iluminacao-Publica-CIP.pdf",
+  "key": "f48565ca79f4",
+  "status": 404,
+  "ct": "text/html; charset=UTF-8",
+  "len": 62613,
+  "final": "https://suzano.sp.gov.br/wp-content/uploads/2018/11/262-14-Contribuicao-de-Iluminacao-Publica-CIP.pdf",
+  "muns": [
+   "Suzano/SP"
+  ]
+ },
+ {
+  "url": "https://www.taubate.sp.gov.br/anexos/leis/2014/358%20CONTRIBUICAO%20PARA%20CUSTEIO%20SERVICO%20ILUMINACAO%20PUBLICA.pdf",
+  "key": "d3b518ab3fe2",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 93852,
+  "final": "https://www.taubate.sp.gov.br/anexos/leis/2014/358%20CONTRIBUICAO%20PARA%20CUSTEIO%20SERVICO%20ILUMINACAO%20PUBLICA.pdf",
+  "muns": [
+   "Taubaté/SP"
+  ]
+ },
+ {
+  "url": "https://sapl.cascavel.pr.leg.br/media/sapl/public/materialegislativa/2015/8271/8271_texto_integral.pdf",
+  "key": "af1abf149e6a",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 844658,
+  "final": "https://sapl.cascavel.pr.leg.br/media/sapl/public/materialegislativa/2015/8271/8271_texto_integral.pdf",
+  "muns": [
+   "Cascavel/PR"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=420237",
+  "key": "f2d9faef12c0",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 73374,
+  "final": "https://www.legisweb.com.br/legislacao/?id=420237",
+  "muns": [
+   "Curitiba/PR"
+  ]
+ },
+ {
+  "url": "https://foz.pr.gov.br/wp-content/uploads/2025/09/EDITAL-DE-LANCAMENTO-TCL-E-COSIP-2025.pdf",
+  "key": "0f4b4efecff3",
+  "status": "ERR",
+  "ct": "",
+  "len": 0,
+  "final": "HTTPSConnectionPool(host='foz.pr.gov.br', port=443): Max retries exceeded with url: /wp-content/uploads/2025/09/EDITAL-D",
+  "muns": [
+   "Foz do Iguaçu/PR"
+  ]
+ },
+ {
+  "url": "https://sapl.fozdoiguacu.pr.leg.br/media/sapl/public/normajuridica/2022/1417/390.pdf",
+  "key": "21c90923c16f",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 406164,
+  "final": "https://sapl.fozdoiguacu.pr.leg.br/media/sapl/public/normajuridica/2022/1417/390.pdf",
+  "muns": [
+   "Foz do Iguaçu/PR"
+  ]
+ },
+ {
+  "url": "https://www.cloudsoftcam.com.br/PR/LONDRINA/upload/2025/09/202509151415411757956541b6fe20.pdf",
+  "key": "658fe16b0797",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 62175,
+  "final": "https://www.cloudsoftcam.com.br/PR/LONDRINA/upload/2025/09/202509151415411757956541b6fe20.pdf",
+  "muns": [
+   "Londrina/PR"
+  ]
+ },
+ {
+  "url": "https://www.cml.pr.gov.br/proposicoes/Leis/2025/1/0/264681",
+  "key": "6f84a790062a",
+  "status": 200,
+  "ct": "text/html",
+  "len": 1705,
+  "final": "https://www.cml.pr.gov.br/proposicoes/Leis/2025/1/0/264681",
+  "muns": [
+   "Londrina/PR"
+  ]
+ },
+ {
+  "url": "https://cbnlondrina.com.br/materias/camara-de-londrina-aprova-nova-cosip-para-iluminacao-e-seguranca-publica",
+  "key": "6e11b5cb54fb",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 65687,
+  "final": "https://cbnlondrina.com.br/materias/camara-de-londrina-aprova-nova-cosip-para-iluminacao-e-seguranca-publica",
+  "muns": [
+   "Londrina/PR"
+  ]
+ },
+ {
+  "url": "https://sapl.cmm.pr.gov.br/norma/15032",
+  "key": "0cfffea5337b",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 96037,
+  "final": "https://sapl.cmm.pr.gov.br/ta/1561/text",
+  "muns": [
+   "Maringá/PR"
+  ]
+ },
+ {
+  "url": "https://sapl.cmm.pr.gov.br/media/sapl/public/anexonormajuridica/2025/189/anexo_19.pdf",
+  "key": "9e64ee442793",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 95861,
+  "final": "https://sapl.cmm.pr.gov.br/media/sapl/public/anexonormajuridica/2025/189/anexo_19.pdf",
+  "muns": [
+   "Maringá/PR"
+  ]
+ },
+ {
+  "url": "https://pontagrossa.pr.gov.br/iluminacao-publica/",
+  "key": "f0a70f4b0e22",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 91795,
+  "final": "https://pontagrossa.pr.gov.br/iluminacao-publica/",
+  "muns": [
+   "Ponta Grossa/PR"
+  ]
+ },
+ {
+  "url": "https://www.jusdiario.com.br/noticia/lei-ordinaria-16017-2026-dispoe-sobre-a-contribuicao-para-custeio",
+  "key": "95d4f6d607d9",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 122448,
+  "final": "https://www.jusdiario.com.br/noticia/lei-ordinaria-16017-2026-dispoe-sobre-a-contribuicao-para-custeio",
+  "muns": [
+   "Ponta Grossa/PR"
+  ]
+ },
+ {
+  "url": "https://leismunicipais.com.br/a/pr/s/sao-jose-dos-pinhais/lei-ordinaria/2002/39/383/lei-ordinaria-n-383-2002-institui-no-municipio",
+  "key": "355f56a42dea",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 6106,
+  "final": "https://leismunicipais.com.br/a/pr/s/sao-jose-dos-pinhais/lei-ordinaria/2002/39/383/lei-ordinaria-n-383-2002-institui-no-municipio",
+  "muns": [
+   "São José dos Pinhais/PR"
+  ]
+ },
+ {
+  "url": "https://www.sjp.pr.gov.br/servicos/servicos-do-cidadao/iluminacao-publica-e-limpeza/",
+  "key": "74e402e5bf10",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 5912,
+  "final": "https://www.sjp.pr.gov.br/servicos/servicos-do-cidadao/iluminacao-publica-e-limpeza/",
+  "muns": [
+   "São José dos Pinhais/PR"
+  ]
+ },
+ {
+  "url": "https://www.blumenau.sc.gov.br/governo/secretaria-de-gestao-financeira/pagina/codigo-tributario-sefaz",
+  "key": "b4417f214114",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 224906,
+  "final": "https://www.blumenau.sc.gov.br/secao/codigo-tributario-sefaz",
+  "muns": [
+   "Blumenau/SC"
+  ]
+ },
+ {
+  "url": "https://www.blumenau.sc.gov.br/secretarias/secretaria-de-gestao-financeira/pagina/codigo-tributario-sefaz&download=c4438d65c3a07de4fb3959c337662d29",
+  "key": "1d027facf04e",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 386876,
+  "final": "https://www.blumenau.sc.gov.br/secao/codigo-tributario-sefaz&download=c4438d65c3a07de4fb3959c337662d29",
+  "muns": [
+   "Blumenau/SC"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=496640",
+  "key": "0956e9996638",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 71154,
+  "final": "https://www.legisweb.com.br/legislacao/?id=496640",
+  "muns": [
+   "Florianópolis/SC"
+  ]
+ },
+ {
+  "url": "https://ecoaenergias.com.br/blog/cobranca-cosip-joinville/",
+  "key": "a88c8a67e7d1",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 155090,
+  "final": "https://ecoaenergias.com.br/blog/cobranca-cosip-joinville/",
+  "muns": [
+   "Joinville/SC"
+  ]
+ },
+ {
+  "url": "https://www.joinville.sc.gov.br/servicos/requerer-isencao-de-cosip/",
+  "key": "2c56a9e9731c",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 61818,
+  "final": "https://www.joinville.sc.gov.br/servicos/requerer-isencao-de-cosip/",
+  "muns": [
+   "Joinville/SC"
+  ]
+ },
+ {
+  "url": "https://canoas.rs.gov.br/servicos/legislacao-tributaria-municipal-2/",
+  "key": "0eb5e311adfd",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 168526,
+  "final": "https://www.canoas.rs.gov.br/servicos/legislacao-tributaria-municipal-2/",
+  "muns": [
+   "Canoas/RS"
+  ]
+ },
+ {
+  "url": "https://leis.org/municipais/rs/canoas/lei/lei-ordinaria/2025/6838/lei-ordinaria-n-6838-2025-altera-os-artigos-85-a-85-b-e-85-c-da-",
+  "key": "5b684b06edf9",
+  "status": 403,
+  "ct": "text/html; charset=UTF-8",
+  "len": 6110,
+  "final": "https://leis.org/municipais/rs/canoas/lei/lei-ordinaria/2025/6838/lei-ordinaria-n-6838-2025-altera-os-artigos-85-a-85-b-e-85-c-da-",
+  "muns": [
+   "Canoas/RS"
+  ]
+ },
+ {
+  "url": "https://www.camaracaxias.rs.gov.br/noticias/index/22791",
+  "key": "74e5bff9ba90",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 48301,
+  "final": "https://www.camaracaxias.rs.gov.br/noticias/index/22791",
+  "muns": [
+   "Caxias do Sul/RS"
+  ]
+ },
+ {
+  "url": "https://pelotas.com.br/storage/iluminacao/ContribuicaoIluminacaoPublica.pdf",
+  "key": "3eb0ccfaddba",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 137116,
+  "final": "https://old.pelotas.com.br/storage/iluminacao/ContribuicaoIluminacaoPublica.pdf",
+  "muns": [
+   "Pelotas/RS"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=176971",
+  "key": "c4f77aae4579",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 72037,
+  "final": "https://www.legisweb.com.br/legislacao/?id=176971",
+  "muns": [
+   "Porto Alegre/RS"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?id=393982",
+  "key": "4ef9f647786e",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 58282,
+  "final": "https://www.legisweb.com.br/legislacao/?id=393982",
+  "muns": [
+   "Campo Grande/MS",
+   "Campo Grande/MS"
+  ]
+ },
+ {
+  "url": "https://www.normasbrasil.com.br/norma/lei-complementar-58-2003-campo-grande_326693.html",
+  "key": "c52654d36e0e",
+  "status": 200,
+  "ct": "text/html",
+  "len": 18353,
+  "final": "https://www.normasbrasil.com.br/norma/lei-complementar-58-2003-campo-grande_326693.html",
+  "muns": [
+   "Campo Grande/MS"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=279894",
+  "key": "757e88abd2f3",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 63821,
+  "final": "https://www.legisweb.com.br/legislacao/?id=279894",
+  "muns": [
+   "Cuiabá/MT"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?legislacao=173892",
+  "key": "52ebf8facb8e",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 69224,
+  "final": "https://www.legisweb.com.br/legislacao/?id=173892",
+  "muns": [
+   "Cuiabá/MT"
+  ]
+ },
+ {
+  "url": "https://www.varzeagrande.mt.gov.br/",
+  "key": "dab34962dd21",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 214527,
+  "final": "https://www.varzeagrande.mt.gov.br/",
+  "muns": [
+   "Várzea Grande/MT"
+  ]
+ },
+ {
+  "url": "https://www.varzeagrande.mt.gov.br/legislacao",
+  "key": "b90c4e44b0f3",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 31930,
+  "final": "https://www.varzeagrande.mt.gov.br/legislacao",
+  "muns": [
+   "Várzea Grande/MT"
+  ]
+ },
+ {
+  "url": "https://sapl.anapolis.go.leg.br/media/sapl/public/normajuridica/2006/218/218_texto_integral.pdf",
+  "key": "14538a4f9a0b",
+  "status": 200,
+  "ct": "application/pdf",
+  "len": 3340689,
+  "final": "https://sapl.anapolis.go.leg.br/media/sapl/public/normajuridica/2006/218/218_texto_integral.pdf",
+  "muns": [
+   "Anápolis/GO"
+  ]
+ },
+ {
+  "url": "https://dom.anapolis.go.gov.br/materias/39865",
+  "key": "ef76d68a4473",
+  "status": 200,
+  "ct": "text/html; charset=utf-8",
+  "len": 182326,
+  "final": "https://dom.anapolis.go.gov.br/materias/39865",
+  "muns": [
+   "Anápolis/GO"
+  ]
+ },
+ {
+  "url": "https://www.legisweb.com.br/legislacao/?id=500579",
+  "key": "55936321c09c",
+  "status": 200,
+  "ct": "text/html; charset=UTF-8",
+  "len": 75830,
+  "final": "https://www.legisweb.com.br/legislacao/?id=500579",
+  "muns": [
+   "Goiânia/GO"
+  ]
+ },
+ {
+  "url": "https://www.lefisc.com.br/banco/estadual/df/2002/decreto23499_02.htm",
+  "key": "28c7854c23a1",
+  "status": 200,
+  "ct": "text/html",
+  "len": 47599,
+  "final": "https://www.lefisc.com.br/banco/estadual/df/2002/decreto23499_02.htm",
+  "muns": [
+   "Brasília/DF"
+  ]
+ }
+]

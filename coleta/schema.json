@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.org/cip/municipio.schema.json",
+  "title": "Registro CIP por Município",
+  "type": "object",
+  "required": ["cod_ibge", "municipio", "uf", "slug", "status", "mecanismo", "atualizado_em", "proxima_revisao"],
+  "properties": {
+    "cod_ibge": {
+      "type": "string",
+      "pattern": "^[0-9]{7}$",
+      "description": "Código IBGE de 7 dígitos — chave primária do registro"
+    },
+    "municipio": { "type": "string", "minLength": 2 },
+    "uf": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Slug do município (sem UF) — usado na URL /cip/<uf>/<slug>"
+    },
+    "status": {
+      "enum": ["completo", "parcial", "nao_encontrado"],
+      "description": "completo = tabela vigente extraída; parcial = base legal sem tabela ou tabela de ano anterior; nao_encontrado = nada localizado"
+    },
+    "mecanismo": {
+      "enum": [
+        "percentual_modulo_tip",
+        "percentual_teip",
+        "formula_teip",
+        "valor_fixo",
+        "outro",
+        "desconhecido"
+      ],
+      "description": "Formato de cálculo. percentual_modulo_tip = % × módulo da TIP (1000 kWh); percentual_teip = % × TEIP (MWh B4a); formula_teip = R$ fixo + coef × TEIP; valor_fixo = R$ tabelado por faixa"
+    },
+    "exercicio": {
+      "type": ["integer", "null"],
+      "description": "Ano dos valores da tabela (null se indefinido). Diferente do ano da base legal!"
+    },
+    "tabelas": {
+      "type": ["object", "null"],
+      "description": "null quando status != completo. Chave = classe (residencial, nao_residencial, ...)",
+      "patternProperties": {
+        "^[a-z_]+$": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["faixa_kwh", "valor", "unidade"],
+            "properties": {
+              "faixa_kwh": {
+                "type": "object",
+                "required": ["min", "max"],
+                "properties": {
+                  "min": { "type": ["integer", "null"], "description": "null = sem limite inferior explícito (0)" },
+                  "max": { "type": ["integer", "null"], "description": "null = aberto (acima de)" }
+                }
+              },
+              "valor": {
+                "type": ["number", "string"],
+                "description": "Número = valor convencido (R$ ou %). String SOMENTE para casos especiais: 'isento', 'n/d' — nunca inventar número"
+              },
+              "unidade": {
+              "enum": ["BRL", "PERCENTUAL_MODULO_TIP", "PERCENTUAL_TEIP", "FORMULA_TEIP", "PERCENTUAL_BASE"]
+              },
+              "formula": {
+                "type": "string",
+                "description": "Obrigatório quando unidade = FORMULA_TEIP. Ex.: '2.65 + 0.00572 x TEIP'"
+              },
+              "nota": { "type": "string" }
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "isencoes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["descricao", "fonte_url"],
+        "properties": {
+          "descricao": { "type": "string", "description": "Ex.: 'Residencial monofásico até 80 kWh'" },
+          "limite_kwh": { "type": ["integer", "null"] },
+          "base_legal": { "type": "string" },
+          "fonte_url": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "base_legal": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["norma", "fonte_url"],
+        "properties": {
+          "norma": { "type": "string", "description": "Ex.: 'Lei Complementar 159/2013, arts. 374-382'" },
+          "vigencia": { "type": ["string", "null"] },
+          "fonte_url": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "distribuidoras": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Siglas ANEEL do mapa municipio_distribuidora.json (dado auxiliar, não é fonte de alíquota)"
+    },
+    "fontes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url", "titulo", "tipo", "data_coleta"],
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "titulo": { "type": "string" },
+          "tipo": { "enum": ["fonte_oficial", "agregador_legislacao", "noticia", "outro"] },
+          "data_coleta": { "type": "string", "format": "date" }
+        }
+      },
+      "description": "OBRIGATÓRIA. Sem fonte não há registro — regra anti-fabricação"
+    },
+    "ressalvas": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Dúvidas da extração (ex.: 'células mescladas — faixas 31-60 a confirmar'). Sempre exibir na página quando houver"
+    },
+    "pendencias": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "O que falta para virar 'completo' (ex.: 'decreto anual de 2026')"
+    },
+    "atualizado_em": { "type": "string", "format": "date" },
+    "proxima_revisao": {
+      "type": "string",
+      "format": "date",
+      "description": "atualizado_em + 30 dias para top 500; +90 para cauda longa"
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "completo" } } },
+      "then": { "required": ["tabelas", "exercicio"], "properties": { "fontes": { "minItems": 1 } } }
+    },
+    {
+      "if": { "properties": { "status": { "const": "parcial" } } },
+      "then": { "properties": { "fontes": { "minItems": 1 } } }
+    },
+    {
+      "if": { "properties": { "status": { "const": "nao_encontrado" } } },
+      "then": { "properties": { "tabelas": { "type": "null" } } }
+    }
+  ]
+}

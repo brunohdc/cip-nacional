@@ -1,0 +1,1435 @@
+[
+ {
+  "cod_ibge": "1500800",
+  "municipio": "Ananindeua",
+  "uf": "PA",
+  "slug": "ananindeua",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "EQUATORIAL PA"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 3.137/2021 (altera o CTM quanto à responsabilidade tributária e repasse da CIP)",
+    "vigencia": "2021",
+    "fonte_url": "https://www.ananindeua.pa.gov.br/midias/legislacao/719_lei_complementar_n._3.137_06_de_abril_de_2021.pdf"
+   },
+   {
+    "norma": "Lei Complementar 2.181/2005 (Código Tributário Municipal; art. 147-A e ss. — CIP)",
+    "vigencia": "2005",
+    "fonte_url": "https://www.ananindeua.pa.gov.br/midias/legislacao/719_lei_complementar_n._3.137_06_de_abril_de_2021.pdf"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.ananindeua.pa.gov.br/midias/legislacao/719_lei_complementar_n._3.137_06_de_abril_de_2021.pdf",
+    "titulo": "LC 3.137/2021 — Ananindeua/PA (portal oficial)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Tabela de faixas/valores da CIP (CTM LC 2.181/2005, arts. 147-A e seguintes)"
+  ],
+  "ressalvas": [
+   "LC 3.137/2021 regulamenta responsabilidade e repasse (concessionária), sem tabela de alíquotas no texto extraído."
+  ]
+ },
+ {
+  "cod_ibge": "2111300",
+  "municipio": "São Luís",
+  "uf": "MA",
+  "slug": "sao-luis",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "EQUATORIAL MA"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei nº 6.289/2017 (Código Tributário Municipal; art. 5º, IV institui a CIP)",
+    "vigencia": "2017",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=357666"
+   },
+   {
+    "norma": "Lei nº 4.135/2002 (lei específica da CIP, revogada pela Lei 6.289/2017)",
+    "vigencia": "2002",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=179235"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=357666",
+    "titulo": "Lei nº 6.289/2017 - CTM São Luís",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=179235",
+    "titulo": "Lei nº 4.135/2002 - São Luís (revogada)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.meutorrao.com.br/2024/05/taxa-de-iluminacao-publica-em-sao-luis.html",
+    "titulo": "Meu Torrão — taxa de iluminação pública em São Luís (arrecadação)",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Norma municipal vigente com a tabela de alíquotas da CIP de São Luís"
+  ],
+  "ressalvas": [
+   "Notícia localizada trata de arrecadação, não de faixas/valores."
+  ]
+ },
+ {
+  "cod_ibge": "2307304",
+  "municipio": "Juazeiro do Norte",
+  "uf": "CE",
+  "slug": "juazeiro-do-norte",
+  "status": "parcial",
+  "mecanismo": "outro",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "ENEL CE"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 2.722/2002 alterada pela Lei 2.776/2003 (base = tarifa B4b R$/MWh)",
+    "vigencia": "2003",
+    "fonte_url": "https://juazeiro1.websiteseguro.com/site/midia/9158/"
+   },
+   {
+    "norma": "Lei 5.277/2022 (isenção da CIP para beneficiários de tarifa social/programas habitacionais)",
+    "vigencia": "2022",
+    "fonte_url": "https://www.juazeirodonorte.ce.gov.br/leis.php?id=7301"
+   }
+  ],
+  "isencoes": [
+   {
+    "descricao": "Consumidores beneficiários de programas sociais e habitacionais (Tarifa Social de Energia Elétrica)",
+    "limite_kwh": null,
+    "base_legal": "Lei 5.277/2022",
+    "fonte_url": "https://www.juazeirodonorte.ce.gov.br/leis.php?id=7301"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://juazeiro1.websiteseguro.com/site/midia/9158/",
+    "titulo": "Lei 2.722/2003 — Juazeiro do Norte/CE",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.juazeirodonorte.ce.gov.br/leis.php?id=7301",
+    "titulo": "Lei 5.277/2022 — isenção CIP (Juazeiro do Norte/CE)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Obter Anexo I (tabela de % sobre a tarifa B4b) — ausente no PDF acessado"
+  ],
+  "ressalvas": [
+   "Mecanismo apurado como % sobre a tarifa B4b (R$/MWh), mas sem a tabela numérica não é possível classificá-lo como TEIP/módulo."
+  ]
+ },
+ {
+  "cod_ibge": "2607901",
+  "municipio": "Jaboatão dos Guararapes",
+  "uf": "PE",
+  "slug": "jaboatao-dos-guararapes",
+  "status": "completo",
+  "mecanismo": "valor_fixo",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "Neoenergia PE"
+  ],
+  "exercicio": 2002,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": "isento",
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 50
+     },
+     "valor": 1.05,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 100
+     },
+     "valor": 1.96,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 3.99,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 300
+     },
+     "valor": 6.05,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 500
+     },
+     "valor": 12.65,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 1000
+     },
+     "valor": 19.96,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 2000
+     },
+     "valor": 29.91,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 5000
+     },
+     "valor": 79.92,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5001,
+      "max": null
+     },
+     "valor": 99.95,
+     "unidade": "BRL"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": "isento",
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 50
+     },
+     "valor": 2.1,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 100
+     },
+     "valor": 3.92,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 7.98,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 300
+     },
+     "valor": 12.1,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 500
+     },
+     "valor": 25.3,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 1000
+     },
+     "valor": 39.92,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 2000
+     },
+     "valor": 59.82,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": 5000
+     },
+     "valor": 159.84,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 5001,
+      "max": null
+     },
+     "valor": 199.9,
+     "unidade": "BRL"
+    }
+   ]
+  },
+  "base_legal": [
+   {
+    "norma": "Lei 188/2002 (institui a CIP; Anexo único com as tabelas) e alterações (Leis 950/2013, 1.440/2020, 1.503/2021, 1.582/2023)",
+    "vigencia": "2002",
+    "fonte_url": "https://emlume.com.br/wp-content/uploads/2022/02/LEI-188-2002-CIP.pdf"
+   }
+  ],
+  "isencoes": [
+   {
+    "descricao": "Faixa de 0 a 30 kWh — isento da contribuição",
+    "limite_kwh": 30,
+    "base_legal": "Lei 188/2002, art. 1º",
+    "fonte_url": "https://emlume.com.br/wp-content/uploads/2022/02/LEI-188-2002-CIP.pdf"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://emlume.com.br/wp-content/uploads/2022/02/LEI-188-2002-CIP.pdf",
+    "titulo": "Lei 188/2002 — CIP Jaboatão dos Guararapes/PE (EMLUME)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://emlume.com.br/wp-content/uploads/2023/12/DOM_LEI_N_1582.pdf",
+    "titulo": "Lei 1.582/2023 (altera o art. 1º da Lei 188/2002) — DOM",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [],
+  "ressalvas": [
+   "Tabela extraída da redação original (2002). As Leis 950/2013, 1.440/2020, 1.503/2021 e 1.582/2023 alteraram o art. 1º — reajustes anuais de valores a confirmar (leitura da Lei 1.582/2023 não indica mudança de valores)."
+  ]
+ },
+ {
+  "cod_ibge": "2611101",
+  "municipio": "Petrolina",
+  "uf": "PE",
+  "slug": "petrolina",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "Neoenergia PE"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 1.609/2004 alterada pela Lei 3.648/2023",
+    "vigencia": "2023",
+    "fonte_url": "https://petrolina.pe.gov.br/lei-no-3-648-de-12-de-setembro-de-2023/"
+   },
+   {
+    "norma": "Lei 3.189/2019 (altera e acrescenta dispositivos à Lei 1.609/2004)",
+    "vigencia": "2019",
+    "fonte_url": "https://leis.org/municipais/pe/petrolina/lei/lei-ordinaria/2019/3189/lei-ordinaria-n-3189-2019-altera-e-acrescenta-dispositivos-a-lei-municipal-n-1609-de-21-de-dezembro-de-2004-que-institui-a-contribuicao-para-custeio-dos-servicos-de-iluminacao"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://petrolina.pe.gov.br/lei-no-3-648-de-12-de-setembro-de-2023/",
+    "titulo": "Lei 3.648/2023 — Petrolina/PE (portal oficial)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://leis.org/municipais/pe/petrolina/lei/lei-ordinaria/2019/3189/lei-ordinaria-n-3189-2019-altera-e-acrescenta-dispositivos-a-lei-municipal-n-1609-de-21-de-dezembro-de-2004-que-institui-a-contribuicao-para-custeio-dos-servicos-de-iluminacao",
+    "titulo": "Lei 3.189/2019 — Petrolina/PE (leis.org)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Localizar tabela de alíquotas da CIP (texto integral da Lei 3.648/2023 não trouxe a tabela)",
+   "leis.org retornou 403 — tentar via portal/SAPL da Câmara"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "2800308",
+  "municipio": "Aracaju",
+  "uf": "SE",
+  "slug": "aracaju",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "ESE"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 6.295/2025 (institui a COMSIP em substituição à COSIP)",
+    "vigencia": "2025",
+    "fonte_url": "https://leis.org/municipais/se/aracaju/lei/lei-ordinaria/2025/6295/lei-ordinaria-n-6295-2025-institui-a-contribuicao-para-o-custeio-dos-servicos-de-iluminacao-publica-do-municipio-de-aracaju-e-da-outras-providencias"
+   },
+   {
+    "norma": "Projeto de Lei 496/2025 (COMSIP; aprovado em 18/12/2025)",
+    "vigencia": "2025",
+    "fonte_url": "https://www.aracaju.se.leg.br/institucional/noticias/camara-aprova-projeto-do-poder-executivo-que-institui-a-cosimp-e-traz-alteracoes-para-o-uso-do-recurso"
+   },
+   {
+    "norma": "Lei Complementar 2/1991 (Tabela XI — antiga taxa de iluminação pública, % da UFM por faixa)",
+    "vigencia": "1991",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=172096"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aracaju.se.leg.br/institucional/noticias/camara-aprova-projeto-do-poder-executivo-que-institui-a-cosimp-e-traz-alteracoes-para-o-uso-do-recurso",
+    "titulo": "Câmara de Aracaju - nova COMSIP",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://leis.org/municipais/se/aracaju/lei/lei-ordinaria/2025/6295/lei-ordinaria-n-6295-2025-institui-a-contribuicao-para-o-custeio-dos-servicos-de-iluminacao-publica-do-municipio-de-aracaju-e-da-outras-providencias",
+    "titulo": "Lei 6.295/2025 — COMSIP Aracaju/SE (leis.org, 403 no acesso direto)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=172096",
+    "titulo": "LC 2/1991 - Aracaju (tabela antiga)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Tabela de faixas e valores da COMSIP (Lei 6.295/2025)"
+  ],
+  "ressalvas": [
+   "Lei 6.295/2025 localizada (número confirmado), mas texto integral inacessível (403) — tabela pendente."
+  ]
+ },
+ {
+  "cod_ibge": "2933307",
+  "municipio": "Vitória da Conquista",
+  "uf": "BA",
+  "slug": "vitoria-da-conquista",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "COELBA"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 3.090/2025 (altera a Lei Complementar 2.039/2016 — COSIP-MU)",
+    "vigencia": "2025",
+    "fonte_url": "https://leis.org/municipais/ba/vitoria-da-conquista/lei/lei-ordinaria/2025/3090/lei-ordinaria-n-3090-2025-altera-a-lei-complementar-n-2-039-2016"
+   },
+   {
+    "norma": "COSIP-MU (PL 026/2025, aprovada em 11/2025)",
+    "vigencia": "2025",
+    "fonte_url": "https://pmvc.ba.gov.br/apos-entender-que-cosip-mu-nao-representa-novo-tributo-camara-aprova-projeto-de-lei-em-primeira-votacao/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://pmvc.ba.gov.br/apos-entender-que-cosip-mu-nao-representa-novo-tributo-camara-aprova-projeto-de-lei-em-primeira-votacao/",
+    "titulo": "Prefeitura de VdC — COSIP-MU (BA)",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://leis.org/municipais/ba/vitoria-da-conquista/lei/lei-ordinaria/2025/3090/lei-ordinaria-n-3090-2025-altera-a-lei-complementar-n-2-039-2016",
+    "titulo": "Lei 3.090/2025 — Vitória da Conquista/BA (leis.org, 403)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Localizar lei final com tabelas",
+   "leis.org 403 — tentar Câmara/SAPL"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "3118601",
+  "municipio": "Contagem",
+  "uf": "MG",
+  "slug": "contagem",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "CEMIG-D"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [],
+  "fontes": [],
+  "pendencias": [
+   "Nova coleta — retomar busca por COSIP Contagem/MG (Decreto anual de valores) no portal da prefeitura/SAPL"
+  ],
+  "ressalvas": [
+   "Resultado de busca apontou decreto COSIP de Manaus (falso positivo) — sem fonte local de Contagem."
+  ]
+ },
+ {
+  "cod_ibge": "3154606",
+  "municipio": "Ribeirão das Neves",
+  "uf": "MG",
+  "slug": "ribeirao-das-neves",
+  "status": "parcial",
+  "mecanismo": "outro",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "CEMIG-D"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Decreto 243/2023 (estabelece o valor por metro linear)",
+    "vigencia": "2023",
+    "fonte_url": "https://leismunicipais.com.br/a/mg/r/ribeirao-das-neves/decreto/2023/25/243/decreto-n-243-2023-estabelece-o-valor-por-metro-linear"
+   },
+   {
+    "norma": "Lei 201/2025 (estabelece prazos para pagamento)",
+    "vigencia": "2025",
+    "fonte_url": "https://leismunicipais.com.br/a/mg/r/ribeirao-das-neves/lei-ordinaria/2025/21/201/lei-ordinaria-n-201-2025-estabelece-prazos-para-"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://leismunicipais.com.br/a/mg/r/ribeirao-das-neves/decreto/2023/25/243/decreto-n-243-2023-estabelece-o-valor-por-metro-linear",
+    "titulo": "Decreto 243/2023 — Ribeirão das Neves/MG (leismunicipais)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://ribeiraodasneves.mg.gov.br/",
+    "titulo": "Portal oficial — Ribeirão das Neves/MG",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Obter texto do Decreto 243/2023 (portal 403)",
+   "Valor por metro linear e tabela de faixas da CIP"
+  ],
+  "ressalvas": [
+   "Mecanismo apurado como valor por metro linear (indício de fachada/testada) — confirmar."
+  ]
+ },
+ {
+  "cod_ibge": "3201308",
+  "municipio": "Cariacica",
+  "uf": "ES",
+  "slug": "cariacica",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "EDP ES"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 3.908/2001 Anexo Único (possivelmente revogada pelo CTM LC 27/2009 art. 312-A, alt. LC 122/2022)",
+    "vigencia": "2001",
+    "fonte_url": "https://cariacica.camarasempapel.com.br/Arquivo/Documents/legislacao/html/L39082001.html"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://cariacica.camarasempapel.com.br/Arquivo/Documents/legislacao/html/L39082001.html",
+    "titulo": "Lei 3.908/2001 — Cariacica/ES (câmara sem papel)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://cariacica.camarasempapel.com.br/legislacao/norma.aspx?id=15075",
+    "titulo": "Norma 15075 — Cariacica/ES (câmara sem papel)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Confirmar se o vigente é o CTM LC 27/2009 art. 312-A",
+   "Completar faixas acima de 300 kWh",
+   "camarasempapel/portais com timeout no acesso"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "3301009",
+  "municipio": "Campos dos Goytacazes",
+  "uf": "RJ",
+  "slug": "campos-dos-goytacazes",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "ENEL RJ"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 8.066/2008 (institui a COSIP no município)",
+    "vigencia": "2008",
+    "fonte_url": "https://leismunicipais.com.br/a/rj/c/campos-dos-goytacazes/lei-ordinaria/2008/807/8066/lei-ordinaria-n-8066-2008-institui-no-munic"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://fazenda.campos.rj.gov.br/taxas/cosip/",
+    "titulo": "Secretaria de Fazenda de Campos — COSIP",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://leismunicipais.com.br/a/rj/c/campos-dos-goytacazes/lei-ordinaria/2008/807/8066/lei-ordinaria-n-8066-2008-institui-no-munic",
+    "titulo": "Lei 8.066/2008 — Campos dos Goytacazes/RJ",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Tabela de faixas/valores da COSIP (página oficial descreve critérios sem publicar a tabela)"
+  ],
+  "ressalvas": [
+   "Página da Fazenda informa que o valor varia por consumo, bandeira tarifária, classe e capacidade contratada — sem números."
+  ]
+ },
+ {
+  "cod_ibge": "3303906",
+  "municipio": "Petrópolis",
+  "uf": "RJ",
+  "slug": "petropolis",
+  "status": "parcial",
+  "mecanismo": "outro",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "ENEL RJ",
+   "LIGHT SESA"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 5.951/2002 (art. 4º: CIP em percentuais fixos sobre a tarifa, conforme Anexos I e II) alterada pelas Leis 6.214/2004 e 8.906/2024",
+    "vigencia": "2024",
+    "fonte_url": "https://sapl.petropolis.rj.leg.br/media/sapl/public/normajuridica/2024/11643/lei_8906-2024.pdf"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://petropolis.processolegislativo.com.br/areapublica/documento/?Lei/1621",
+    "titulo": "Lei — Petrópolis/RJ (processo legislativo)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://sapl.petropolis.rj.leg.br/media/sapl/public/normajuridica/2024/11643/lei_8906-2024.pdf",
+    "titulo": "Lei 8.906/2024 — Petrópolis/RJ (SAPL)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Extrair percentuais dos Anexos I/II da Lei 5.951/2002 (não publicados na íntegra das leis alteradoras)"
+  ],
+  "ressalvas": [
+   "Mecanismo confirmado: percentuais fixos sobre a tarifa de energia por faixa de consumo (Kw/h mês)."
+  ]
+ },
+ {
+  "cod_ibge": "3505708",
+  "municipio": "Barueri",
+  "uf": "SP",
+  "slug": "barueri",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "ELETROPAULO"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "LC 380/2016 com valores do Decreto 10.102/2024",
+    "vigencia": "2024",
+    "fonte_url": "https://barueri.sp.gov.br/Transparencia/legislacao.aspx"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://barueri.sp.gov.br/Transparencia/legislacao.aspx",
+    "titulo": "Barueri/SP — legislação (transparência)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Extrair tabela de valores do Decreto 10.102/2024"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "3510609",
+  "municipio": "Carapicuíba",
+  "uf": "SP",
+  "slug": "carapicuiba",
+  "status": "parcial",
+  "mecanismo": "valor_fixo",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "ELETROPAULO"
+  ],
+  "exercicio": 2025,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Decreto 5.390/2024 (altera os valores da CIP para o exercício de 2025)",
+    "vigencia": "2024",
+    "fonte_url": "https://carapicuiba.sp.gov.br/legislacao/view/5160/decreto-n-5390-de-24-de-outubro-de-2024"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://carapicuiba.sp.gov.br/legislacao/view/5160/decreto-n-5390-de-24-de-outubro-de-2024",
+    "titulo": "Decreto 5.390/2024 — Carapicuíba/SP (legislação municipal)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Extrair a tabela de valores do Decreto 5.390/2024 (página só expõe a ementa)"
+  ],
+  "ressalvas": [
+   "Ementa confirma valores por faixa para 2025, mas o corpo/tabela não foi renderizado na página acessada."
+  ]
+ },
+ {
+  "cod_ibge": "3516200",
+  "municipio": "Franca",
+  "uf": "SP",
+  "slug": "franca",
+  "status": "nao_encontrado",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "CPFL-PAULISTA"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [],
+  "fontes": [],
+  "pendencias": [
+   "CTM não contém COSIP; lei específica não localizada (3 rodadas) — nova coleta"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "3525904",
+  "municipio": "Jundiaí",
+  "uf": "SP",
+  "slug": "jundiai",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "CPFL-PIRATINING"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 556/2014 (institui a Contribuição para Custeio do Serviço de Iluminação Pública)",
+    "vigencia": "2014",
+    "fonte_url": "https://leismunicipais.com.br/a/sp/j/jundiai/lei-complementar/2014/56/556/lei-complementar-n-556-2014-institui-a-contribuicao-para"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://leismunicipais.com.br/a/sp/j/jundiai/lei-complementar/2014/56/556/lei-complementar-n-556-2014-institui-a-contribuicao-para",
+    "titulo": "LC 556/2014 — Jundiaí/SP (leismunicipais, 403 no acesso direto)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://jundiai.sp.gov.br/financas/issqn/legislacao/",
+    "titulo": "Jundiaí/SP — legislação tributária (finanças)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Extrair tabela de alíquotas da LC 556/2014"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "3534401",
+  "municipio": "Osasco",
+  "uf": "SP",
+  "slug": "osasco",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "ELETROPAULO"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 3.811/2003 (institui a Contribuição para Custeio do Serviço de Iluminação Pública)",
+    "vigencia": "2003",
+    "fonte_url": "https://leismunicipais.com.br/a2/sp/o/osasco/lei-ordinaria/2003/382/3811/lei-ordinaria-n-3811-2003-institui-a-contribuicao-para-cu"
+   },
+   {
+    "norma": "Código Tributário Municipal (art. 3º, XII — CIP)",
+    "vigencia": "2003",
+    "fonte_url": "https://leggicomunali.it/codigo-tributario-osasco-sp"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://leggicomunali.it/codigo-tributario-osasco-sp",
+    "titulo": "Código Tributário de Osasco/SP (agregador)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://sf.osasco.sp.gov.br/pages/legislacao/demais-legislacoes",
+    "titulo": "Osasco/SP — Secretaria da Fazenda, legislação",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Extrair tabela de alíquotas da Lei 3.811/2003 / CTM"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "3543402",
+  "municipio": "Ribeirão Preto",
+  "uf": "SP",
+  "slug": "ribeirao-preto",
+  "status": "completo",
+  "mecanismo": "valor_fixo",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "CPFL-PAULISTA"
+  ],
+  "exercicio": 2002,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 70
+     },
+     "valor": "isento",
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 71,
+      "max": 200
+     },
+     "valor": 2.0,
+     "unidade": "BRL"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": null
+     },
+     "valor": 4.0,
+     "unidade": "BRL"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": null,
+      "max": null
+     },
+     "valor": 5.0,
+     "unidade": "BRL",
+     "nota": "valor para todas as faixas de consumo; linha rotulada 'INDUSTRIAL' no texto (provável COMERCIAL) — confirmar"
+    },
+    {
+     "faixa_kwh": {
+      "min": null,
+      "max": null
+     },
+     "valor": 4.0,
+     "unidade": "BRL",
+     "nota": "valor para todas as faixas de consumo; linha rotulada 'INDUSTRIAL' — confirmar"
+    }
+   ]
+  },
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 1.430/2002 (institui a CIP; art. 4º com a tabela por imóvel)",
+    "vigencia": "2002",
+    "fonte_url": "https://www.ribeiraopreto.sp.gov.br/legislacao-municipal/pesquisa/lei/6442"
+   }
+  ],
+  "isencoes": [
+   {
+    "descricao": "Consumidores da classe residencial com consumo de até 70 kWh",
+    "limite_kwh": 70,
+    "base_legal": "LC 1.430/2002, art. 5º",
+    "fonte_url": "https://www.ribeiraopreto.sp.gov.br/legislacao-municipal/pesquisa/lei/6442"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.ribeiraopreto.sp.gov.br/legislacao-municipal/pesquisa/lei/6442",
+    "titulo": "LC 1.430/2002 — CIP Ribeirão Preto/SP (portal oficial, texto consolidado)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://leis.org/municipais/sp/ribeirao-preto/lei/lei-complementar/2023/3156/lei-complementar-n-3156-2023-dispoe-sobre-a-contribu",
+    "titulo": "LC 3.156/2023 — altera a CIP de Ribeirão Preto/SP (leis.org, 403)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [],
+  "ressalvas": [
+   "Tabela extraída da redação de 2002; existe a LC 3.156/2023 que dispõe sobre a contribuição — reajuste de valores a confirmar.",
+   "Linhas 'INDUSTRIAL' apresentam dois valores (R$ 5,00 e R$ 4,00) para todas as faixas — provável desdobramento comercial/industrial; conferir cabeçalho original."
+  ]
+ },
+ {
+  "cod_ibge": "3548708",
+  "municipio": "São Bernardo do Campo",
+  "uf": "SP",
+  "slug": "sao-bernardo-do-campo",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "ELETROPAULO"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 5.114/2002 (institui a CIP)",
+    "vigencia": "2002",
+    "fonte_url": "https://www.jusbrasil.com.br/legislacao/701618/lei-5114-02"
+   },
+   {
+    "norma": "Lei 6.635/2018 (dispõe sobre a revisão)",
+    "vigencia": "2018",
+    "fonte_url": "https://leismunicipais.com.br/a/sp/s/sao-bernardo-do-campo/lei-ordinaria/2018/664/6635/lei-ordinaria-n-6635-2018-dispoe-sobre-a-re"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.jusbrasil.com.br/legislacao/701618/lei-5114-02",
+    "titulo": "Lei 5.114/2002 — São Bernardo do Campo/SP (jusbrasil)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://guiadeservicos.saobernardo.sp.gov.br/guia-de-servicos/servicos/215161/mostrar",
+    "titulo": "Guia de Serviços — São Bernardo do Campo/SP",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Extrair tabela de valores da CIP (Lei 5.114/2002 / Lei 6.635/2018)"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "3552205",
+  "municipio": "Sorocaba",
+  "uf": "SP",
+  "slug": "sorocaba",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "CERIM",
+   "CPFL-PIRATINING"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 7.631/2005 (dispõe sobre a instituição da contribuição para iluminação pública)",
+    "vigencia": "2005",
+    "fonte_url": "https://leismunicipais.com.br/a/sp/s/sorocaba/lei-ordinaria/2005/764/7631/lei-ordinaria-n-7631-2005-dispoe-sobre-a-instituicao-da-"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://leismunicipais.com.br/a/sp/s/sorocaba/lei-ordinaria/2005/764/7631/lei-ordinaria-n-7631-2005-dispoe-sobre-a-instituicao-da-",
+    "titulo": "Lei 7.631/2005 — Sorocaba/SP (leismunicipais, 403)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://sorocaba.camarasempapel.com.br/legislacao/",
+    "titulo": "Câmara de Sorocaba — legislação (câmara sem papel)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Extrair tabela de alíquotas da Lei 7.631/2005 (portal com timeout)"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "4113700",
+  "municipio": "Londrina",
+  "uf": "PR",
+  "slug": "londrina",
+  "status": "completo",
+  "mecanismo": "outro",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "COPEL-DIS"
+  ],
+  "exercicio": 2025,
+  "tabelas": {
+   "residencial": [
+    {
+     "faixa_kwh": {
+      "min": 0,
+      "max": 30
+     },
+     "valor": 2.8,
+     "unidade": "PERCENTUAL_BASE"
+    },
+    {
+     "faixa_kwh": {
+      "min": 31,
+      "max": 50
+     },
+     "valor": 4.0,
+     "unidade": "PERCENTUAL_BASE"
+    },
+    {
+     "faixa_kwh": {
+      "min": 51,
+      "max": 70
+     },
+     "valor": 5.6,
+     "unidade": "PERCENTUAL_BASE"
+    },
+    {
+     "faixa_kwh": {
+      "min": 71,
+      "max": 100
+     },
+     "valor": 9.6,
+     "unidade": "PERCENTUAL_BASE"
+    },
+    {
+     "faixa_kwh": {
+      "min": 101,
+      "max": 150
+     },
+     "valor": 14.4,
+     "unidade": "PERCENTUAL_BASE"
+    },
+    {
+     "faixa_kwh": {
+      "min": 151,
+      "max": 200
+     },
+     "valor": 20.8,
+     "unidade": "PERCENTUAL_BASE"
+    },
+    {
+     "faixa_kwh": {
+      "min": 201,
+      "max": 250
+     },
+     "valor": 32.0,
+     "unidade": "PERCENTUAL_BASE"
+    },
+    {
+     "faixa_kwh": {
+      "min": 251,
+      "max": 300
+     },
+     "valor": 48.0,
+     "unidade": "PERCENTUAL_BASE"
+    },
+    {
+     "faixa_kwh": {
+      "min": 301,
+      "max": 400
+     },
+     "valor": 56.0,
+     "unidade": "PERCENTUAL_BASE"
+    },
+    {
+     "faixa_kwh": {
+      "min": 401,
+      "max": null
+     },
+     "valor": 70.4,
+     "unidade": "PERCENTUAL_BASE"
+    }
+   ],
+   "nao_residencial": [
+    {
+     "faixa_kwh": {
+      "min": 501,
+      "max": 600
+     },
+     "valor": 70.4,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "comércio"
+    },
+    {
+     "faixa_kwh": {
+      "min": 601,
+      "max": 1000
+     },
+     "valor": 99.2,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "comércio"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 1500
+     },
+     "valor": 168.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "comércio"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1501,
+      "max": null
+     },
+     "valor": 240.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "comércio"
+    },
+    {
+     "faixa_kwh": {
+      "min": 1001,
+      "max": 2000
+     },
+     "valor": 168.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "indústria"
+    },
+    {
+     "faixa_kwh": {
+      "min": 2001,
+      "max": null
+     },
+     "valor": 200.0,
+     "unidade": "PERCENTUAL_BASE",
+     "nota": "indústria"
+    }
+   ],
+   "nao_edificado": [
+    {
+     "faixa_kwh": {
+      "min": null,
+      "max": null
+     },
+     "valor": 0.05,
+     "unidade": "BRL",
+     "nota": "R$ 0,05 por m² (imóveis não edificados); teto = valor do IPTU"
+    }
+   ]
+  },
+  "base_legal": [
+   {
+    "norma": "Lei da nova COSIP de Londrina (2025) — nº sancionado a confirmar",
+    "vigencia": "2025",
+    "fonte_url": "https://www.cml.pr.gov.br/proposicoes/Leis/2025/1/0/264681"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.cloudsoftcam.com.br/PR/LONDRINA/upload/2025/09/202509151415411757956541b6fe20.pdf",
+    "titulo": "COSIP Londrina — Tabela Única (Diário Oficial)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.cml.pr.gov.br/proposicoes/Leis/2025/1/0/264681",
+    "titulo": "Câmara Municipal de Londrina — proposição da nova COSIP",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://cbnlondrina.com.br/materias/camara-de-londrina-aprova-nova-cosip-para-iluminacao-e-seguranca-publica",
+    "titulo": "CBN Londrina - nova Cosip aprovada",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Número da lei sancionada (2025)"
+  ],
+  "ressalvas": [
+   "Percentuais incidem sobre a UVC = R$ 73,83 (referência de set/2025); teto da cobrança = valor do IPTU."
+  ]
+ },
+ {
+  "cod_ibge": "4125506",
+  "municipio": "São José dos Pinhais",
+  "uf": "PR",
+  "slug": "sao-jose-dos-pinhais",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "COPEL-DIS"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 383/2002 (institui a contribuição)",
+    "vigencia": "2002",
+    "fonte_url": "https://leis.org/municipais/pr/sao-jose-dos-pinhais/lei/lei-ordinaria/2002/383/lei-ordinaria-n-383-2002-institui-no-municipio-de-s"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://leismunicipais.com.br/a/pr/s/sao-jose-dos-pinhais/lei-ordinaria/2002/39/383/lei-ordinaria-n-383-2002-institui-no-municipio",
+    "titulo": "Lei 383/2002 — São José dos Pinhais/PR (leismunicipais, 403)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.sjp.pr.gov.br/servicos/servicos-do-cidadao/iluminacao-publica-e-limpeza/",
+    "titulo": "São José dos Pinhais/PR — serviços de iluminação pública",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Obter texto da Lei 383/2002 (portais deram 403)"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "4304606",
+  "municipio": "Canoas",
+  "uf": "RS",
+  "slug": "canoas",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "RGE SUL"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 6.838/2025 (altera os arts. 85-A a 85-C do CTM)",
+    "vigencia": "2025",
+    "fonte_url": "https://leis.org/municipais/rs/canoas/lei/lei-ordinaria/2025/6838/lei-ordinaria-n-6838-2025-altera-os-artigos-85-a-85-b-e-85-c-da-"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://canoas.rs.gov.br/servicos/legislacao-tributaria-municipal-2/",
+    "titulo": "Canoas/RS — legislação tributária",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://leis.org/municipais/rs/canoas/lei/lei-ordinaria/2025/6838/lei-ordinaria-n-6838-2025-altera-os-artigos-85-a-85-b-e-85-c-da-",
+    "titulo": "Lei 6.838/2025 — Canoas/RS (leis.org)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Extrair alíquotas dos arts. 85-A a 85-C (texto integral inacessível)"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "5108402",
+  "municipio": "Várzea Grande",
+  "uf": "MT",
+  "slug": "varzea-grande",
+  "status": "parcial",
+  "mecanismo": "desconhecido",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "EMT"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei 2.527/2002",
+    "vigencia": "2002",
+    "fonte_url": "https://www.varzeagrande.mt.gov.br/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.varzeagrande.mt.gov.br/",
+    "titulo": "Várzea Grande/MT — portal oficial",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.varzeagrande.mt.gov.br/legislacao",
+    "titulo": "Várzea Grande/MT — legislação (redireciona a leismunicipais)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Localizar Lei 2.527/2002 e tabela de alíquotas",
+   "Portal remete a leismunicipais (403)"
+  ],
+  "ressalvas": []
+ },
+ {
+  "cod_ibge": "5208707",
+  "municipio": "Goiânia",
+  "uf": "GO",
+  "slug": "goiania",
+  "status": "parcial",
+  "mecanismo": "outro",
+  "atualizado_em": "2026-10-01",
+  "proxima_revisao": "2026-10-31",
+  "distribuidoras": [
+   "EQUATORIAL GO"
+  ],
+  "exercicio": null,
+  "tabelas": null,
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 344/2021, art. 317 (institui a COSIP)",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=500579"
+   },
+   {
+    "norma": "Decreto 3.794/2022 (RCTM), arts. 345 a 351 (base de cálculo = custo total do serviço; Planilha de Custos)",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=500579"
+   },
+   {
+    "norma": "Decreto 166/2026 (altera o RCTM)",
+    "vigencia": "2026",
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=500579"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=500579",
+    "titulo": "Decreto 166/2026 - Goiânia (altera RCTM)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ],
+  "pendencias": [
+   "Falta: a tabela em si (Planilha de Custos / Anexo III do RCTM). Regra de incidência: imóveis a 60 m de poste com luminária"
+  ],
+  "ressalvas": [
+   "Base de cálculo confirmada como custo total do serviço (art. 348 do RCTM); sem tabela de faixas/percentuais."
+  ]
+ }
+]

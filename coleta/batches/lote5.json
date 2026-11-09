@@ -1,0 +1,450 @@
+[
+ {
+  "cod": "1500800",
+  "nome": "Ananindeua - PA",
+  "status_atual": "nao_encontrado",
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "2111300",
+  "nome": "São Luís - MA",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Norma municipal vigente com a tabela de alíquotas da CIP de São Luís"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei nº 6.289/2017 (Código Tributário Municipal; art. 5º, IV institui a CIP)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=357666",
+    "fonte_url": "2017-12-28"
+   },
+   {
+    "norma": "Lei nº 4.135/2002 (lei específica da CIP, revogada pela Lei 6.289/2017)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=179235",
+    "fonte_url": "2002-12-30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=357666",
+    "titulo": "Lei nº 6.289/2017 - CTM São Luís",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=179235",
+    "titulo": "Lei nº 4.135/2002 - São Luís (revogada)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "2307304",
+  "nome": "Juazeiro do Norte - CE",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Obter Anexo I (tabela de %) — ausente no PDF acessado"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 2.722/2002 alterada pela Lei 2.776/2003 (base = tarifa B4b R$/MWh)",
+    "vigencia": "2003",
+    "fonte_url": "https://juazeiro1.websiteseguro.com/site/midia/9158/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://juazeiro1.websiteseguro.com/site/midia/9158/",
+    "titulo": "Lei 2.722/2003 — Juazeiro do Norte/CE",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "2607901",
+  "nome": "Jaboatão dos Guararapes - PE",
+  "status_atual": "nao_encontrado",
+  "pendencias": [],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "2611101",
+  "nome": "Petrolina - PE",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Localizar tabela de alíquotas da CIP"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 1.609/2004 alterada pela Lei 3.648/2023",
+    "vigencia": "2023",
+    "fonte_url": "https://petrolina.pe.gov.br/lei-no-3-648-de-12-de-setembro-de-2023/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://petrolina.pe.gov.br/lei-no-3-648-de-12-de-setembro-de-2023/",
+    "titulo": "Lei 3.648/2023 — Petrolina/PE (portal oficial)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "2800308",
+  "nome": "Aracaju - SE",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Tabela de faixas e valores da COMSIP aprovada em 2025"
+  ],
+  "base_legal": [
+   {
+    "norma": "Projeto de Lei nº 496/2025 (COMSIP - substitui a COSIP de 2013; aprovado em 18/12/2025)",
+    "vigencia": "https://www.aracaju.se.leg.br/institucional/noticias/camara-aprova-projeto-do-poder-executivo-que-institui-a-cosimp-e-traz-alteracoes-para-o-uso-do-recurso",
+    "fonte_url": "2025-12-18"
+   },
+   {
+    "norma": "Lei Complementar nº 2/1991 (Tabela XI - antiga taxa de iluminação pública, % da UFM por faixa)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=172096",
+    "fonte_url": "1991-12-30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aracaju.se.leg.br/institucional/noticias/camara-aprova-projeto-do-poder-executivo-que-institui-a-cosimp-e-traz-alteracoes-para-o-uso-do-recurso",
+    "titulo": "Câmara de Aracaju - nova COMSIP",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=172096",
+    "titulo": "LC 2/1991 - Aracaju (tabela antiga)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "2933307",
+  "nome": "Vitória da Conquista - BA",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Localizar lei final com tabelas (alíquotas 5%-18% por faixa conforme apuração preliminar)"
+  ],
+  "base_legal": [
+   {
+    "norma": "COSIP-MU (PL 026/2025, aprovada 11/2025)",
+    "vigencia": "2025",
+    "fonte_url": "https://pmvc.ba.gov.br/apos-entender-que-cosip-mu-nao-representa-novo-tributo-camara-aprova-projeto-de-lei-em-primeira-votacao/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://pmvc.ba.gov.br/apos-entender-que-cosip-mu-nao-representa-novo-tributo-camara-aprova-projeto-de-lei-em-primeira-votacao/",
+    "titulo": "Prefeitura de VdC — COSIP-MU (BA)",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3118601",
+  "nome": "Contagem - MG",
+  "status_atual": "nao_encontrado",
+  "pendencias": [],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3154606",
+  "nome": "Ribeirão das Neves - MG",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Obter texto do Decreto 243/2023 (portal 403)"
+  ],
+  "base_legal": [
+   {
+    "norma": "Decreto 243/2023 (valor por metro linear)",
+    "vigencia": "2023",
+    "fonte_url": "https://leismunicipais.com.br/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://leismunicipais.com.br/",
+    "titulo": "Leis Municipais — Ribeirão das Neves/MG",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3201308",
+  "nome": "Cariacica - ES",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Confirmar se o vigente é o CTM LC 27/2009 art. 312-A",
+   "Completar faixas acima de 300 kWh"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 3.908/2001 Anexo Único (possivelmente revogada pelo CTM LC 27/2009 art. 312-A, alt. LC 122/2022)",
+    "vigencia": "2001",
+    "fonte_url": "https://cariacica.camarasempapel.com.br/Arquivo/Documents/legislacao/html/L39082001.html"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://cariacica.camarasempapel.com.br/Arquivo/Documents/legislacao/html/L39082001.html",
+    "titulo": "Lei 3.908/2001 — Cariacica/ES (câmara sem papel)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://cariacica.camarasempapel.com.br/legislacao/norma.aspx?id=15075",
+    "titulo": "Norma 15075 — Cariacica/ES (câmara sem papel)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3301009",
+  "nome": "Campos dos Goytacazes - RJ",
+  "status_atual": "nao_encontrado",
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3303906",
+  "nome": "Petrópolis - RJ",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Extrair percentuais dos Anexos I/II vigentes"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 5.951/2002 (Anexos I/II) alterada pelas Leis 6.214/2004 e 8.906/2024",
+    "vigencia": "2024",
+    "fonte_url": "https://petropolis.processolegislativo.com.br/areapublica/documento/?Lei/1621"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://petropolis.processolegislativo.com.br/areapublica/documento/?Lei/1621",
+    "titulo": "Lei — Petrópolis/RJ (processo legislativo)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3505708",
+  "nome": "Barueri - SP",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Extrair tabela de valores do Decreto 10.102/2024"
+  ],
+  "base_legal": [
+   {
+    "norma": "LC 380/2016 com valores do Decreto 10.102/2024",
+    "vigencia": "2024",
+    "fonte_url": "https://barueri.sp.gov.br/Transparencia/legislacao.aspx"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://barueri.sp.gov.br/Transparencia/legislacao.aspx",
+    "titulo": "Barueri/SP — legislação (transparência)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3510609",
+  "nome": "Carapicuíba - SP",
+  "status_atual": "nao_encontrado",
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3516200",
+  "nome": "Franca - SP",
+  "status_atual": "nao_encontrado",
+  "pendencias": [
+   "CTM não contém COSIP; lei específica não localizada em 3 rodadas — nova coleta"
+  ],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3525904",
+  "nome": "Jundiaí - SP",
+  "status_atual": "nao_encontrado",
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3534401",
+  "nome": "Osasco - SP",
+  "status_atual": "nao_encontrado",
+  "pendencias": [],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3543402",
+  "nome": "Ribeirão Preto - SP",
+  "status_atual": "nao_encontrado",
+  "pendencias": [],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3548708",
+  "nome": "São Bernardo do Campo - SP",
+  "status_atual": "nao_encontrado",
+  "pendencias": [],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3552205",
+  "nome": "Sorocaba - SP",
+  "status_atual": "nao_encontrado",
+  "pendencias": [],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "4113700",
+  "nome": "Londrina - PR",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Lei e tabela de valores da nova Cosip de Londrina"
+  ],
+  "base_legal": [],
+  "fontes": [
+   {
+    "url": "https://cbnlondrina.com.br/materias/camara-de-londrina-aprova-nova-cosip-para-iluminacao-e-seguranca-publica",
+    "titulo": "CBN Londrina - nova Cosip aprovada",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "4125506",
+  "nome": "São José dos Pinhais - PR",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Obter texto da Lei 383/2002 (portais deram 403)"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 383/2002",
+    "vigencia": "2002",
+    "fonte_url": "https://leismunicipais.com.br/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://leismunicipais.com.br/",
+    "titulo": "Leis Municipais — São José dos Pinhais/PR",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "4304606",
+  "nome": "Canoas - RS",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Extrair alíquotas dos arts. 85-A a 85-C"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 6.838/2025 (altera arts. 85-A a 85-C do CTM)",
+    "vigencia": "2025",
+    "fonte_url": "https://canoas.rs.gov.br/servicos/legislacao-tributaria-municipal-2/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://canoas.rs.gov.br/servicos/legislacao-tributaria-municipal-2/",
+    "titulo": "Canoas/RS — legislação tributária",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "5108402",
+  "nome": "Várzea Grande - MT",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Localizar Lei 2.527/2002 e tabela de alíquotas"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 2.527/2002",
+    "vigencia": "2002",
+    "fonte_url": "https://www.varzeagrande.mt.gov.br/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.varzeagrande.mt.gov.br/",
+    "titulo": "Várzea Grande/MT — portal oficial",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "5208707",
+  "nome": "Goiânia - GO",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Falta: a tabela em si (Planilha de Custos / anexo da LC 344). Regra de incidência: imóveis a 60m de poste com luminária"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 344/2021, art. 317",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=500579"
+   },
+   {
+    "norma": "Decreto 3794/2022, arts. 345+ (RCTM)",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=500579"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=500579",
+    "titulo": "Decreto 166/2026 - Goiânia (altera RCTM)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ }
+]

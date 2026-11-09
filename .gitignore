@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+coleta/.venv/
+coleta/recheck_*/cache/

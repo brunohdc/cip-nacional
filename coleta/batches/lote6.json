@@ -1,0 +1,498 @@
+[
+ {
+  "cod": "1501402",
+  "nome": "Belém - PA",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Anexo Único (alíquotas por classe e faixa de consumo) da Lei 10.113/2024"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei nº 10.113/2024 (institui a COSIP de Belém; revoga Lei 8.226/2002)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=471271",
+    "fonte_url": "2024-12-26"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=471271",
+    "titulo": "Lei nº 10.113/2024 - Belém (COSIP)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "2211001",
+  "nome": "Teresina - PI",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Definição da base de cálculo da COSIP (art. 309 do CTM) para enquadrar a alíquota de 12% no mecanismo correto"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar nº 4.974/2016 (Código Tributário; arts. 308-310 - COSIP)",
+    "vigencia": "https://www.lefisc.com.br/regulamentos/ctmTeresina/conteudo.asp",
+    "fonte_url": "2016-12-26"
+   },
+   {
+    "norma": "Lei Complementar nº 5.139/2017 (alíquota de 12% para todas as classes; exclusões e isenções)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=354592",
+    "fonte_url": "2017-12-22"
+   },
+   {
+    "norma": "Lei Complementar nº 6.313/2025 (altera o CTM; trata da COSISP)",
+    "vigencia": "https://www.legisweb.com.br/legislacao/?legislacao=488579",
+    "fonte_url": "2025-12-23"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=354592",
+    "titulo": "LC 5.139/2017 - Teresina (COSIP)",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   },
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?legislacao=488579",
+    "titulo": "LC 6.313/2025 - Teresina",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "2504009",
+  "nome": "Campina Grande - PB",
+  "status_atual": "nao_encontrado",
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "2609600",
+  "nome": "Olinda - PE",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Ver se o PL 129/2022 foi sancionado; localizar lei vigente + tabela"
+  ],
+  "base_legal": [
+   {
+    "norma": "PL 129/2022 (projeto — não enactado localizado)",
+    "vigencia": "2022",
+    "fonte_url": "https://www.olinda.pe.leg.br/institucional/projeto-de-lei/projetos-de-lei-2022/pl-129-2022-autor-poder-executivo.pdf"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.olinda.pe.leg.br/institucional/projeto-de-lei/projetos-de-lei-2022/pl-129-2022-autor-poder-executivo.pdf",
+    "titulo": "PL 129/2022 — Olinda/PE (Câmara)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "2611606",
+  "nome": "Recife - PE",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Falta: tabela de alíquotas da CIP por faixa (não localizada — a portaria só fixa índices de cálculo da TCIP)"
+  ],
+  "base_legal": [
+   {
+    "norma": "Decreto 28.771/2015",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=383445"
+   },
+   {
+    "norma": "Portaria SEFIN 23/2019 (índices de tributos/bandeiras)",
+    "vigencia": null,
+    "fonte_url": "https://www.legisweb.com.br/legislacao/?id=383445"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.legisweb.com.br/legislacao/?id=383445",
+    "titulo": "Portaria SEFIN 23/2019 - Recife",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "2905701",
+  "nome": "Camaçari - BA",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Extrair tabela de COSIP da Lei 1.366/2014"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 1.366/2014 (altera Tabela de COSIP do CTM — Lei 1.039/2009)",
+    "vigencia": "2014",
+    "fonte_url": "https://sefaz.camacari.ba.gov.br/legislacao/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://sefaz.camacari.ba.gov.br/legislacao/",
+    "titulo": "Sefaz Camaçari/BA — legislação",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3106200",
+  "nome": "Belo Horizonte - MG",
+  "status_atual": "nao_encontrado",
+  "pendencias": [],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3136702",
+  "nome": "Juiz de Fora - MG",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Tabela de faixas de consumo e percentuais da Cips de Juiz de Fora"
+  ],
+  "base_legal": [],
+  "fontes": [
+   {
+    "url": "https://www.camarajf.mg.gov.br/www/noticias/exibir/13718/Camara-aprova-atualizacao-na-Contribuicao-de-Iluminacao-Publica-e-sistema-de-monitoramento-para-seguranca-Cips.html",
+    "titulo": "Câmara de Juiz de Fora - atualização da Cips",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3170107",
+  "nome": "Uberaba - MG",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Localizar decreto/regulamento de lançamento corrente com os valores"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 10.710 (valores fixados por regulamento/decreto de lançamento anual)",
+    "vigencia": "s/d",
+    "fonte_url": "https://servico.uberaba.mg.gov.br/tributos/leis_dec/LEI10710.pdf"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://servico.uberaba.mg.gov.br/tributos/leis_dec/LEI10710.pdf",
+    "titulo": "Lei 10.710 — Uberaba/MG (PDF oficial)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3205200",
+  "nome": "Vila Velha - ES",
+  "status_atual": "nao_encontrado",
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3301702",
+  "nome": "Duque de Caxias - RJ",
+  "status_atual": "nao_encontrado",
+  "pendencias": [],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3304904",
+  "nome": "São Gonçalo - RJ",
+  "status_atual": "nao_encontrado",
+  "pendencias": [],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3506003",
+  "nome": "Bauru - SP",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Extrair tabela de alíquotas do CTM (Lei 5.075/2003) e desconto de 50% residencial 0-100 kWh"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 5.075/2003 (CIP) alterada pela Lei 7.152/2018",
+    "vigencia": "2018",
+    "fonte_url": "https://www2.bauru.sp.gov.br/arquivos/sist_juridico/documentos/leis/lei7152.pdf"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.bauru.sp.gov.br/arquivos/sist_juridico/documentos/leis/lei7152.pdf",
+    "titulo": "Lei 7.152/2018 — Bauru/SP (portal oficial)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3513009",
+  "nome": "Cotia - SP",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Obter texto da Lei 1.745/2012 (portal 403)"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 1.745/2012",
+    "vigencia": "2012",
+    "fonte_url": "https://leismunicipais.com.br/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://leismunicipais.com.br/",
+    "titulo": "Leis Municipais — Cotia/SP",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3518701",
+  "nome": "Guarujá - SP",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Confirmar tabela corrente de valores"
+  ],
+  "base_legal": [
+   {
+    "norma": "LC 67/2002 (valores R$ fixos atualizados a partir de 03/2018)",
+    "vigencia": "2018",
+    "fonte_url": "https://camaraguaruja.sp.gov.br/Arquivos/Downloads/2017128_pcosip.pdf"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://camaraguaruja.sp.gov.br/Arquivos/Downloads/2017128_pcosip.pdf",
+    "titulo": "LC 67/2002 — Guarujá/SP (Câmara)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3526902",
+  "nome": "Limeira - SP",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Baixar PDFs do CTM 2026 e localizar artigo da CIP"
+  ],
+  "base_legal": [
+   {
+    "norma": "CTM municipal — artigo da CIP a localizar",
+    "vigencia": "2026",
+    "fonte_url": "https://limeira.sp.gov.br/secretarias/fazenda/codigo-tributario-municipal"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://limeira.sp.gov.br/secretarias/fazenda/codigo-tributario-municipal",
+    "titulo": "Limeira/SP — CTM (PDFs 2026)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3538709",
+  "nome": "Piracicaba - SP",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Achar a lei/decreto de 2026 com a tabela completa (só faixas residenciais 1-150 kWh noticiadas: 3,06/4,59/7,64)"
+  ],
+  "base_legal": [
+   {
+    "norma": "CIP instituída em 2026 (leis específicas não identificadas)",
+    "vigencia": "2026",
+    "fonte_url": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/04/08/piracicaba-aumenta-taxa-de-iluminacao-publica-a-partir-de-maio-confira-valores.ghtml"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/04/08/piracicaba-aumenta-taxa-de-iluminacao-publica-a-partir-de-maio-confira-valores.ghtml",
+    "titulo": "g1 — Piracicaba aumenta taxa de iluminação pública (04/2026)",
+    "tipo": "noticia",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "3547809",
+  "nome": "Santo André - SP",
+  "status_atual": "nao_encontrado",
+  "pendencias": [],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3549805",
+  "nome": "São José do Rio Preto - SP",
+  "status_atual": "nao_encontrado",
+  "pendencias": [
+   "Nova coleta — busca por portal da prefeitura/SAPL"
+  ],
+  "base_legal": [],
+  "fontes": []
+ },
+ {
+  "cod": "3552403",
+  "nome": "Sumaré - SP",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Obter texto da LC 399/2024 (portal 403)"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 7.278/2024 / LC 399/2024",
+    "vigencia": "2024",
+    "fonte_url": "https://legislacaodigital.com.br/"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://legislacaodigital.com.br/",
+    "titulo": "Legislação Digital — Sumaré/SP",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "4115200",
+  "nome": "Maringá - PR",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Extrair Anexo XIX (tabela CCSIP) do PDF da norma"
+  ],
+  "base_legal": [
+   {
+    "norma": "LC 1.506/2025 Anexo XIX (tabela CCSIP)",
+    "vigencia": "2025",
+    "fonte_url": "https://sapl.cmm.pr.gov.br/norma/15032"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://sapl.cmm.pr.gov.br/norma/15032",
+    "titulo": "LC 1.506/2025 — Maringá/PR (SAPL)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "4202404",
+  "nome": "Blumenau - SC",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Baixar a 'Tabela Cosip 2026' linkada na página da Sefaz"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei 13.479/2002 alterada pela Lei 17.719/2021 (valores 2026 por Portaria SF 330/2025)",
+    "vigencia": "2021",
+    "fonte_url": "https://www.blumenau.sc.gov.br/governo/secretaria-de-gestao-financeira/pagina/codigo-tributario-sefaz"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.blumenau.sc.gov.br/governo/secretaria-de-gestao-financeira/pagina/codigo-tributario-sefaz",
+    "titulo": "Sefaz Blumenau/SC — código tributário (link 'Tabela Cosip 2026')",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "4305108",
+  "nome": "Caxias do Sul - RS",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Extrair tabelas COSIP (descontos baixa renda) do PLC/lei"
+  ],
+  "base_legal": [
+   {
+    "norma": "PLC 34/2021 (atualiza tabelas COSIP por classe/faixa)",
+    "vigencia": "2021",
+    "fonte_url": "https://www.camaracaxias.rs.gov.br/noticias/index/22791"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.camaracaxias.rs.gov.br/noticias/index/22791",
+    "titulo": "Câmara de Caxias do Sul — PLC 34/2021",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "5201108",
+  "nome": "Anápolis - GO",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Extrair valores de cota-padrão por zona fiscal"
+  ],
+  "base_legal": [
+   {
+    "norma": "CTM — cota-padrão por zona fiscal",
+    "vigencia": "2006",
+    "fonte_url": "https://sapl.anapolis.go.leg.br/media/sapl/public/normajuridica/2006/218/218_texto_integral.pdf"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://sapl.anapolis.go.leg.br/media/sapl/public/normajuridica/2006/218/218_texto_integral.pdf",
+    "titulo": "CTM — Anápolis/GO (SAPL)",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ },
+ {
+  "cod": "5300108",
+  "nome": "Brasília - DF",
+  "status_atual": "parcial",
+  "pendencias": [
+   "Falta: tabela vigente do exercício corrente (decreto anual de reajuste — notícia indica valores 2026). Isenção residencial ≤80 kWh confirmada (Lei 4.941/2012)"
+  ],
+  "base_legal": [
+   {
+    "norma": "Lei Complementar 673/2002",
+    "vigencia": null,
+    "fonte_url": "https://www.lefisc.com.br/banco/estadual/df/2002/decreto23499_02.htm"
+   },
+   {
+    "norma": "Decreto 23.499/2002 (regulamenta)",
+    "vigencia": null,
+    "fonte_url": "https://www.lefisc.com.br/banco/estadual/df/2002/decreto23499_02.htm"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.lefisc.com.br/banco/estadual/df/2002/decreto23499_02.htm",
+    "titulo": "Decreto 23.499/2002 - DF",
+    "tipo": "agregador_legislacao",
+    "data_coleta": "2026-10-01"
+   }
+  ]
+ }
+]
