@@ -456,8 +456,8 @@
   "uf": "RJ",
   "slug": "rio-de-janeiro",
   "status": "completo",
-  "mecanismo": "formula_teip",
-  "exercicio": 2025,
+  "mecanismo": "valor_fixo",
+  "exercicio": 2026,
   "tabelas": {
    "residencial_e_geral": [
     {
@@ -466,7 +466,7 @@
       "max": 100
      },
      "valor": "isento",
-     "unidade": "FORMULA_TEIP"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
@@ -474,487 +474,487 @@
       "max": 120
      },
      "valor": "isento",
-     "unidade": "FORMULA_TEIP"
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 120,
+      "min": 121,
       "max": 140
      },
-     "valor": 2.65,
-     "unidade": "BRL"
+     "valor": 6.66,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 140,
+      "min": 141,
       "max": 170
      },
-     "valor": 3.98,
-     "unidade": "BRL"
+     "valor": 10.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 170,
+      "min": 171,
       "max": 200
      },
-     "valor": 6.2,
-     "unidade": "FORMULA_TEIP",
-     "formula": "6,2 + 0,01602 x TEIP"
+     "valor": 17.4,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 200,
+      "min": 201,
       "max": 250
      },
-     "valor": 7.29,
-     "unidade": "BRL"
+     "valor": 20.43,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 250,
+      "min": 251,
       "max": 300
      },
-     "valor": 9.11,
-     "unidade": "BRL"
+     "valor": 25.54,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 300,
+      "min": 301,
       "max": 350
      },
-     "valor": 17.01,
-     "unidade": "BRL"
+     "valor": 47.69,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 350,
+      "min": 351,
       "max": 400
      },
-     "valor": 19.84,
-     "unidade": "BRL"
+     "valor": 55.63,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 400,
+      "min": 401,
       "max": 450
      },
-     "valor": 22.66,
-     "unidade": "BRL"
+     "valor": 63.5,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 450,
+      "min": 451,
       "max": 500
      },
-     "valor": 25.5,
-     "unidade": "FORMULA_TEIP",
-     "formula": "25,5 + 0,06568 x TEIP"
+     "valor": 71.44,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 500,
+      "min": 501,
       "max": 550
      },
-     "valor": 28.31,
-     "unidade": "BRL"
+     "valor": 79.36,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 550,
+      "min": 551,
       "max": 600
      },
-     "valor": 31.14,
-     "unidade": "BRL"
+     "valor": 87.29,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 600,
+      "min": 601,
       "max": 650
      },
-     "valor": 33.97,
-     "unidade": "BRL"
+     "valor": 95.2,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 650,
+      "min": 651,
       "max": 700
      },
-     "valor": 36.8,
-     "unidade": "FORMULA_TEIP",
-     "formula": "36,8 + 0,09484 x TEIP"
+     "valor": 103.14,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 700,
+      "min": 701,
       "max": 750
      },
-     "valor": 39.63,
-     "unidade": "BRL"
+     "valor": 111.07,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 750,
+      "min": 751,
       "max": 800
      },
-     "valor": 42.46,
-     "unidade": "BRL"
+     "valor": 119.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 800,
+      "min": 801,
       "max": 850
      },
-     "valor": 45.29,
-     "unidade": "BRL"
+     "valor": 126.93,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 850,
+      "min": 851,
       "max": 900
      },
-     "valor": 48.12,
-     "unidade": "BRL"
+     "valor": 134.86,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 900,
+      "min": 901,
       "max": 950
      },
-     "valor": 50.95,
-     "unidade": "BRL"
+     "valor": 142.8,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 950,
+      "min": 951,
       "max": 1000
      },
-     "valor": 53.78,
-     "unidade": "BRL"
+     "valor": 150.73,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 1000,
+      "min": 1001,
       "max": 1500
      },
-     "valor": 56.6,
-     "unidade": "FORMULA_TEIP",
-     "formula": "56,6 + 0,14591 x TEIP"
+     "valor": 158.66,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 1500,
+      "min": 1501,
       "max": 2000
      },
-     "valor": 84.89,
-     "unidade": "BRL"
+     "valor": 238.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 2000,
+      "min": 2001,
       "max": 2500
      },
-     "valor": 113.19,
-     "unidade": "BRL"
+     "valor": 317.32,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 2500,
+      "min": 2501,
       "max": 3000
      },
-     "valor": 141.48,
-     "unidade": "BRL"
+     "valor": 396.65,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 3000,
+      "min": 3001,
       "max": 3500
      },
-     "valor": 169.78,
-     "unidade": "BRL"
+     "valor": 475.94,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 3500,
+      "min": 3501,
       "max": 4000
      },
-     "valor": 198.08,
-     "unidade": "BRL"
+     "valor": 555.26,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 4000,
+      "min": 4001,
       "max": 4500
      },
-     "valor": 226.33,
-     "unidade": "BRL"
+     "valor": 634.41,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 4500,
+      "min": 4501,
       "max": 5000
      },
-     "valor": 254.62,
-     "unidade": "BRL"
+     "valor": 713.72,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 5000,
+      "min": 5001,
       "max": 5500
      },
-     "valor": 282.86,
-     "unidade": "BRL"
+     "valor": 792.92,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 5500,
+      "min": 5501,
       "max": 6000
      },
-     "valor": 311.14,
-     "unidade": "BRL"
+     "valor": 872.2,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 6000,
+      "min": 6001,
       "max": 6500
      },
-     "valor": 339.38,
-     "unidade": "BRL"
+     "valor": 951.43,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 6500,
+      "min": 6501,
       "max": 7000
      },
-     "valor": 367.66,
-     "unidade": "BRL"
+     "valor": 1030.71,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 7000,
+      "min": 7001,
       "max": 7500
      },
-     "valor": 395.96,
-     "unidade": "BRL"
+     "valor": 1110.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 7500,
+      "min": 7501,
       "max": 8000
      },
-     "valor": 424.24,
-     "unidade": "BRL"
+     "valor": 1189.28,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 8000,
+      "min": 8001,
       "max": 8500
      },
-     "valor": 452.52,
-     "unidade": "BRL"
+     "valor": 1268.52,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 8500,
+      "min": 8501,
       "max": 9000
      },
-     "valor": 480.8,
-     "unidade": "FORMULA_TEIP",
-     "formula": "480,8 + 1,2394 x TEIP"
+     "valor": 1347.81,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 9000,
+      "min": 9001,
       "max": 9500
      },
-     "valor": 509.03,
-     "unidade": "BRL"
+     "valor": 1427.05,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 9500,
+      "min": 9501,
       "max": 10000
      },
-     "valor": 537.31,
-     "unidade": "BRL"
+     "valor": 1506.33,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 10000,
+      "min": 10001,
       "max": 12500
      },
-     "valor": 565.58,
-     "unidade": "BRL"
+     "valor": 1585.55,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 12500,
+      "min": 12501,
       "max": 15000
      },
-     "valor": 706.98,
-     "unidade": "BRL"
+     "valor": 1981.95,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 15000,
+      "min": 15001,
       "max": 17500
      },
-     "valor": 848.4,
-     "unidade": "FORMULA_TEIP",
-     "formula": "848,4 + 2,18705 x TEIP"
+     "valor": 2378.32,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 17500,
+      "min": 17501,
       "max": 20000
      },
-     "valor": 989.8,
-     "unidade": "FORMULA_TEIP",
-     "formula": "989,8 + 2,55156 x TEIP"
+     "valor": 2774.71,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 20000,
+      "min": 20001,
       "max": 22500
      },
-     "valor": 1131.2,
-     "unidade": "FORMULA_TEIP",
-     "formula": "1131,2 + 2,91607 x TEIP"
+     "valor": 3171.1,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 22500,
+      "min": 22501,
       "max": 25000
      },
-     "valor": 1272.59,
-     "unidade": "BRL"
+     "valor": 3567.48,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 25000,
+      "min": 25001,
       "max": 27500
      },
-     "valor": 1414.01,
-     "unidade": "BRL"
+     "valor": 3963.93,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 27500,
+      "min": 27501,
       "max": 30000
      },
-     "valor": 1555.41,
-     "unidade": "BRL"
+     "valor": 4360.32,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 30000,
+      "min": 30001,
       "max": 32500
      },
-     "valor": 1696.81,
-     "unidade": "BRL"
+     "valor": 4756.71,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 32500,
+      "min": 32501,
       "max": 35000
      },
-     "valor": 1838.21,
-     "unidade": "BRL"
+     "valor": 5153.11,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 35000,
+      "min": 35001,
       "max": 37500
      },
-     "valor": 1979.61,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 37500,
+      "min": 37501,
       "max": 40000
      },
-     "valor": 2121.01,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 40000,
+      "min": 40001,
       "max": 42500
      },
-     "valor": 2262.38,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 42500,
+      "min": 42501,
       "max": 45000
      },
-     "valor": 2403.78,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 45000,
+      "min": 45001,
       "max": 47500
      },
-     "valor": 2545.18,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 47500,
+      "min": 47501,
       "max": 50000
      },
-     "valor": 2686.58,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 50000,
+      "min": 50001,
       "max": 62500
      },
-     "valor": 2827.96,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 62500,
+      "min": 62501,
       "max": 75000
      },
-     "valor": 3534.95,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 75000,
+      "min": 75001,
       "max": 87500
      },
-     "valor": 4241.94,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 87500,
+      "min": 87501,
       "max": 100000
      },
-     "valor": 4948.93,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 100000,
+      "min": 100001,
       "max": 150000
      },
-     "valor": 5655.72,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
     },
     {
      "faixa_kwh": {
-      "min": 150000,
+      "min": 150001,
       "max": 200000
      },
-     "valor": 8483.58,
-     "unidade": "BRL"
+     "valor": 5195.0,
+     "tipo": "fixa"
+    },
+    {
+     "faixa_kwh": {
+      "min": 200001,
+      "max": null
+     },
+     "valor": 5195.0,
+     "tipo": "fixa"
     }
    ]
   },
@@ -966,9 +966,14 @@
     "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=483417"
    },
    {
-    "norma": "Lei 9.049/2025 (alteração vigente)",
-    "vigencia": null,
+    "norma": "Lei 9.049/2025",
+    "vigencia": "a partir de fev/2026",
     "fonte_url": "https://www.legisweb.com.br/legislacao/?legislacao=483417"
+   },
+   {
+    "norma": "Decreto 57.472/2025 (TEIP)",
+    "vigencia": "abr/2026",
+    "fonte_url": "https://fazenda.prefeitura.rio/wp-content/uploads/sites/12/2026/11/COSIP-para-site-SMF-novembro-2026-Lei-no-9049-de-11.09.2025.pdf"
    }
   ],
   "distribuidoras": [
@@ -976,19 +981,26 @@
   ],
   "fontes": [
    {
+    "url": "https://fazenda.prefeitura.rio/wp-content/uploads/sites/12/2026/11/COSIP-para-site-SMF-novembro-2026-Lei-no-9049-de-11.09.2025.pdf",
+    "titulo": "COSIP novembro/2026 - Prefeitura do Rio de Janeiro",
+    "tipo": "fonte_oficial",
+    "data_coleta": "2026-11-09"
+   },
+   {
     "url": "https://www.legisweb.com.br/legislacao/?legislacao=483417",
     "titulo": "Lei 9.049 de 11/09/2025 - Rio de Janeiro",
     "tipo": "agregador_legislacao",
-    "data_coleta": "2026-10-01"
+    "data_coleta": "2026-11-09"
    }
   ],
   "ressalvas": [],
   "pendencias": [],
-  "atualizado_em": "2026-10-01",
-  "proxima_revisao": "2026-10-31",
-  "observacoes": "Isento até 120 kWh; vigência a partir de fev/2026; há 2ª tabela no Anexo (acréscimo por bandeiras) não transcrita aqui",
+  "atualizado_em": "2026-11-09",
+  "proxima_revisao": "2026-12-01",
+  "observacoes": "Tabela de novembro/2026, bandeira verde. TEIP de R$ 0,68441/kWh (Decreto 57.472/2025). Valores calculados pela fórmula da Lei 9.049/2025 e limitados ao teto de R$ 5.195,00.",
   "descricao": null,
-  "populacao": 6211223
+  "populacao": 6211223,
+  "tipo": "fixa"
  },
  {
   "cod_ibge": "5300108",
